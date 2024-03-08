@@ -21,6 +21,11 @@ platforms:
   # - type: Linkedin
   #   icon: "fab fa-linkedin"
   #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
+
+    - type: Linkedin
+      icon: "fab fa-linkedin"
+      link: "https://www.linkedin.com/in/billydickson/"
+  #
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
@@ -38,3 +43,8 @@ platforms:
   #       link: "https://fosstodon.org/"
   #     - label: photog.social
   #       link: "https://photog.social/"
+  #
+  #
+      instances:
+        - label: mastodon.scot
+          link: "https://mastadon.scot/@Billy_Dickson"
