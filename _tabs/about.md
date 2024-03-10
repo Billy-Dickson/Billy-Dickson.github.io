@@ -36,9 +36,7 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
-{% include gallery id="gallery1" layout="" caption="Berlin Marathon 2009" %}
 
-{% include gallery id="gallery2" layout="full" caption="London Marathon 2010" %}
 
 ### IT, Web Technologies and Home Automation
 
