@@ -9,9 +9,9 @@
 #   url:  "https://twitter.com/BillyDickson4"
 #
 # - type: email
-#  icon: "fas fa-envelope"
-#  noblank: true # open link in current tab
-#  url: # "billy@dickson.me.uk"
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
+#   url: # "billy@dickson.me.uk"
 
 - type: rss
   icon: "fas fa-rss"
@@ -25,7 +25,7 @@
 #
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/billydickson'                  # Fill with your Linkedin homepage
+  url:  'https://www.linkedin.com/in/billydickson'   # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
