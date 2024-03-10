@@ -28,8 +28,8 @@ url: "https://billy-dickson.github.io"
 github:
   username: Billy-Dickson # change to your github username
 
-twitter:
-  username: BillyDickson4 # change to your twitter username
+# twitter:
+#  username: BillyDickson4 # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: billy@dickson.me.uk # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/BillyDickson4 # change to your twitter homepage
+    # - https://twitter.com/BillyDickson4 # change to your twitter homepage
     - https://github.com/Billy-Dickson # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/billy.dickson
