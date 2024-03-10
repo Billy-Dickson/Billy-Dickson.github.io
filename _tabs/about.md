@@ -22,9 +22,7 @@ I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/
 
 ### IT Technologies
 
-Web Technologies Such as HTML and CSS, Networking and Computer Technologies
-
-I'm currently in in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [Wordpress](https://wordpress.org/) to  [Jekyll](https://jekyllrb.com/).
+Web Technologies Such as HTML and CSS, Networking and Computer Technologies, I'm currently in in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [Wordpress](https://wordpress.org/) to  [Jekyll](https://jekyllrb.com/).
 
 ### Internet Of Things
 
