@@ -20,13 +20,13 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
-### IT, Web Technologies and Home Automation
+### IT Technologies
 
 Web Technologies Such as HTML and CSS, Networking and Computer Technologies
 
 I'm currently in in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [Wordpress](https://wordpress.org/) to  [Jekyll](https://jekyllrb.com/).
 
-### Home Automation and IOT
+### Internet Of Things
 
 I'm currently using a [Hubitat Bridge](https://hubitat.com/), but I'm thinking of moving onto the  [Home Assistant](https://www.home-assistant.io/) ecosystem (after the chip shortage isn't a thing).
 
