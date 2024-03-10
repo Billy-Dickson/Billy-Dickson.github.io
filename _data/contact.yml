@@ -13,12 +13,13 @@
 #   noblank: true # open link in current tab
 #   url: # "billy@dickson.me.uk"
 
-- type: rss
-  icon: "fas fa-rss"
-  no- type: linkedin
+- type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/billydickson'   # Fill with your Linkedin homepage
-  blank: true
+  
+- type: rss
+  icon: 'fas fa-rss'
+  noblank: true
 
 #
 #  
