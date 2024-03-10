@@ -12,25 +12,9 @@ Would I recommend working in Academia as of 2022, no probably not, these days it
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
-## Marital Status
-
-Long time partner, now my wife from 31st October 2006, yes I know its Halloween, but that's the way we roll.
-
-## Family
-
-Son,  Sister, Parents, Uncles, Aunties, Nieces, Nephews, and numerous Cousins and second Cousin.
-
-## Religion
-
-None, I lean towards the [Humanist](https://www.humanism.scot/what-we-do/what-is-humanism/) philosophy.
-
-## Outlook
-
-Optimistic
-
 ## Likes
 
-Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, photography, Chinese, Tai, India and Italian food.
+Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, Chinese, Tai, India and Italian food.
 
 ### Running and Fitness
 
