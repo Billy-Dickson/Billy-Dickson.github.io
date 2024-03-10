@@ -19,7 +19,7 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 ### Running and Fitness
 
 I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
-![Belin Marathon](Berlin_Marathon)
+![Belin Marathon](Berlin_Marathon.jpg)
 
 ### IT Technologies
 
