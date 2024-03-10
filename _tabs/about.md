@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
 ### Occupation
 
 I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it :wink:.
