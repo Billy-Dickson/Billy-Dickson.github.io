@@ -4,10 +4,10 @@
   icon: "fab fa-github"
   url: "https://github.com/Billy-Dickson"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-  url: # "https://twitter.com/BillyDickson4"
-
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+#   url:  "https://twitter.com/BillyDickson4"
+#
 # - type: email
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
