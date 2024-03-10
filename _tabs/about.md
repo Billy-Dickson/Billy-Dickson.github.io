@@ -1,18 +1,9 @@
-# ---
-# the default layout is 'page'
-# icon: fas fa-info-circle
-# order: 4
-# ---
-
-# > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-# {: .prompt-tip }
-
 ---
-title: About Me
-date: 2023-07-DD HH:16:SS +/-TTTT
-# categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-# tags: about me     # TAG names should always be lowercase
+the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
 ---
+
 
 ### Occupation
 
