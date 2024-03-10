@@ -1,7 +1,7 @@
 ---
 layout: page
+img_path: ../assets/img/about/
 icon: fas fa-info-circle
-img_path: /assets/img/about/
 order: 4
 ---
 
@@ -19,7 +19,7 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 ### Running and Fitness
 
 I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
-![Belin Marathon](Berlin_Marathon.jpg)
+![Belin Marathon](Berlin_Marathon)
 
 ### IT Technologies
 
