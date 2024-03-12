@@ -17,7 +17,7 @@ Spending time with friend and socialising, playing pool, travelling and holidays
 
 ### Running and Fitness
 
-I started running in 2004 after I stopped smoking, my first full marathon was September 2005. I've since ran 14 Marathons, numerous Half Marathons and 10K races. I've been a qualified [Scottish Athletics and Jogscotland Leader](https://sauser.sportserve.net/pages/home.aspx) since 2018 and I really enabling novice runners reach their full potential whatever distance they decide on.
+I started running in 2004 after I stopped smoking, my first full marathon was September 2005. I've since ran 14 Marathons, numerous Half Marathons and 10K races. I've been a qualified Scottish Athletics [Jogscotland Leader](https://sauser.sportserve.net/pages/home.aspx) since 2018 and I really enabling novice runners reach their full potential whatever distance they decide on.
 
 This photo was taken in September 2009 when I ran the Berlin Marathon for a second time. I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
