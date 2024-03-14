@@ -9,8 +9,6 @@ tags: [homelab, proxmox, server]     # TAG names should always be lowercase
 
  In January this year (2023) bought myself a cheap PC from AliExpress £157, 16G of memory and a cheap NVME and SSD Drive. Total spend was about £250, with the hope of teaching myself about Proxmox, Virtualization and Docker.
 
-![Photograph of new proxmox server](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/Screenshot%20from%202023-09-30%2021-45-49.png)
-
 ## PC Specification  
 
 | Hardware | Description |
