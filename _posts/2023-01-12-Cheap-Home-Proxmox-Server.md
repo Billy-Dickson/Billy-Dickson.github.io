@@ -102,7 +102,7 @@ Run through the video in the reference, works great and will gives you a working
 
 I found a useful script online that shows you the hardware layout of the OMMU groups if you need to pass through some of your hardware to a virtual machine.
 
-```shell script
+```shell
 # Script found at https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF
 # The following script should allow you to see how your various PCI devices 
 # are mapped to IOMMU groups.
@@ -126,7 +126,7 @@ done;
 
 As you can see from the output, the PC has 4 built in NICS, which will be ideal, if I decide at some point, replace it and repurpose it as a home router.
 
-```shell script
+```plaintext
 IOMMU Group 0:
         00:02.0 VGA compatible controller [0300]: Intel Corporation JasperLake [UHD Graphics] [8086:4e61] (rev 01)
 IOMMU Group 1:
