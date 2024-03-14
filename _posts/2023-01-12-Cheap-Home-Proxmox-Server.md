@@ -28,7 +28,7 @@ I followed Techo Tims Instructions - [Before I do anything on Proxmox, I do this
 
 Add the following at the bottom of /etc/apt/sources.list
 
-```shell script
+```shell
 # Added by Billy Dickson 14/04/2023
 # not for production use
 
@@ -37,13 +37,13 @@ deb http://download.proxmox.com/debian bookworm  pve-no-subscription
 
 Comment out the following in /etc/apt/source.list.d/pve-enterprise.list
 
-```shell script
+```shell
 # deb https://enterprise.proxmox.com/debian/pve bookworm pve-enterprise
 ```
 
 At the the prompt, type the following
 
-```shell script
+```shell
 apt-get update
 apt dist-upgrade
 apt autoremove
@@ -51,20 +51,20 @@ apt autoremove
 
 Reboot proxmox.
 
-```shell script
+```shell
 reboot
 ```
 
 Comment out and add the following in /etc/default/grub
 
-```shell script
+```shell
 # GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"
 ```
 
 Update the grub bootloader
 
-```shell script
+```shell
 upgrade-grub
 ```
 
