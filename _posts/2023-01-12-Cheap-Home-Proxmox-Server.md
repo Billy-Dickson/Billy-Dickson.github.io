@@ -1,8 +1,8 @@
 ---
 title: Cheap Home Proxmox Server
 date: 2023-01-12
-categories: [homelab, proxmox]
-tags: [homelab, proxmox, server]     # TAG names should always be lowercase
+categories: [Homelab, Proxmox ]
+tags: [Homelab, Proxmox, Server]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/PXL_20230326_154358188.jpg
 ---
