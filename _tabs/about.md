@@ -6,11 +6,12 @@ order: 4
 
 ## Occupation
 
-I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it :wink:.
+I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it.
 
 Would I recommend working in Academia as of 2022, no probably not, these days it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond". Lips service is paid to "Work Life Balance" and "Mental Health". After talking to some of my old work collegues, it doesn't seem to have improved any in the intervening 2 years.
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
+
 ## Likes
 
 Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, Chinese, Tai, India and Italian food.
