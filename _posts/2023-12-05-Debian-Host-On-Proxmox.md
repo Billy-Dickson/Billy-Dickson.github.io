@@ -32,7 +32,7 @@ Select the following when running through the startup wizard.
 | **Type:**|    Linux |
 | **Version:**| 6.x - 2.6 Kernel |
 
-[OS](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/OS.png)
+![OS](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/OS.png)
 
 | **Disks** | |
 |--|--|
