@@ -301,3 +301,12 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    ``` bash
    docker run hello-world
    ```
+
+## References
+
+- Akamai - [Automating Security Updated](https://www.linode.com/docs/guides/how-to-configure-automated-security-updates-debian/)
+- Debian Wiki - [Automatic Updates](https://wiki.debian.org/UnattendedUpgrades#:~:text=The%20purpose%20of%20unattended%2Dupgrades,send%20you%20emails%20about%20updates.)
+- Digital Ocean - How To Setup a Firewall with UFW on an [Ubuntu and Debian](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server) Cloud Server
+- How to install UFW on [Debian 12](https://www.cyberciti.biz/faq/set-up-a-firewall-with-ufw-on-debian-12-linux/)
+- How to install docker on [Debian 12](https://docs.docker.com/engine/install/debian/)
+- Running the docker daemon as a [non root](https://docs.docker.com/engine/security/rootless/) user
