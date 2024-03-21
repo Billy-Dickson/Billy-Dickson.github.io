@@ -10,7 +10,7 @@ image:
 
 I love this race, I would describe it as undulating (ok, a bit hilly) and it happens to be the first longer run of the running season for me. I've ran it a number of times over the years either solo or with my sister and I love how well it's organised, the spread at the end is excellent as well.
 
-Big shout out to [Lasswade Althletic Club](http://www.lasswade-ac.org.uk/club/vmh-solicitors-lasswade-ten-mile-road-race/) for organising such a fab race.
+Big shout out to [Lasswade Althletic Club](https://www.facebook.com/LasswadeAC1981) for organising such a fab race.
 
 ## A few photos of us on the day
 
