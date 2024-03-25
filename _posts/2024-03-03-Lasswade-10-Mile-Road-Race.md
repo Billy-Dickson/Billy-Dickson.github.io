@@ -1,5 +1,5 @@
 ---
-title: Lasswade 10 Mile Road Race 2024
+title: Lasswade 10 Mile Road Race
 categories: [Running, 10 Mile Road Race]
 tags: [Running, 10 Mile Road Race]     # TAG names should always be lowercase
 image:

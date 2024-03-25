@@ -1,5 +1,5 @@
 ---
-title: Current Home Server (Built in 2017)
+title: Current Home Server
 date: 2017-08-24
 categories: [Homelab, TrueNAS Scale ]
 tags: [Homelab, TrueNAS Scale, Home Server]     # TAG names should always be lowercase
