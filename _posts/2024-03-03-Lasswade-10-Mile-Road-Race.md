@@ -1,7 +1,7 @@
 ---
 title: Lasswade 10 Mile Road Race
 categories: [Running, 10 Mile Road Race]
-tags: [Running, 10 Mile Road Race]     # TAG names should always be lowercase
+tags: [running, 10 mile road race]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/running.jpg
 ---

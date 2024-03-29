@@ -2,7 +2,7 @@
 title: Alloa Half Marathon
 date: 2024-03-17
 categories: [Running, Half Marathons]
-tags: [Running, Half Marathons, Alloa Half]     # TAG names should always be lowercase
+tags: [running, half marathons, alloa half]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/running.jpg
 ---

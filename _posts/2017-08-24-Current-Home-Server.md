@@ -2,7 +2,7 @@
 title: Current Home Server
 date: 2017-08-24
 categories: [Homelab, TrueNAS Scale ]
-tags: [Homelab, TrueNAS Scale, Home Server]     # TAG names should always be lowercase
+tags: [homelab, truenas scale, home server]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/old-server.jpg
 ---

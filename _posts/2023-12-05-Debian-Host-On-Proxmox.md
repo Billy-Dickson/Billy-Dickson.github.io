@@ -2,7 +2,7 @@
 title: Building a Debian host on Proxmox
 date: 2023-12-05
 categories: [Homelab, Proxmox, Debian Host]
-tags: [Homelab, Proxmox, Debian Host]     # TAG names should always be lowercase
+tags: [homelab, proxmox, debian host]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/proxmox.jpg
 ---
@@ -85,7 +85,7 @@ With regards to server installations, these are the ones that I would normally c
 
 ![Pick applications](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.png)
 
-## Install and setup Automatic Updates
+### Install and setup Automatic Updates
 
 The purpose of unattended-upgrades is to keep the computer current with the latest security (and other) updates automatically. If you plan to use it, you should have some means to monitor your systems, such as installing the apt-listchanges package and configuring it to send you emails about updates.
 
@@ -211,7 +211,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
     sudo unattended-upgrades --dry-run --debug
     ```
 
-## Install and setup UFW firewall
+### Install and setup UFW firewall
 
 1. Install UFW (Uncomplicated FireWall) on your Debian system.
 
@@ -253,7 +253,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
 
    ![UFW Status](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Status.png)
 
-## Install Docker (Optional)
+### Install Docker (Optional)
 
 1. Add Docker's official GPG key
 
