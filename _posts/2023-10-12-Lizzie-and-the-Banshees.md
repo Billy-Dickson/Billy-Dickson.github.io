@@ -19,7 +19,7 @@ Venue - [The Voodoo Rooms](https://www.thevoodoorooms.com/)
 
 Lizzie and the Banshees [facebook](https://www.facebook.com/LizzieAndTheBanshees) page
 
-#### What the ticket website said 
+### What the ticket website said
 
 > Lizzie and the Banshees are the UK's premier tribute to Siouxsie and the Banshees. Since forming in 2012 the band have been touring the country with their hit after hit Siouxsie and the Banshees show, capturing the sound, look and feel of the Banshees. Concentrating on material from the Scream to Tinderbox such as Spellbound, Christine, Dear Prudence, Hong Kong Garden, Happy House, Cities in Dust and many more.
 
