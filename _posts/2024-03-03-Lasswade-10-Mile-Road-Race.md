@@ -3,7 +3,8 @@ title: Lasswade 10 Mile Road Race
 categories: [Running, 10 Mile Road Race]
 tags: [running, 10 mile road race]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/running.jpg
+   path: ../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Yvonne_Me.jpg
+
 ---
 
 ## Preamble
@@ -13,8 +14,6 @@ I love this race, I would describe it as undulating (ok, a bit hilly) and it hap
 Big shout out to [Lasswade Althletic Club](https://www.facebook.com/LasswadeAC1981) for organising such a fab race.
 
 ## A few photos of us on the day
-
-![Yvonne and me](../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Yvonne_Me.jpg)
 
 ![Nick and me](../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Nick_and_Billy.jpg)
 

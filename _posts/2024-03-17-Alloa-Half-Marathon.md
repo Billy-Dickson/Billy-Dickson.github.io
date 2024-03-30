@@ -4,7 +4,7 @@ date: 2024-03-17
 categories: [Running, Half Marathons]
 tags: [running, half marathons, alloa half]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/running.jpg
+   path: ../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Medal.jpg
 ---
 
 ## Preamble
@@ -22,7 +22,3 @@ The [Alloa Half Marathon](https://www.alloahalfmarathon.co.uk/) is one of my fav
 ## Obligatory finishing photo
 
 ![Finishing photo](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Kieran_Billy_afer_race.jpg)
-
-## Photo of the medal
-
-![Alloa Finishing Medal](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Medal.jpg)
