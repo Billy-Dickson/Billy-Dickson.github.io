@@ -1,7 +1,7 @@
 ---
 title: BUPA Great Edinburgh Run
 date: 2007-05-06
-categories: [Running, 10k]
+categories: [Running, 10k Race]
 tags: [running, 10k, BUPA great edinburgh run]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00406.JPG
