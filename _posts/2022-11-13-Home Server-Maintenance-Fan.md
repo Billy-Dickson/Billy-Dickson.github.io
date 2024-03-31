@@ -2,7 +2,7 @@
 title: Home Server Maintenance (New Fan)
 date: 2022-11-13
 categories: [Homelab, TrueNAS Scale ]
-tags: [homelab, truenas scale, home server, maintenance]     # TAG names should always be lowercase
+tags: [homelab, home server, maintenance]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/old-server.jpg
 ---

@@ -2,7 +2,7 @@
 title: Lizzie and the Banshees
 date: 2023-10-12
 categories: [Gigs and Socials]
-tags: [gigs, lizzie and the banshees]     # TAG names should always be lowercase
+tags: [gigs and socials]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2023-10-12-Lizzie-and-the-Banshees/PXL_20231012_213159465.jpg
 ---
