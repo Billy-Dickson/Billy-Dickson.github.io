@@ -15,7 +15,7 @@ The [Alloa Half Marathon](https://www.alloahalfmarathon.co.uk/) is one of my fav
 
 ![Me me prior to the start](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Me_wearing_harriers_top.jpg)
 
-## Photo of my my buddy Kieran
+## Photo of my buddy Kieran
 
 ![Kieran Smith](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Kieran_Before_Race.jpg)
 
