@@ -17,7 +17,7 @@ If you use a distribution not based on debian, then the install syntax will vary
 
 Removing EXIF is a smart idea, particularly if you're especially privacy-conscious however, your biggest concern is most likely the geolocation information.
 
-### Install the appication
+### Install the application
 
 ~~~bash
 sudo apt install exiftool
