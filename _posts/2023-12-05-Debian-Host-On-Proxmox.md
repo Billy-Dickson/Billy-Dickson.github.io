@@ -219,7 +219,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo apt install ufw
    ```
 
-   ![Install UFW](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Install_UFW.png)
+   ![Install UFW](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Install_UFW.webp)
 
 2. Enable IPv6 support in ufw
 
@@ -229,11 +229,11 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo nano /etc/default/ufw
    ```
 
-      ![Edit UFW IPv6](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/UFW_IPv6.png)
+      ![Edit UFW IPv6](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/UFW_IPv6.webp)
 
    Ensure that IPv6 is enabled.
 
-   ![IPv6 enabled](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox//UFW_Config.png)
+   ![IPv6 enabled](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/UFW_Config.webp)
 
       Allow ssh prior to enabling the firewall (just in case it's in the cloud, you don't want to lock yourself out)
 
@@ -251,7 +251,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo ufw status
    ```
 
-   ![UFW Status](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Status.png)
+   ![UFW Status](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Status.webp)
 
 ### Install Docker (Optional)
 
@@ -288,7 +288,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    ```
 
 5. The output that you should get.
-![Hello World](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/hello_world.png)
+![Hello World](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/hello_world.webp)
 
 6. Running docker as a non root user (add a user to the docker group). After running the command, you will have to log off and on for the groups new membership to be applied
 
