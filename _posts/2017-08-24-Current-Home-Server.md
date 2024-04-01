@@ -4,7 +4,7 @@ date: 2017-08-24
 categories: [Homelab, TrueNAS Scale ]
 tags: [homelab, home server]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/old-server.jpg
+   path: ../assets/img/posts/2017-08-24-Current-Home-Server/TrueNAS-Scale.webp
 ---
 
 My home server is currently in my loft, although at some point I do intend to put it in a cupboard under the stairs, very Harry Potter I know, I don’t feel the need to keep it small or unobtrusive, and the airflow is reasonably good in a larger case.
@@ -48,7 +48,7 @@ So, I’m looking for a 550 Watt power supply and since it seems to be recommend
 
 I've been running [TrueNAS Core](https://www.truenas.com/download-truenas-core/) since early 2017 and it's been rock solid. However, this year (2024), I decided to upgrade to TrueNAS Scale and I've been really impressed at how well it been working so far. I'm currently running a two apps [Plex](https://www.plex.tv/) and [Syncthing](https://syncthing.net/), both of which are working great.
 
-![TrueNAS Scale](../assets/img/posts/2007-08-24-Current-Home-Server/TrueNAS-Scale.png)
+![TrueNAS Scale](../assets/img/posts/2017-08-24-Current-Home-Server/TrueNAS-Scale.webp)
 
 My Seagate drives are arranged in a [ZFS RaidZ2](https://calomel.org/zfs_raid_speed_capacity.html) pool called Tank; this gives me 21TiB of raw storage. I’m currently only using 10 TiB (49%). Every month, my server backs up all my important data to a [Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) Bucket.
 
@@ -68,15 +68,15 @@ We pay 20% VAT on fuel, so £13.20 + 20% = £15.84 Per Month
 
 ### Low Draw (Server Off)
 
-![Low Draw](../assets/img/posts/2007-08-24-Current-Home-Server/Low_Draw.jpg)
+![Low Draw](../assets/img/posts/2017-08-24-Current-Home-Server/Low_Draw.webp)
 
 ### High Draw (Server Starting)
 
-![Hight Draw](../assets/img/posts/2007-08-24-Current-Home-Server/High_Draw.jpg)
+![Hight Draw](../assets/img/posts/2017-08-24-Current-Home-Server/High_Draw.webp)
 
 ### Average Draw (Running for a few hours)
 
-![Average Draw](../assets/img/posts/2007-08-24-Current-Home-Server/Average_Draw.jpg)
+![Average Draw](../assets/img/posts/2017-08-24-Current-Home-Server/Average_Draw.webp)
 
 As the homeserver's average draw is only 55W, the average cost per month is **£8.72**
 
@@ -84,11 +84,11 @@ The power meter plug (energy meter) can be purchased from Amazon, [here](https:/
 
 ## Case prior to build
 
-![Fractal Design](../assets/img/posts/2007-08-24-Current-Home-Server/Case.jpg)
+![Fractal Design](../assets/img/posts/2017-08-24-Current-Home-Server/Case.webp)
 
 ## Seasonic Power Supply
 
-![Seasonic Power Supply](../assets/img/posts/2007-08-24-Current-Home-Server/Power_Supply.jpg)
+![Seasonic Power Supply](../assets/img/posts/2017-08-24-Current-Home-Server/Power_Supply.webp)
 
 ## References
 

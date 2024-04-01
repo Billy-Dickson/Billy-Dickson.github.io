@@ -4,12 +4,12 @@ date: 2023-12-05
 categories: [Homelab, Proxmox, Debian Host]
 tags: [homelab, proxmox]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/proxmox.jpg
+   path: ../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp
 ---
 
 ## Prerequisites
 
-1. A running [Proxmox](https://www.proxmox.com/en/downloads) install, see my [Proxmox-Build](https://billy-dickson.github.io/posts/Cheap-Home-Proxmox-Server/)
+1. A running [Proxmox](https://www.proxmox.com/en/downloads) install, see my [Proxmox-Build](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/)
 2. A downloaded debian net install from the debian site [here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/).
 
 Select the following when running through the startup wizard.
@@ -21,7 +21,7 @@ Select the following when running through the startup wizard.
 | **Machine:** | Debian-Server  |
 | **Start at boot** | Dependent on your needs |
 
-![General Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/General.png)
+![General Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/General.webp)
 
 | **OS** | |
 |--|--|
@@ -32,7 +32,7 @@ Select the following when running through the startup wizard.
 | **Type:**|    Linux |
 | **Version:**| 6.x - 2.6 Kernel |
 
-![OS](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/OS.png)
+![OS](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/OS.webp)
 
 | **Disks** | |
 |--|--|
@@ -46,7 +46,7 @@ Select the following when running through the startup wizard.
 | **IO thread:** | Default ticked |
 | **Backup:** | Default ticked (This is up to you) |
 
-![Virtual Disk Setup](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Disks.png)
+![Virtual Disk Setup](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Disks.webp)
 
 | **CPU**| |
 |--|--|
@@ -54,7 +54,7 @@ Select the following when running through the startup wizard.
 | **Cores:** | 2 |
 | **Type:** | x86-64-v2-AES |
 
-![CPU Type](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/CPU.png)
+![CPU Type](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/CPU.webp)
 
 | **Memory** | |
 |--|--|
@@ -62,7 +62,7 @@ Select the following when running through the startup wizard.
 | **Minimum memory (MB)** | 2048 |
 | **Balloning** | Default ticked (If a mimumum is specified, them the allocation will vary between minimum and maximum when required)|
 
-![Memory Allocation](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Memory.png)
+![Memory Allocation](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Network.webp)
 
 | **Network** | |
 |--|--|
@@ -72,18 +72,18 @@ Select the following when running through the startup wizard.
 | **Model:** | VirtIO (paravirtualized) |
 | **MAC Address:** | auto |
 
-![Network Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Memory.png)  
+![Network Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Network.webp)
 **Confirm**
 
-![Confirm](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Confirm.png)
+![Confirm](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Confirm.webp)
 
 Run through the installation until you get to this screen. Just press the continue button and continue, this will install the sudo package and add next account to that group.
 
-![Root Password](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Root_Password.png)
+![Root Password](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Root_Password.webp)
 
 With regards to server installations, these are the ones that I would normally choose as a base installation.
 
-![Pick applications](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.png)
+![Pick applications](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp)
 
 ### Install and setup Automatic Updates
 

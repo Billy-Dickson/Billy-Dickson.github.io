@@ -4,8 +4,11 @@ date: 2023-01-12
 categories: [Homelab, Proxmox]
 tags: [homelab, proxmox, home server]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/proxmox.jpg
+   path: ../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/proxmox.webp
 ---
+
+[](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/proxmox.jpg)
+
  In January this year (2023) bought myself a cheap PC from AliExpress £157, 16G of memory and a cheap NVME and SSD Drive. Total spend was about £250, with the hope of teaching myself about Proxmox, Virtualization and Docker.
 
 ## PC Specification  
@@ -91,7 +94,7 @@ reboot
 3. A local DNS resolver on your network eg. [Pi Hole](https://pi-hole.net/), [OPNsense](https://opnsense.org/), [Pfsense](https://www.pfsense.org/).
 4. A working Proxmox Server
 
-![My Proxmox screen with a certificate](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/certificate.png "My Proxmox screen with a valid certificate")
+![My Proxmox screen with a certificate](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/certificate.webp "My Proxmox screen with a valid certificate")
 
 Run through the video in the reference, works great and will gives you a working certificate. Saying that, it only saves you a click. :smiley:
 
@@ -166,7 +169,7 @@ IOMMU Group 16:
         05:00.0 Ethernet controller [0200]: Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
 ```
 
-![My Proxmox screen with 3 running Virtual Machines](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/PVE.png) "My Proxmox screen with 3 running Virtual Machines"
+![My Proxmox screen with 3 running Virtual Machines](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/PVE.webp) "My Proxmox screen with 3 running Virtual Machines"
 
 ## References
 

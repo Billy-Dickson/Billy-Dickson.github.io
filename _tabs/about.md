@@ -22,7 +22,7 @@ I started running in 2004 after I stopped smoking, my first full marathon was Se
 
 This photo was taken in September 2009 when I ran the Berlin Marathon for a second time. I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
-![Belin Marathon](../assets/img/about/Berlin_Marathon.jpg)
+![Belin Marathon](../assets/img/about/Berlin_Marathon.webp)
 
 ### IT Technologies
 

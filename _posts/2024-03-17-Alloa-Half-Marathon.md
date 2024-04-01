@@ -4,7 +4,7 @@ date: 2024-03-17
 categories: [Running, Half Marathons]
 tags: [running, half marathons, alloa half]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Medal.jpg
+   path: ../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Medal.webp
 ---
 
 ## Preamble
@@ -15,12 +15,12 @@ Strava [Strats](https://www.strava.com/activities/10977789924/overview)
 
 ## Photo of me before kickoff
 
-![Me me prior to the start](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Me_wearing_harriers_top.jpg)
+![Me me prior to the start](../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Me_wearing_harriers_top.webp)
 
 ## Photo of my buddy Kieran
 
-![Kieran Smith](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Kieran_Before_Race.jpg)
+![Kieran Smith](../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Kieran_Before_Race.webp)
 
 ## Obligatory finishing photo
 
-![Finishing photo](../assets/img/posts/2023-03-18-Alloa-Half-Marathon/Kieran_Billy_afer_race.jpg)
+![Finishing photo](../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Kieran_Billy_afer_race.webp)

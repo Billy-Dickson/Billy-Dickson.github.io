@@ -4,7 +4,7 @@ date: 2007-05-06
 categories: [Running, 10k Race]
 tags: [running, 10k race]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00406.JPG
+   path: ../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00406.webp
 ---
 
 ## Preamble
@@ -15,10 +15,10 @@ Strava [Stats](https://www.strava.com/activities/321111505/overview)
 
 ## Event Photos
 
-![BUPA Great North RUn 2007](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00407.JPG)
+![BUPA Great North RUn 2007](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00407.webp)
 
-![BUPA Great North RUn 2007](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00410.JPG)
+![BUPA Great North RUn 2007](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00410.webp)
 
 ## Route and Stats
 
-![Route and Stats](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/BUPA_Great_North_Run.png)
+![Route and Stats](../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/BUPA_Great_North_Run.webp)
