@@ -4,7 +4,7 @@ date: 2022-11-13
 categories: [Homelab, TrueNAS Scale ]
 tags: [homelab, home server, maintenance]     # TAG names should always be lowercase
 image:
-   path: .../assets/img/posts/2022-11-20-Home-Server-Maintenance/old-server.webp
+   path: ../assets/img/posts/2022-11-20-Home-Server-Maintenance/old-server.webp
 ---
 
 As you can see, the CPU fan is now faulty (knackered), to be honest it's been running non stop for 5 years with no problems, so I'm happy enough to replace it, as with all moving parts, eventually it will break due to wear and tear.
