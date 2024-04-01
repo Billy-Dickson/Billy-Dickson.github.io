@@ -167,6 +167,7 @@ IOMMU Group 16:
         05:00.0 Ethernet controller [0200]: Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
 ```
 
+
 ![My Proxmox screen with 3 running Virtual Machines](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/PVE.webp) "My Proxmox screen with 3 running Virtual Machines"
 
 ## References
