@@ -7,12 +7,6 @@ image:
     path: ../assets/img/posts/2024-03-31-Converting-Website-Graphics-To-Webp/Install_webp.webp
 ---
 
-## Why would you want to convert your graphics
-
-As you can see from my analysis of my website using [pagespeed](https://pagespeed.web.dev/) prior to convering to the webp graphics format, my average page download times were not great on mobile devices.
-
-![PageSpeed Website](../assets/img/posts/2024-03-31-Converting-Website-Graphics-To-Webp/Pagespeed_Insight_Before.webp)
-
 ## How to convert graphic files to the smaller and faster webp format
 
 Here's a handy linux command line tool that can convert all your graphic files to the faster and quicker loading webp format.
