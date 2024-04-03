@@ -16,7 +16,7 @@ Having been lucky enough to be introduced to the Dickies in my youth, in the usu
 The Dickies are an American punk rock band formed in the San Fernando Valley, Los Angeles, in 1977. One of the longest tenured punk rock bands, they have been in continuous existence for over 40 years. They have consistently balanced catchy melodies, harmony vocals, and pop song structures, with a speedy punk guitar attack. This musical approach is paired with a humorous style and has been labelled "pop-punk" or "bubble-gum punk". The band have sometimes been referred to as "the clown princes of punk".
 
 * The Dickies [Wikipedia Page](https://en.wikipedia.org/wiki/The_Dickies)  
-* [The Dickies](http://thedickies.com/) Website
+* [The Dickies](https://thedickies.com/) Website
 
 ## Photos of the night
 
