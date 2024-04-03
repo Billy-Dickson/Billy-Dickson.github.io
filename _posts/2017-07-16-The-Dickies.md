@@ -9,7 +9,7 @@ image:
 
 ## My Thoughts
 
-Having been lucky enough to be introduced to the Dickies in my youth, in the usual way, at a mates house, I was lucky enough to get to see them when they were touring Scotland. The venue Studio 24 is no longer with us [closed](https://www.theskinny.co.uk/music/news/edinburgh-studio-24-to-close), but fun memories of a night with friends, bopping around to familiar and well loved tunes from [The Dawn of the Dickies](https://en.wikipedia.org/wiki/Dawn_of_the_Dickies) and [The Incredible Shrinking Dickies](https://en.wikipedia.org/wiki/The_Incredible_Shrinking_Dickies).
+Having been lucky enough to be introduced to the Dickies in my youth at a mates house (Billy H and Rus). I was lucky enough to get to see them when they were touring Scotland. The venue Studio 24 is no longer with us [closed](https://www.theskinny.co.uk/music/news/edinburgh-studio-24-to-close) but I do have fond  memories of bopping around to familiar and well loved tunes from [The Dawn of the Dickies](https://en.wikipedia.org/wiki/Dawn_of_the_Dickies) and [The Incredible Shrinking Dickies](https://en.wikipedia.org/wiki/The_Incredible_Shrinking_Dickies).
 
 ## About the Band
 
