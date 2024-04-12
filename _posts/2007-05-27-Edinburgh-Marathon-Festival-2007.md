@@ -1,10 +1,10 @@
 ---
-title: Edinburgh Marathon
+title: Edinburgh Marathon 2007
 date: 2007-05-27
 categories: [Running,  Marathons]
-tags: [running, marathons, Edinburgh Marathon]     # TAG names should always be lowercase
+tags: [running, marathons, edinburgh marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00426.webp
+   path: ../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2007.webp
 ---
 
 ## Preamble
@@ -19,4 +19,8 @@ Strava [Stats](https://www.strava.com/activities/321108721/overview)
 
 ![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00414.webp)
 
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/Strava_Screenshot.webp)
+![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00426.webp)
+
+## Reference
+
+* Marathon View [Statistics](https://marathonview.net/race/98396)

@@ -29,7 +29,7 @@ sudo apt install exiftool
 exiftool photo.jpg
 ~~~
 
-### Show metedata for all *.jpg files. Note: The extension is case sensitive
+### Show metadata for all *.jpg files. Note: The extension is case sensitive
 
 ~~~bash
 exiftool -ext jpg .
