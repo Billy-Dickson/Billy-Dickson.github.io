@@ -37,7 +37,6 @@ Saying that, I’m thankful that I got to run that route and I did really enjoy 
 
 ![Chris](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Dawson.webp)
 
-## References
+## Reference
 
 * Marathon View [Statistics](https://marathonview.net/race/98397)
-* Scottish Distance Runners Website - [Edinburgh Marathon](http://www.scottishdistancerunninghistory.scot/edinburgh-marathon/)
