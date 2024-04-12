@@ -1,5 +1,5 @@
 ---
-title:  "Converting website graphics to webp"
+title:  Converting website graphics to webp
 date:   2024-03-31
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web]
