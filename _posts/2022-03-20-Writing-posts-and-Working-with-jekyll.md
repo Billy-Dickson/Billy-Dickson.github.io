@@ -1,5 +1,5 @@
 ---
-title:  Writing posts and Working with Jekyll
+title:  Writing posts and working with Jekyll
 date:   2022-08-17
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web]
