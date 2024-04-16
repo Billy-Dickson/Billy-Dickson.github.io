@@ -4,7 +4,7 @@ description: Examples of text, typography, math equations, diagrams, flowcharts,
 date: 2022-08-18
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web, Typography, Chirpy]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

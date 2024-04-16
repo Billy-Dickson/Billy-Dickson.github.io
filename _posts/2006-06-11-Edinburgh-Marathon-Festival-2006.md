@@ -13,31 +13,39 @@ This Edinburgh Marathon started at Princes Street and finished in Holyrood Park,
 
 Saying that, I’m thankful that I got to run that route and I did really enjoy it.
 
-![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp)
+![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+
 
 ## Photographs
 
 ### The Start
 
-![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start2.webp)
+![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start2.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start2.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
-![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start.webp)
+![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![The Start](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/The_Start.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
 ### Me Running
 
-![Me Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Me_Running.webp)
+![Me Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Me_Running.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Me Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Me_Running.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
 ### Chris Running
 
-![Chris Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Running.webp)
+![Chris Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Running.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Chris Running](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Running.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
 ### Me and Mum
 
-![Me and Mum](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Mum_and_Me.webp)
+![Me and Mum](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Mum_and_Me.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Me and Mum](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Mum_and_Me.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
 ### Chris looking nonchalant
 
-![Chris](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Dawson.webp)
+![Chris](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Dawson.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Chris](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Chris_Dawson.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
 
 ## Reference
 
