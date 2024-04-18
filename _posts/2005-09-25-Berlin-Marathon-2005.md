@@ -33,40 +33,33 @@ At that point, we were both committed, so we both went online, entered the marat
 
 ### Tourists
 
-![The Tourists](../assets/img/posts/2005-09-25-Berlin-Marathon/Alexandra_Platz.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![The Tourists](../assets/img/posts/2005-09-25-Berlin-Marathon/Alexandra_Platz.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![The Tourists](../assets/img/posts/2005-09-25-Berlin-Marathon/Alexandra_Platz.webp)
 
 ### Beer in the sun
 
-![Beer in the sun](../assets/img/posts/2005-09-25-Berlin-Marathon/Beer_in_the_sun.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Beer in the sun](../assets/img/posts/2005-09-25-Berlin-Marathon/Beer_in_the_sun.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Beer in the sun](../assets/img/posts/2005-09-25-Berlin-Marathon/Beer_in_the_sun.webp)
 
 ### The Day Before
 
-![The Day Before](../assets/img/posts/2005-09-25-Berlin-Marathon/Day_before.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![The Day Before](../assets/img/posts/2005-09-25-Berlin-Marathon/Day_before.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![The Day Before](../assets/img/posts/2005-09-25-Berlin-Marathon/Day_before.webp)
 
 ### Der Linden Strasse
 
-![Der Linden Strasse](../assets/img/posts/2005-09-25-Berlin-Marathon/Der_Linden_Strasse.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Der Linden Strasse](../assets/img/posts/2005-09-25-Berlin-Marathon/Der_Linden_Strasse.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Der Linden Strasse](../assets/img/posts/2005-09-25-Berlin-Marathon/Der_Linden_Strasse.webp)
 
 ### On the Day
 
-![On the Day](../assets/img/posts/2005-09-25-Berlin-Marathon/Mark_and_Billy_before.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![On the Day](../assets/img/posts/2005-09-25-Berlin-Marathon/Mark_and_Billy_before.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![On the Day](../assets/img/posts/2005-09-25-Berlin-Marathon/Mark_and_Billy_before.webp)
 
 ### At the Finish
 
 #### Prost
 
-![Finished 1](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_1.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Finished 1](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_1.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Finished 1](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_1.webp)
 
 #### Cheers
 
-![Finished 2](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_2.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Finished 2](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_2.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Finished 2](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_2.webp)
 
 ## References
 

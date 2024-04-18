@@ -15,28 +15,23 @@ If memory serves, this Edinburgh Marathon was a cracker, the weather was unseaso
 
 ### Me and Chris at the Start
 
-![Me and Chris at the Start](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_and_Chris_Start.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Me and Chris at the Start](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_and_Chris_Start.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Me and Chris at the Start](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_and_Chris_Start.webp)
 
 ### Starting Line
 
-![The Starting Line](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Start_of_Marathon.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![The Starting Line](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Start_of_Marathon.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![The Starting Line](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Start_of_Marathon.webp)
 
 ### Running through Holyrood
 
-![Running through Holyrood](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_Through_Holyrood.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Running through Holyrood](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_Through_Holyrood.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Running through Holyrood](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Me_Through_Holyrood.webp)
 
 ### Finishers Certificate
 
-![Finishers Certificate](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Finishers_Certificate.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Finishers Certificate](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Finishers_Certificate.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Finishers Certificate](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Finishers_Certificate.webp)
 
 ### Bling
 
-![Bling](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Medal.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Bling](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Medal.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Bling](../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Medal.webp)
 
 ## Reference
 

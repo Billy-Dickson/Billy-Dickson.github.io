@@ -15,14 +15,11 @@ Strava [Stats](https://www.strava.com/activities/321108721/overview)
 
 ## Event Photos
 
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00413.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00413.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00413.webp)
 
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00414.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00414.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00414.webp)
 
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00426.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00426.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Edinburgh Marathon 2007](../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/DSC00426.webp)
 
 ## Reference
 
