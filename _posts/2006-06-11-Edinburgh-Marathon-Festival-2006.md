@@ -13,8 +13,7 @@ This Edinburgh Marathon started at Princes Street and finished in Holyrood Park,
 
 Saying that, I’m thankful that I got to run that route and I did really enjoy it.
 
-![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp){: .light .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
-![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' .normal }
+![Original Route](../assets/img/posts/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp)
 
 ## Photographs
 
