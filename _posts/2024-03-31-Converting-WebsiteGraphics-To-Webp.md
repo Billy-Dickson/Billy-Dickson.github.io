@@ -56,7 +56,7 @@ for f in *.png; do cwebp -q 85 -mt $f -o ${f%.*}.webp; done
 Use the dwebp tool to decode WebP images into PNG, all you need to do is specify the name of your WebP file, the -o (output) option, and the name of your new PNG file.
 
 ```bash
-dwebp image.webp -o image.png
+cwebp image.webp -o image.png
 ```
 
 You can use a Bash for loop to bulk convert hundreds or thousands of WebP photos at once.

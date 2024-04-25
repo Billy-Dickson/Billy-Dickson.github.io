@@ -3,7 +3,7 @@ title: Text and Typography
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 date: 2022-08-18
 categories: [Homelab, Linux, Web]
-tags: [homelab, linux, web, Typography, Chirpy]
+tags: [homelab, linux, web]
 pin: false
 math: true
 mermaid: true

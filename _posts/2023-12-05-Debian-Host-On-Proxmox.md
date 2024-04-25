@@ -15,25 +15,24 @@ image:
 
 Select the following when running through the startup wizard.
 
-| **General**  |  |  
-|--|--|
-| **Node:**  | (Whatever that happens to be)  |
-| **VM ID:** | (Pick your number) |
-| **Machine:** | Debian-Server  |
-| **Start at boot** | Dependent on your needs |
+### General
 
-![General Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/General.webp)
+| **General** |                            |               |                      |
+| :---------- | :------------------------- | :------------ | :------------------- |
+| Node:       | (dependents on setup)      | Resource Pool | (dependent on setup) |
+| VM ID:      | (take default or pick one) |               |                      |
+| Machine:    | Debian-Server-Prod-1       |               |                      |
 
-| **OS** | |
-|--|--|
-| **Use CD/DVD disc image file (iso)**| |
-| **Storage:** | (where you saved your ISO) |
-| **ISO Image:** | debian-12.1.0-amd64-netinst.iso |  
-| **Guest OS**# | |
-| **Type:**|    Linux |
-| **Version:**| 6.x - 2.6 Kernel |
+| **OS** | | | |
+|:---------------------------------| :------------------------------ | :------- | :--------------- |
+| Use CD/DVD disc image file (iso) |                                 | Guest OS |                  |
+| Storage:                         | (where you saved your ISO)      | Type     | Linux            |
+| ISO Image:                       | debian-12.1.0-amd64-netinst.iso | Version  | 6.x - 2.6 Kernel |
 
-![OS](/assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/OS.webp)
+| **System**     |         |                  |                    |
+| :--------------| :------ | :--------------- | :------------------|
+| Graphics Card: | Default | SCSI Controller: | VirtIO SCSI single |
+| Machine:       | [q35](https://forum.proxmox.com/threads/machine-type-query.128923/#:~:text=Proxmox%20Staff%20Member&text=Q35%20is%20newer%2C%20supports%20PCIe,you%20can%20just%20use%20i440fx.) | Quemm Agent | Tick |
 
 | **Disks** | |
 |--|--|
@@ -305,6 +304,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
 
 ## References
 
+- KVM QUEMM virtual machine [types](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
 - Akamai - [Automating Security Updated](https://www.linode.com/docs/guides/how-to-configure-automated-security-updates-debian/)
 - Debian Wiki - [Automatic Updates](https://wiki.debian.org/UnattendedUpgrades#:~:text=The%20purpose%20of%20unattended%2Dupgrades,send%20you%20emails%20about%20updates.)
 - Digital Ocean - How To Setup a Firewall with UFW on an [Ubuntu and Debian](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server) Cloud Server
