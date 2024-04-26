@@ -10,7 +10,7 @@ image:
 ## Preamble
 
 It was a fabulous opportunity to be able to run the Virgin London Marathon, times below. I’m going to take a week off and just relax, maybe next week I’ll do a little work at the gym (probably cardiovascular), I think I’ll give my legs a rest for the full 2 weeks before starting to run again.
-I more please with raising money for Marie Curie Cancer Care who are a fabulous bunch of guys, I would certainly run for them again given the chance.
+I more please with raising money for [Marie Curie Cancer Care](http://www.mariecurie.org.uk/) who are a fabulous bunch of guys, I would certainly run for them again given the chance.
 
 ## Memorable Moments
 
