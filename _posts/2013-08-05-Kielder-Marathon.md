@@ -34,4 +34,4 @@ _Race Stats_
 
 * Kileder Marathon [website](https://kieldermarathon.com/)
 * My result was posted [here](https://resultsbase.net/event/1443/results/747676)
-* The Cronicle Live [photos](https://www.chroniclelive.co.uk/news/north-east-news/gallery/kielder-marathon-2021-photos-northumberland-21749539) of the Kielder Marathon 2021
+* The Chronicle Live [photos](https://www.chroniclelive.co.uk/news/north-east-news/gallery/kielder-marathon-2021-photos-northumberland-21749539) of the Kielder Marathon 2021
