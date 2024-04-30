@@ -9,7 +9,7 @@ image:
 
 ## Preamble
 
-After our usual discussion about the run in the pub one night, myself and Chris decided to run it together. But as it happened, Chris was a bit injured and didn’t manage to get enough training done, and being the sensible person he is, decided not to run. Being a good mate, he did however run me down in his car, as we had already arranged digs down there. He also cheered me off at the start and cheered when I crossed the finish line.
+After our usual discussion about the run in the pub one night, myself and Chris decided to run it together. But as it happened, Chris was a bit injured and didn’t manage to get enough training done, and being the sensible lad that he is, he decided not to run. Being a good mate, he did however run me down in his car, as we had already arranged digs down there. He also cheered me off at the start and cheered when I crossed the finish line.
 
 Although, I've only got a few photos of this one, it's one that I really did enjoy. It's advertised as Britain's most beautiful marathon, and the scenery really is stunning. It’s also fairly hardcore and I’m glad that I did the right amount of training, which included hills, otherwise I would have really  struggled. I  had a chat with someone at the start line (another runner) who assured us, that if we added an hour to our PB (Personal Best), I would be doing well, as it happens, my finishing time was only about 30 minutes outside my PB, so I was fairly happy with that.
 
