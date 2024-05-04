@@ -29,53 +29,40 @@ Select the following when running through the startup wizard.
 | Storage:                         | (where you saved your ISO)      | Type     | Linux            |
 | ISO Image:                       | debian-12.1.0-amd64-netinst.iso | Version  | 6.x - 2.6 Kernel |
 
-| **System**     |         |                  |                    |
-| :--------------| :------ | :--------------- | :------------------|
-| Graphics Card: | Default | SCSI Controller: | VirtIO SCSI single |
-| Machine:       | [q35](https://forum.proxmox.com/threads/machine-type-query.128923/#:~:text=Proxmox%20Staff%20Member&text=Q35%20is%20newer%2C%20supports%20PCIe,you%20can%20just%20use%20i440fx.) | Quemm Agent | Tick |
+For the best performance, I tend to keep *EFI Storage* and the *Disk Storage* on the local NVME drive of my proxmox server. This is of course dependent on your setup, I always have a sceduled backup for all my VM's to my [TrueNAS](https://www.truenas.com/) server.
 
-| **Disks** | |
-|--|--|
-| **Bus/Device:** | SCSI |
-| **SCSI Controller:** | VirtIO SCSI Single |
-| **Storage:** | (Select your storage pool) |
-| **Disk Size (GiB):** | 32 (This is up to you) |
-| **Format:** | QEMU image format (qcow2) |
-| **Cache:** | Default (No Cache) |
-| **Discard:** | Default unticked |
-| **IO thread:** | Default ticked |
-| **Backup:** | Default ticked (This is up to you) |
+| **System**       |                        |                  |                    |
+| :--------------- | :--------------------- | :--------------- | :------------------|
+| Graphics Card:   | Default                | SCSI Controller: | VirtIO SCSI single |
+| Machine:         | [q35](https://forum.proxmox.com/threads/machine-type-query.128923/#:~:text=Proxmox%20Staff%20Member&text=Q35%20is%20newer%2C%20supports%20PCIe,you%20can%20just%20use%20i440fx.) | Qemu Agent: | ticked |
+| Firmware         |                        |                  |                    |
+| BIOS:            | OVMF (UEFI)            | Add TPM:         | Unticked           |
+| Add EFI Disk:    | Ticked                 |                  |                    |
+| EFI Storage:     | local-storage          |                  |                    |
+| Pre-Enroll keys: | Ticked                 |                  |                    |
 
-![Virtual Disk Setup](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Disks.webp)
+| **Disks**        |                           |            |                    |
+| :--------------- | :------------------------ | :--------- | :----------------- |
+| Bus/Device:      | SCSI                      | Cache:     | Default (No Cache) |
+| SCSI Controller: | VirtIO SCSI Single        | Discard:   | Default unticked   |
+| Storage:         | local-storage             | IO thread: | Ticket             |
+| Disk Size (GiB): | 32 (This is up to you)    |            |                    |
+| Format:          | QEMU image format (qcow2) |            |                    |
 
-| **CPU**| |
-|--|--|
-| **Socket:** | 1 |
-| **Cores:** | 2 |
-| **Type:** | x86-64-v2-AES |
+| **CPU** |    |              |               |
+| :------ | :- | :----------- | :------------ |
+| Socket: | 1  | Type:        | x86-64-v2-AES |
+| Cores:  | 2  | Total cores: | 2             |
 
-![CPU Type](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/CPU.webp)
+| **Memory**    |                           |
+| :------------ | :------------------------ |
+| Memory (MiB): | 2048 (Workload Dependent) |
 
-| **Memory** | |
-|--|--|
-| **Memory (MiB):** | 2048 (Workload Dependent) |
-| **Minimum memory (MB)** | 2048 |
-| **Balloning** | Default ticked (If a mimumum is specified, them the allocation will vary between minimum and maximum when required)|
-
-![Memory Allocation](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Network.webp)
-
-| **Network** | |
-|--|--|
-| **Bridge:** | vrbr1 (Yours may be different) |
-| **VLAN Tag:** | Default no VLANS |
-| **Firewall:** | Default tick |
-| **Model:** | VirtIO (paravirtualized) |
-| **MAC Address:** | auto |
-
-![Network Settings](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Network.webp)
-**Confirm**
-
-![Confirm](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Confirm.webp)
+| **Network** | |  |  |
+|--|--|--|--|
+| Bridge:   | vrbr1 (Yours may be different)    | Model:       | VirtIO (paravirtualized) |
+| VLAN Tag: | no VLAN (dependent on your setup) | MAC Address: | auto                     |
+| Firewall: | Ticked                            |              |                          |
 
 Run through the installation until you get to this screen. Just press the continue button and continue, this will install the sudo package and add next account to that group.
 
@@ -105,6 +92,10 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    This ensures that the service runs on system startup and is persistent throughout reboots.
 
 3. You now need to make changes to the configuretion file. The default configuration file can be found here at */etc/apt/apt.conf.d/50unattendd-upgrades*. Open it with the text editor of your choice (for me it's nano).
+
+   ```bash
+   sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
+   ```
 
     Note that the unattended-upgrades package ignores line
  that start with **//**, as that line is considered to be a comment.
@@ -136,7 +127,11 @@ The purpose of unattended-upgrades is to keep the computer current with the late
 
 4. Deleting Dependencies
 
-      You can explicity set up the unattended-upgrades service to remove unused dependencies by changing the *Remove-Unused-Kernel-Packages*, *Remove-New-Unused-Dependencies* and *Remove-Unused-Dependencies* option to true. Remember to remove **//** to uncomment these lines.  
+      You can explicity set up the unattended-upgrades service to remove unused dependencies by changing the *Remove-Unused-Kernel-Packages*, *Remove-New-Unused-Dependencies* and *Remove-Unused-Dependencies* option to true. Remember to remove **//** to uncomment these lines.
+
+   ```bash
+   sudo nano /etc/apt/apt.conf.d/50unattended-upgrade
+   ```
 
     *File: /etc/apt/apt.conf.d/50unattended.upgrades*
 
@@ -190,18 +185,24 @@ The purpose of unattended-upgrades is to keep the computer current with the late
 
    To enable automatic updates create a new auto-upgrades  **file: /etc/apt/apt.conf.d/20auto-upgrades** using text editor of your choice, my favorites being vim or nano.
 
-    *File: /etc/apt/apt.conf.d/20auto-upgrades*
+   *File: /etc/apt/apt.conf.d/20auto-upgrades*
 
    ```bash
+    sudo nano /etc/apt/apt.conf.d/20auto-upgrades
+    ```
+
+    **Paste the following**
+
+   ```text
     APT::Periodic::Update-Package-Lists "1";
     APT::Periodic::Unattended-Upgrade "1";
     APT::Periodic::AutocleanInterval "7";
    ```
 
-    Update-Package-Lists: 1 enables auto-update, 0 disables.  
-    Unattended-Upgrade: 1 enables auto-upgrade, 0 disables.  
-    AutocleanInterval: Enables auto clean packages for X days.  
-    The above configuration displays 7 days
+    * Update-Package-Lists: 1 enables auto-update, 0 disables.  
+    * Unattended-Upgrade: 1 enables auto-upgrade, 0 disables.  
+    * AutocleanInterval: Enables auto clean packages for X days.  
+    * The above configuration displays 7 days
 
 7. Testing the Configuration  
 
@@ -304,10 +305,10 @@ The purpose of unattended-upgrades is to keep the computer current with the late
 
 ## References
 
-- KVM QUEMM virtual machine [types](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
-- Akamai - [Automating Security Updated](https://www.linode.com/docs/guides/how-to-configure-automated-security-updates-debian/)
-- Debian Wiki - [Automatic Updates](https://wiki.debian.org/UnattendedUpgrades#:~:text=The%20purpose%20of%20unattended%2Dupgrades,send%20you%20emails%20about%20updates.)
-- Digital Ocean - How To Setup a Firewall with UFW on an [Ubuntu and Debian](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server) Cloud Server
-- How to install UFW on [Debian 12](https://www.cyberciti.biz/faq/set-up-a-firewall-with-ufw-on-debian-12-linux/)
-- How to install docker on [Debian 12](https://docs.docker.com/engine/install/debian/)
-- Running the docker daemon as a [non root](https://docs.docker.com/engine/security/rootless/) user
+* KVM QUEMM virtual machine [types](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
+* Akamai - [Automating Security Updated](https://www.linode.com/docs/guides/how-to-configure-automated-security-updates-debian/)
+* Debian Wiki - [Automatic Updates](https://wiki.debian.org/UnattendedUpgrades#:~:text=The%20purpose%20of%20unattended%2Dupgrades,send%20you%20emails%20about%20updates.)
+* Digital Ocean - How To Setup a Firewall with UFW on an [Ubuntu and Debian](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server) Cloud Server
+* How to install UFW on [Debian 12](https://www.cyberciti.biz/faq/set-up-a-firewall-with-ufw-on-debian-12-linux/)
+* How to install docker on [Debian 12](https://docs.docker.com/engine/install/debian/)
+* Running the docker daemon as a [non root](https://docs.docker.com/engine/security/rootless/) user
