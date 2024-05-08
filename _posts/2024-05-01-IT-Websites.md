@@ -11,13 +11,9 @@ A bit of a work in progress, I'm going to add sites and snippets of instructions
 
 ## Instructions on fixing bufferbloat on pfsense
 
-I've recently had my home internet upgraded to fibre on 2nd May 2024, It didn't go smoothly or well.
+I've recently had my home internet upgraded to fibre on 2nd May 2024.
 
 Anyway, below are some intructions on how to set up a codel-limiter to combat buffer bloat, the instructions worked really well and I'm really chuffed with the results.
-
-I’ve recently had my home internet upgraded to fibre on 2nd May 2024. It didn’t go smoothly or well, but that’s a different story.
-
-Anyway, below are some instructions on how to set up a codel-limiter to combat buffer bloat, the instructions worked really well and I’m really chuffed with the results.
 
 1. Test your broadband speed with [this](https://www.speedtest.net/) site, do make sure that it’s quiet on your network (not downloading or watching YouTube), take a note of the speed, Its best tested directly via Ethernet.
 2. Test for buffer-bloat [here](https://www.waveform.com/tools/bufferbloat) and take a note of your results. After testing, my network got a B, which is quite reasonable.
