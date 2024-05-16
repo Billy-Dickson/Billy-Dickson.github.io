@@ -9,7 +9,7 @@ image:
 
 ## Preamble
 
-Today myself and my mate Mark ran the Chris Hoy Edinburgh Half Marathon, the run started at the Meadowbank Stadium, it wound its way out of the city to the Firth of Forth coast at Portobello, and then headed southwards along the coastline to a grandstand finish at Musselburgh Racecourse.
+Today myself and my mate [Mark](http://www.dawsoncreative.co.uk/) ran the Chris Hoy Edinburgh Half Marathon, the run started at the Meadowbank Stadium, it wound its way out of the city to the Firth of Forth coast at Portobello, and then headed southwards along the coastline to a grandstand finish at Musselburgh Racecourse.
 
 The weather was surprisingly good, sunny with a little breeze. I actually managed to get a personal best. So I was well chuffed, looks like things are looking good for the Albert Bartlett Edinburgh Marathon this year. The only bad thing is that I think I'm coming down with a cold (felt a bit snotty this morning), so tonight I'm going to dose myself with Vitamin C and have an early night, fingers crossed.
 
@@ -29,3 +29,5 @@ The weather was surprisingly good, sunny with a little breeze. I actually manage
 ![Mark at the finish](../assets/img/posts/2009-04-05-Chris-Hoy-Half-Marathon/Mark_at_the_finish.webp)_Mark at the Finish_
 
 ![Finishing Medal](../assets/img/posts/2009-04-05-Chris-Hoy-Half-Marathon/Medal.webp)_The Finishers Medal_
+
+A nice sunny Sunday run 🙂
