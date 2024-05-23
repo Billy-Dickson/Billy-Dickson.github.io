@@ -1,6 +1,6 @@
 ---
 title: Sanctum Sanctorium
-date: 2024-05-11
+date: 2024-05-11 19:30
 categories: [Gigs and Socials]
 tags: [gigs and socials]     # TAG names should always be lowercase
 image:
