@@ -1,5 +1,5 @@
 ---
-title: Alloa Half Marathon
+title: Alloa Half Marathon 2024
 date: 2024-03-17
 categories: [Running, Half Marathons]
 tags: [running, half marathons, alloa half]     # TAG names should always be lowercase
