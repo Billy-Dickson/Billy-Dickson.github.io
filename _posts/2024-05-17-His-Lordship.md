@@ -8,7 +8,7 @@ image:
 ---
 ## Thoughts
 
-I met the guys in Bannerman's for a few early gig libation and a wee catchup, I didn't know what to expect at the venue, When I got to the venue, I was surprised to see some of Edinburgh's more mature Rockabilly's from back in the day. At that point I know I was going to be treated to some real rock and roll! I really quite enjoyed this one, See Danny's full review [here](https://www.gig-antics.live/post/his-lordship-cabaret-voltaire-17-05-24).
+I met the guys in Bannerman's for a few early gig libation and a wee catchup, I didn't know what to expect at the venue, but when I got to there, I was surprised to see some of Edinburgh's more mature Rockabilly's from back in the day. At that point I know I was going to be treated to some real rock and roll! I really quite enjoyed this one, See Danny's full review [here](https://www.gig-antics.live/post/his-lordship-cabaret-voltaire-17-05-24).
 
 Venue - [The Cabaret Voltaire](https://www.thecabaretvoltaire.com/)
 
