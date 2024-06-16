@@ -9,7 +9,7 @@ image:
 
 This is a quick and dirty approach to occasionally backing up a docker volume and the docker compose file to another machine.
 
-I've done this a number of times with no problems, all you need to do is copy the docker compose file and the tarred volume backup to you new machine, then untar the volume backup to the appropriate directory and re-create the docker container.
+I've done this a number of times with no problems, all you need to do is copy the docker compose file and the tarred volume backup to you new machine, then untar the volume backup to the appropriate directory, and re-create the docker container using the docker compose file.
 
 ## How to back up a docker volume
 
