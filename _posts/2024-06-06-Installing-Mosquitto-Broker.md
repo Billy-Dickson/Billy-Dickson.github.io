@@ -1,6 +1,6 @@
 ---
 title: Installing Mosquitto Broker on Home Assistant
-date: 2024-06-06
+date: 2024-07-06
 categories: [IOT, Home Assistant]
 tags: [IOT, Home Assistant]     # TAG names should always be lowercase
 image:
