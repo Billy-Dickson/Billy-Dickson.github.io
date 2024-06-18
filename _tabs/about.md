@@ -8,7 +8,7 @@ order: 4
 
 I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it.
 
-Would I recommend working in Academia as of 2022, no probably not, these days it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond". Lips service is paid to "Work Life Balance" and "Mental Health". After talking to some of my old work collegues, it doesn't seem to have improved any in the intervening 2 years.
+Would I recommend working in Academia as of 2022 or after, no probably not, these days it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond". Lips service is paid to "Work Life Balance" and "Mental Health". After talking to some of my old work collegues, it doesn't seem to have improved any in the intervening 2 years.
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
@@ -26,7 +26,7 @@ This photo was taken in September 2009 when I ran the Berlin Marathon for a seco
 
 ### IT Technologies
 
-Web Technologies Such as HTML and CSS, Networking and Computer Technologies, I'm currently in in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [Wordpress](https://wordpress.org/) to  [Jekyll](https://jekyllrb.com/).
+Web Technologies Such as HTML and CSS, Networking and Computer Technologies, I'm currently in in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [Wordpress](https://wordpress.org/) to  [Jekyll](https://jekyllrb.com/). As of April 2024, I've resurrected my old website in a Proxmox VM, and I'm in the process of combing through it to see if there's anything that I might be worth porting over, some of the technical blog bits are no longer relevant. But I'll probably move over some of the more interesting and relevant bits (when I have time).
 
 ### Internet Of Things
 
@@ -42,4 +42,4 @@ My current favourites band at the moment are [Amyl and the Sniffers](https://www
 
 ### Reading
 
-[Terry Pratchett](https://www.terrypratchettbooks.com/), [Christopher Brookmyre](https://www.brookmyre.co.uk/), [Irvine Welsh](https://en.wikipedia.org/wiki/Irvine_Welsh), [Ben Elton](https://en.wikipedia.org/wiki/Ben_Elton), [Iain Banks](https://www.iain-banks.net/), [Douglas Adams](https://en.wikipedia.org/wiki/Douglas_Adams), [Tom Clancy](https://en.wikipedia.org/wiki/Tom_Clancy), [J.R.R Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien), [David Eddings](https://en.wikipedia.org/wiki/David_Eddings), [Stephen King](https://stephenking.com/) and many more.
+[Terry Pratchett](https://www.terrypratchettbooks.com/), [Christopher Brookmyre](https://www.brookmyre.co.uk/), [Irvine Welsh](https://en.wikipedia.org/wiki/Irvine_Welsh), [Ben Elton](https://en.wikipedia.org/wiki/Ben_Elton), [Iain Banks](https://www.iain-banks.net/), [Douglas Adams](https://en.wikipedia.org/wiki/Douglas_Adams), [Tom Clancy](https://en.wikipedia.org/wiki/Tom_Clancy), [J.R.R Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien), [David Eddings](https://en.wikipedia.org/wiki/David_Eddings), [Stephen King](https://stephenking.com/), [Raymond E Feist](https://www.crydee.com/) and many more.
