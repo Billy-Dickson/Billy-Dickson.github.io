@@ -3,7 +3,7 @@ title: Lasswade 10 Mile Road Race
 categories: [Running, 10 Mile Road Races]
 tags: [running, 10 mile road races]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Yvonne_Me.webp
+   path: ../../assets/img/posts/2024/2024-03-03-Lasswade-10-Mile-Road-Race/Yvonne_Me.webp
 ---
 
 ## Preamble
@@ -16,6 +16,6 @@ Strava [Stats](https://www.strava.com/activities/10881247269/overview)
 
 ## A few photos of us on the day
 
-![Nick and me](../../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Nick_and_Billy.webp)
+![Nick and me](../../assets/img/posts/2024/2024-03-03-Lasswade-10-Mile-Road-Race/Nick_and_Billy.webp)
 
-![Luca me and Jo](../../assets/img/posts/2024-03-03-Lasswade-10-Mile-Road-Race/Jo_Luca_me.webp)
+![Luca me and Jo](../../assets/img/posts/2024/2024-03-03-Lasswade-10-Mile-Road-Race/Jo_Luca_me.webp)

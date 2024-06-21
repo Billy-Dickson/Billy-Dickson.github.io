@@ -4,7 +4,7 @@ date: 2024-05-27
 categories: [Running, Half Marathons]
 tags: [running, half marathons, edinburgh half marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/header.webp
+   path: ../assets/img/posts/2024/2024-05-27-Edinburgh-Marthon-Festival-2024/header.webp
 ---
 
 
@@ -18,8 +18,8 @@ As it happens, I quite enjoyed the run despite the weather, I might even be temp
 
 ## Event Photos
 
-![Early in the morning](../../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/Early_Before_Start.webp)_Early in the morning_
+![Early in the morning](../../assets/img/posts/2024/2024-05-27-Edinburgh-Marthon-Festival-2024/Early_Before_Start.webp)_Early in the morning_
 
-![Before the Start](../../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/Before_Start.webp)_Before the Start_
+![Before the Start](../../assets/img/posts/2024/2024-05-27-Edinburgh-Marthon-Festival-2024/Before_Start.webp)_Before the Start_
 
-![Me at the starting line](../../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/Starting_Line1.webp)_Me at the Starting line_
+![Me at the starting line](../../assets/img/posts/2024/2024-05-27-Edinburgh-Marthon-Festival-2024/Starting_Line2.webp)_Me at the Starting line_
