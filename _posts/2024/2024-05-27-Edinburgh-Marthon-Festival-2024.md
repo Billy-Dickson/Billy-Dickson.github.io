@@ -4,7 +4,7 @@ date: 2024-05-27
 categories: [Running, Half Marathons]
 tags: [running, half marathons, edinburgh half marathon]     # TAG names should always be lowercase
 image:
-   path: "../../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/header.webp"
+   path: ../assets/img/posts/2024-05-27-Edinburgh-Marthon-Festival-2024/header.webp
 ---
 
 
