@@ -8,7 +8,7 @@ pin: false
 math: true
 mermaid: true
 image:
-  path: ../../assets/img/posts/2022-08-18-Text-and-Typography/devices-mockup.png
+  path: ../assets/img/posts/2022-08-18-Text-and-Typography/devices-mockup.png
 ---
 
 ## Headings

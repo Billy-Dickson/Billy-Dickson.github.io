@@ -4,7 +4,7 @@ date:   2022-08-10
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web]
 image:
-    path: ../../assets/img/posts/2022-08-10-Removing-exif-data/Install_exiftool.png
+    path: ../assets/img/posts/2022-08-10-Removing-exif-data/Install_exiftool.png
 ---
 
 ## How to remove exif data from photos

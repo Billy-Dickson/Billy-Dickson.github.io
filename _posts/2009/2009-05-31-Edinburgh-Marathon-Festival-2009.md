@@ -4,7 +4,7 @@ date: 2009-05-31
 categories: [Running,  Marathons]
 tags: [running, marathons, edinburgh marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2009.webp
+   path: ../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2009.webp
 ---
 
 ## Preamble

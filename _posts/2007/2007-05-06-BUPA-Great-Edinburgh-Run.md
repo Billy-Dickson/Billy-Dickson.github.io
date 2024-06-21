@@ -4,7 +4,7 @@ date: 2007-05-06
 categories: [Running, 10k Road Races]
 tags: [running, 10k road races]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00406.webp
+   path: ../assets/img/posts/2007-05-06-BUPA-Great-Edinbugh-Run/DSC00406.webp
 ---
 
 ## Preamble

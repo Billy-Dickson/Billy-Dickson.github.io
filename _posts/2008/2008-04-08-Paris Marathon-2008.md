@@ -4,7 +4,7 @@ date: 2008-04-08
 categories: [Running, Marathons]
 tags: [running, marathons, paris marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2008-04-08-Paris%20Marathon/header.webp
+   path: ../assets/img/posts/2008-04-08-Paris%20Marathon/header.webp
 ---
 
 ## Preamble

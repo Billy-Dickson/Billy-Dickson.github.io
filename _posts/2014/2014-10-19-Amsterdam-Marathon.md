@@ -4,7 +4,7 @@ date: 2014-10-19
 categories: [Running, Marathons]
 tags: [running, marathons, amsterdam marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2014-10-19-Amsterdam-Marathon/header.webp
+   path: ../assets/img/posts/2014-10-19-Amsterdam-Marathon/header.webp
 ---
 
 ## Preamble

@@ -4,7 +4,7 @@ date: 2012-11-04
 categories: [Running,  Marathons]
 tags: [running, marathons, new york marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2012-11-04-New-York-Marathon-2012/header.webp
+   path: ../assets/img/posts/2012-11-04-New-York-Marathon-2012/header.webp
 ---
 
 ## My thoughts at the time

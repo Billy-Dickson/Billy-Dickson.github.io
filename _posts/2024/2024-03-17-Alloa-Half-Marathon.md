@@ -4,7 +4,7 @@ date: 2024-03-17
 categories: [Running, Half Marathons]
 tags: [running, half marathons, alloa half]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Medal.webp
+   path: ../assets/img/posts/2024-03-18-Alloa-Half-Marathon/Medal.webp
 ---
 
 ## Preamble

@@ -4,7 +4,7 @@ date: 2017-07-16
 categories: [Gigs and Socials]
 tags: [gigs and socials]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2017-07-16-The-Dickies/Eve_of_Distruction.webp
+   path: ../assets/img/posts/2017-07-16-The-Dickies/Eve_of_Distruction.webp
 ---
 
 ## Thoughts

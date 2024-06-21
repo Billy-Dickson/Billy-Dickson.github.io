@@ -4,7 +4,7 @@ date:   2024-03-31
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web]
 image:
-    path: ../../assets/img/posts/2024-03-31-Converting-Website-Graphics-To-Webp/Install_webp.webp
+    path: ../assets/img/posts/2024-03-31-Converting-Website-Graphics-To-Webp/Install_webp.webp
 ---
 
 ## How to convert graphic files to the smaller and faster webp format

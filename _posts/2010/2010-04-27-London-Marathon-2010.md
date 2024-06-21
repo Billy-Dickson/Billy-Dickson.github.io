@@ -4,7 +4,7 @@ date: 2010-04-27
 categories: [Running, Marathons]
 tags: [running, marathons, london marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2010-04-27-London-Marathon/Page_Banner.webp
+   path: ../assets/img/posts/2010-04-27-London-Marathon/Page_Banner.webp
 ---
 
 ## Preamble

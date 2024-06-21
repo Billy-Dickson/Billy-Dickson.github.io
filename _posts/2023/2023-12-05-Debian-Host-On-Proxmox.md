@@ -4,7 +4,7 @@ date: 2023-12-05
 categories: [Homelab, Proxmox]
 tags: [homelab, proxmox, linux, debian]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp
+   path: ../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp
 ---
 
 ## Prerequisites

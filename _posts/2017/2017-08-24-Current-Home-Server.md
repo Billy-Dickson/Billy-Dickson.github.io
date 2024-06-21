@@ -4,7 +4,7 @@ date: 2017-08-24
 categories: [Homelab, TrueNAS Scale ]
 tags: [homelab, home server]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2017-08-24-Current-Home-Server/TrueNAS-Scale.webp
+   path: ../assets/img/posts/2017-08-24-Current-Home-Server/TrueNAS-Scale.webp
 ---
 
 My home server is currently in my loft, although at some point I do intend to put it in a cupboard under the stairs, very Harry Potter I know, I don’t feel the need to keep it small or unobtrusive, and the airflow is reasonably good in a larger case.

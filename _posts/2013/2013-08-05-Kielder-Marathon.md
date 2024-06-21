@@ -4,7 +4,7 @@ date: 2013-09-05
 categories: [Running, Marathons]
 tags: [running, marathons, kielder marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2013-08-05-Kielder-Marathon/header.webp
+   path: ../assets/img/posts/2013-08-05-Kielder-Marathon/header.webp
 ---
 
 ## Preamble

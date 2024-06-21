@@ -4,7 +4,7 @@ date: 2009-09-20
 categories: [Running, Marathons]
 tags: [running, marathons, berlin marathon]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
+   path: ../assets/img/posts/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
 ---
 
 ## Preamble
