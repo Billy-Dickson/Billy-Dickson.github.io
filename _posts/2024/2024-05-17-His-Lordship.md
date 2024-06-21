@@ -4,7 +4,7 @@ date: 2024-05-17
 categories: [Gigs and Socials]
 tags: [gigs and socials]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2024-05-17-His-Lordship/header.webp
+   path: ../assets/img/posts/2024-05-17-His-Lordship/header.webp
 ---
 ## Thoughts
 

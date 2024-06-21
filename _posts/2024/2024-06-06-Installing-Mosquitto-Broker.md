@@ -4,7 +4,7 @@ date: 2024-07-06
 categories: [IOT, Home Assistant]
 tags: [IOT, Home Assistant]     # TAG names should always be lowercase
 image:
-   path: ../../assets/img/posts/2024-05-01-IT-Websites/header.webp
+   path: ../assets/img/posts/2024-05-01-IT-Websites/header.webp
 ---
 
 ## Create a user for the Mosquitto Broker addon
