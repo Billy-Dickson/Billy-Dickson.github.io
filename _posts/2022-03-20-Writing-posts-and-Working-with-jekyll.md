@@ -4,7 +4,7 @@ date:   2022-08-17
 categories: [Homelab, Linux, Web]
 tags: [homelab, linux, web]
 image:
-    path: ../assets/img/posts/2022-03-20-Working-with-jekyll/Working_with_jekyll.webp
+    path: ../assets/img/posts/2022/2022-03-20-Working-with-jekyll/Working_with_jekyll.webp
 ---
 
 
