@@ -66,11 +66,11 @@ For the best performance, I tend to keep *EFI Storage* and the *Disk Storage* on
 
 Run through the installation until you get to this screen. Just press the continue button and continue, this will install the sudo package and add next account to that group.
 
-![Root Password](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Root_Password.webp)
+![Root Password](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/Root_Password.webp)
 
 With regards to server installations, these are the ones that I would normally choose as a base installation.
 
-![Pick applications](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp)
+![Pick applications](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp)
 
 ### Install and setup Automatic Updates
 
@@ -220,7 +220,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo apt install ufw
    ```
 
-   ![Install UFW](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Install_UFW.webp)
+   ![Install UFW](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/Install_UFW.webp)
 
 2. Enable IPv6 support in ufw
 
@@ -230,11 +230,11 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo nano /etc/default/ufw
    ```
 
-      ![Edit UFW IPv6](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/UFW_IPv6.webp)
+      ![Edit UFW IPv6](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/UFW_IPv6.webp)
 
    Ensure that IPv6 is enabled.
 
-   ![IPv6 enabled](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/UFW_Config.webp)
+   ![IPv6 enabled](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/UFW_Config.webp)
 
       Allow ssh prior to enabling the firewall (just in case it's in the cloud, you don't want to lock yourself out)
 
@@ -252,7 +252,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    sudo ufw status
    ```
 
-   ![UFW Status](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/Status.webp)
+   ![UFW Status](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/Status.webp)
 
 ### Install Docker (Optional)
 
@@ -289,7 +289,7 @@ The purpose of unattended-upgrades is to keep the computer current with the late
    ```
 
 5. The output that you should get.
-![Hello World](../assets/img/posts/2023-12-05-Debian-Host-On-Proxmox/hello_world.webp)
+![Hello World](../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/hello_world.webp)
 
 6. Running docker as a non root user (add a user to the docker group). After running the command, you will have to log off and on for the groups new membership to be applied
 

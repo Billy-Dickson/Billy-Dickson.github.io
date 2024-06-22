@@ -92,7 +92,7 @@ reboot
 3. A local DNS resolver on your network eg. [Pi Hole](https://pi-hole.net/), [OPNsense](https://opnsense.org/), [Pfsense](https://www.pfsense.org/).
 4. A working Proxmox Server
 
-![My Proxmox screen with a certificate](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/certificate.webp "My Proxmox screen with a valid certificate")
+![My Proxmox screen with a certificate](../assets/img/posts/2023/2023-01-12-Cheap-Home-Proxmox-Server/certificate.webp "My Proxmox screen with a valid certificate")
 
 Run through the video in the reference, works great and will gives you a working certificate. Saying that, it only saves you a click. :smiley:
 
@@ -167,7 +167,7 @@ IOMMU Group 16:
         05:00.0 Ethernet controller [0200]: Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
 ```
 
-![My Proxmox screen with 3 running Virtual Machines](../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/PVE.webp) "My Proxmox screen with 3 running Virtual Machines"
+![My Proxmox screen with 3 running Virtual Machines](../assets/img/posts/2023/2023-01-12-Cheap-Home-Proxmox-Server/PVE.webp) "My Proxmox screen with 3 running Virtual Machines"
 
 ## References
 
