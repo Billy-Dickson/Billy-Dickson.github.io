@@ -4,7 +4,7 @@ date: 2023-01-12
 categories: [Homelab, Proxmox]
 tags: [homelab, proxmox, home server]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2023-01-12-Cheap-Home-Proxmox-Server/proxmox.webp
+   path: ../assets/img/posts/2023/2023-01-12-Cheap-Home-Proxmox-Server/proxmox.webp
 ---
 
  In January this year (2023) bought myself a cheap PC from AliExpress £157, 16G of memory and a cheap NVME and SSD Drive. Total spend was about £250, with the hope of teaching myself about Proxmox, Virtualization and Docker.
