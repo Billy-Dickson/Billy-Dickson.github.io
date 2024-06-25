@@ -6,8 +6,6 @@ image:
    path: ../assets/img/posts/2024/2024-03-03-Lasswade-10-Mile-Road-Race/Yvonne_Me.webp
 ---
 
-## Preamble
-
 I love this race, I would describe it as undulating (ok, a bit hilly) and it happens to be the first longer run of the running season for me. I've ran it a number of times over the years either solo or with my sister and I love how well it's organised, the spread at the end is excellent as well.
 
 Big shout out to [Lasswade Althletic Club](https://www.facebook.com/LasswadeAC1981) for organising such a fab race.

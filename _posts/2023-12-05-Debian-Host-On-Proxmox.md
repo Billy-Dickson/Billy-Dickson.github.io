@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2023/2023-12-05-Debian-Host-On-Proxmox/Installed_Applications.webp
 ---
 
-## Prerequisites
-
 1. A running [Proxmox](https://www.proxmox.com/en/downloads) install, see my [Proxmox-Build](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/)
 
 2. A downloaded debian net install from the debian site [here](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/).

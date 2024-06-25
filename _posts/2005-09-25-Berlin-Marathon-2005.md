@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
 ---
 
-## Preamble
-
 During the summer months of 2004, while we were having a few beers at [The Pond](https://www.edinburghlive.co.uk/best-in-edinburgh/restaurants-bars/iconic-neighbourhood-edinburgh-pub-reopens-21079002) in Edinburgh. Myself and some of my mates decided it would be a grand idea for us all to run a marathon together (great idea ehh?), back in those days we were all a bit unfit, and maybe liked having a few too many beers.
 
 As with all great ideas conceived in pubs, when the cold light of day hit, almost everyone dropped out, so when we had a wee chat about it the next time we were out, there was only 2 still standing, [Mark](https://www.dawsoncreative.co.uk/) and myself.

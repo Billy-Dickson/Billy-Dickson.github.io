@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2007-05-27-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2007.webp
 ---
 
-## Preamble
-
 If memory serves (it was a very long time ago), this was my first Edinburgh Marathon, I did find it tough but satisfying, the weather was a bit mixed on the day, overcast with light showers.
 
 Strava [Stats](https://www.strava.com/activities/321108721/overview)

@@ -6,7 +6,6 @@ tags: [gigs and socials]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2024/2024-05-17-His-Lordship/header.webp
 ---
-## Thoughts
 
 I met the guys in Bannerman's for a few early gig libation and a wee catchup (Chris, Danny and Gez? and later at the Venue, Stuart R), I didn't know what to expect at the venue, but when I got to there, I was surprised to see some of Edinburgh's more mature Rockabilly's from back in the day. At that point I know I was going to be treated to some real rock and roll! I really quite enjoyed this one, See Danny's full review [here](https://www.gig-antics.live/post/his-lordship-cabaret-voltaire-17-05-24).
 

@@ -7,7 +7,7 @@ image:
     path: ../assets/img/posts/2024/2024-03-31-Converting-Website-Graphics-To-Webp/Install_webp.webp
 ---
 
-## How to convert graphic files to the smaller and faster webp format
+### How to convert graphic files to the smaller and faster webp format
 
 Here's a handy linux command line tool that can convert all your graphic files to the faster and quicker loading webp format.
 

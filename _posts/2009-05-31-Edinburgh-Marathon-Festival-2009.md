@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2009-05-31-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2009.webp
 ---
 
-## Preamble
-
 If memory serves, this Edinburgh Marathon was a cracker, the weather was unseasonably warm for that time of year, we're talking 20-23c and I remember lining up with everyone else at the start, hoping that it wasn't going to get too much warmer. As it happens, a lot of people did struggle with the heat later on in the day, if you were lucky enough to finish below 4 hours, you missed the worst of it.
 
 ## Event Photos

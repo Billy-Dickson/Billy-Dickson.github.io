@@ -4,7 +4,7 @@ date: 2017-05-21
 categories: [Running, Marathons]
 tags: [running, marathons, stirling marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2017-05-21-Stirling-Marathon/header.webp
+   path: ../assets/img/posts/2017/2017-05-21-Stirling-Marathon/header.webp
 ---
 
 If I remember correctly, this ran for 2 years and then was cancelled as they weren't making enough money out of the event.

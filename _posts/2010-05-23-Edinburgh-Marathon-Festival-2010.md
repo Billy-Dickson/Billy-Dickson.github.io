@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2010-05-23-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2010.webp
 ---
 
-## Preamble
-
 My last Edinburgh Marathon for a while as my son was born this year, saying that, I can still see me running it again in the future, we'll see and watch this space.
 
 ## Event Photos

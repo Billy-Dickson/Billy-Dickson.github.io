@@ -26,3 +26,4 @@ Anyway, below are some intructions on how to set up a codel-limiter to combat bu
 ## References
 
 * [MAC address lookup](https://hwaddress.com/) site, particularly handy if your trawling through dhcp logs.
+* How to [disable ipv6](https://itsfoss.com/disable-ipv6-ubuntu-linux/) on Ubuntu Linux.  

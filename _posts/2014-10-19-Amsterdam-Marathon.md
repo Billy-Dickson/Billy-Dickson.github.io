@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2014-10-19-Amsterdam-Marathon/header.webp
 ---
 
-## Preamble
-
 I loved visiting Amsterdam, the place is just a great place to visit, being from Scotland and a fairly hilly part of Scotland at that, I found the Marathon more difficult that I was expecting. I suspect it was my choice of routes and not running enough flat long routes that contributed to my discomfort, that and the onset of a cold.
 
 I would still recommend it to anyone considering it as a marathon to run and/or a holiday destination, lovely place!

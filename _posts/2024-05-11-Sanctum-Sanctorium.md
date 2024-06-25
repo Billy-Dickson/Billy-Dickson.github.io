@@ -7,9 +7,6 @@ image:
    path: ../assets/img/posts/2024/2024-05-11-Sanctum-Sanctorium/header.webp
 ---
 
-
-## Thoughts
-
 A great night was had, It was just the three amigos, [Danny](https://www.gig-antics.live/), Mark and myself, the venue wasn't full, but sometimes that fine as it means you don't have to queue to get to the bar. I enjoyed their Cult, Killing Joke and their Siouxsie and the Banshees covers, wasn’t that impressed with the Bauhaus covers, the singer’s voice was good, just not low or deep enough to be Pete Murphy.
 
 Still, overall it was a cracking gig and it’s always nice to catch up with mates.

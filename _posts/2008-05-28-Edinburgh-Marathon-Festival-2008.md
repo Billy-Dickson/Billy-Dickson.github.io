@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2008-05-28-Edinburgh-Marathon-Festival/Edinburgh-Marathon-2008.webp
 ---
 
-## Preamble
-
 If I remember correctly, it was a cracking day weather wise and not too hot. The main sponsor of the Marathon that year and for many more years was [Albert Bartlett](https://www.albertbartlett.co.uk/), a large UK and Scottish potato supplier.
 
 That year I ran to raised money for the Scottish charity [Circle Scotland](https://circle.scot/), a great charity that help families in and around Scotland.

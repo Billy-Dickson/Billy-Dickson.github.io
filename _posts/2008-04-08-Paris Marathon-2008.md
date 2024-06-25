@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2008-04-08-Paris%20Marathon/header.webp
 ---
 
-## Preamble
-
 Having trained faithfully for the last 4 months in all weather, the trip to Paris was filled with anticipation. We arrived on the Friday and proceeded directly to the Marathon Expo not realising how far from the Airport, the Expo was about 2 stops from Euro Disney. Collected our Bib numbers and spent a bit of time looking around the stalls, bought a nice looking Paris Marathon T-shirt and a few other bits and bobs.
 
 On Saturday we did the tourist thing and went up the Eiffel Tower (right to the top), the weather was awful but it was well worth if for the fabulous view. Had some lunch on the Avenue de Champs-Elysees, pasta not surprisingly, did a bit of shopping then dinner, pasta again! got back to the hotel at about 9:00’ish got all our gear arranged for the morning and hit the sack at about 10:00.

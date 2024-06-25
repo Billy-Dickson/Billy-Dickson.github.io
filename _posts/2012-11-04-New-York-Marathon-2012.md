@@ -7,8 +7,6 @@ image:
    path: ../assets/img/posts/2012-11-04-New-York-Marathon-2012/header.webp
 ---
 
-## My thoughts at the time
-
 This [Gardian Article](https://www.theguardian.com/world/2012/nov/03/new-york-marathon-cancellation-decision) kinds of echos my feelings at the time. Although I know it as the right decision, I just wish they had made if earlier. As it is, I've unfinished business with the New York City Marathon and hopefully one of these days, I'll get the chance to run it.
 
 > "The marathon is off!" It was my running mate Gavin, shouting from the other end of the immigration line at JFK airport.

@@ -7,8 +7,6 @@ image:
     path: ../assets/img/posts/2022/2022-08-10-Removing-exif-data/Install_exiftool.png
 ---
 
-## How to remove exif data from photos
-
 Here's a handy linux command line tool that can remove all exif data from your photographs. This one I use to remove the exif data from my photographs before I publish them to my website.
 
 These instructions are aimed at people who use linux as their daily driver (like myself), if you use a debian based distribution, then all the instructions below will apply.
