@@ -4,7 +4,7 @@ date: 2024-07-07
 categories: [IOT, Home Assistant]
 tags: [IOT, Home Assistant]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/headers/homeassistant.webp
+   path: ../assets/img/posts/headers/home_assistant_icon_146164.png
 ---
 
 ## Create a user for the Mosquitto Broker addon
@@ -17,7 +17,7 @@ image:
 6. Give it a good password, take a note of what is, an example being 44G$2Yto^^$Zs
 7. Turn on __Can only log in from local network__
 
-![Add User](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/Add_User.png)_Add a User_
+![Add User](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/Add_User.webp)_Add a User_
 
 ## Install MQTT addon and setup with user
 
@@ -35,7 +35,7 @@ image:
 12. Click on __Configure__ all going well, you should see the following.
 13. Click on __Submit__ and __Finish__
 
-![Configure MQTT via Home Assistant](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/MQTT_via_Home_Assistant.png)
+![Configure MQTT via Home Assistant](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/MQTT_via_Home_Assistant.webp)
 
 1. Under __Settings__ Select __Devices and Service__ then __MQTT__ then __Configure__ (Graphic Below)
 2. click on __RE-CONFIGURE MQTT__
@@ -43,7 +43,7 @@ image:
 4. Fill in password (for the created user above)
 5. Click on __Next__, __Submit__ then __Finish__
 
-![Configure MQTT](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/Configure_MQTT.png)
+![Configure MQTT](../assets/img/posts/2024/2024-07-07-Installing-Mosquitto-Broker/Configure_MQTT.webp)
 
 ## Checking that it's all is setup correctly
 
@@ -64,3 +64,4 @@ Note that the mqtt-user has been able to connect to the mqtt broker.
 * Home Assistant [Website](https://www.home-assistant.io/)
 * Installing MQTT- [Everything Smart Home](https://youtu.be/dqTn-Gk4Qeo?si=XTV_WoNA72LuOztw)
 * Installing Zigbee2MQTT THE RIGHT WAY - [Smart Home Junkie](https://youtu.be/4y_dDgo0i2g?si=8lvSODKdqqh4lZao)
+* Demo Home Assistant [Lovelace Interface](https://demo.home-assistant.io/#/lovelace/home)
