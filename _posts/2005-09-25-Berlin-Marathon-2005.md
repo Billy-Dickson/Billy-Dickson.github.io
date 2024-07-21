@@ -4,7 +4,7 @@ date: 2005-09-25
 categories: [Running, Marathons]
 tags: [running, marathons, berlin marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
+   path: ../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
 ---
 
 During the summer months of 2004, while we were having a few beers at [The Pond](https://www.edinburghlive.co.uk/best-in-edinburgh/restaurants-bars/iconic-neighbourhood-edinburgh-pub-reopens-21079002) in Edinburgh. Myself and some of my mates decided it would be a grand idea for us all to run a marathon together (great idea ehh?), back in those days we were all a bit unfit, and maybe liked having a few too many beers.
@@ -31,33 +31,33 @@ At that point, we were both committed, so we both went online, entered the marat
 
 ### Tourists
 
-![The Tourists](../assets/img/posts/2005-09-25-Berlin-Marathon/Alexandra_Platz.webp)
+![The Tourists](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Alexandra_Platz.webp)
 
 ### Beer in the sun
 
-![Beer in the sun](../assets/img/posts/2005-09-25-Berlin-Marathon/Beer_in_the_sun.webp)
+![Beer in the sun](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Beer_in_the_sun.webp)
 
 ### The Day Before
 
-![The Day Before](../assets/img/posts/2005-09-25-Berlin-Marathon/Day_before.webp)
+![The Day Before](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Day_before.webp)
 
 ### Der Linden Strasse
 
-![Der Linden Strasse](../assets/img/posts/2005-09-25-Berlin-Marathon/Der_Linden_Strasse.webp)
+![Der Linden Strasse](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Der_Linden_Strasse.webp)
 
 ### On the Day
 
-![On the Day](../assets/img/posts/2005-09-25-Berlin-Marathon/Mark_and_Billy_before.webp)
+![On the Day](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Mark_and_Billy_before.webp)
 
 ### At the Finish
 
 #### Prost
 
-![Finished 1](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_1.webp)
+![Finished 1](../assets/img/posts/2005/2005/2005-09-25-Berlin-Marathon/Celebration_1.webp)
 
 #### Cheers
 
-![Finished 2](../assets/img/posts/2005-09-25-Berlin-Marathon/Celebration_2.webp)
+![Finished 2](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Celebration_2.webp)
 
 ## References
 

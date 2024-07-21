@@ -4,7 +4,7 @@ date: 2008-04-08
 categories: [Running, Marathons]
 tags: [running, marathons, paris marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2008-04-08-Paris%20Marathon/header.webp
+   path: ../assets/img/posts/2008/2008-04-08-Paris%20Marathon/header.webp
 ---
 
 Having trained faithfully for the last 4 months in all weather, the trip to Paris was filled with anticipation. We arrived on the Friday and proceeded directly to the Marathon Expo not realising how far from the Airport, the Expo was about 2 stops from Euro Disney. Collected our Bib numbers and spent a bit of time looking around the stalls, bought a nice looking Paris Marathon T-shirt and a few other bits and bobs.
@@ -36,22 +36,22 @@ Myself and Mark ran the first 22 miles together, he needed to use the facilities
 
 ## Event Photos
 
-![Everyone at the Start](../assets/img/posts/2008-04-08-Paris%20Marathon/Start.webp)
+![Everyone at the Start](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Start.webp)
 _Everyone at the start_
 
-![Mark at the Start](../assets/img/posts/2008-04-08-Paris%20Marathon/Mark_Starting_Line.webp)
+![Mark at the Start](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Mark_Starting_Line.webp)
 _Mark at the start_
 
-![Me at the start](../assets/img/posts/2008-04-08-Paris%20Marathon/Me_Start_Line.webp)
+![Me at the start](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Me_Start_Line.webp)
 _Me at the start_
 
-![Front of the Medal](../assets/img/posts/2008-04-08-Paris%20Marathon/Medal_Front.webp)
+![Front of the Medal](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Medal_Front.webp)
 _Front of the medal_
 
-![Back of the Medal](../assets/img/posts/2008-04-08-Paris%20Marathon/Medal_Back.webp)
+![Back of the Medal](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Medal_Back.webp)
 _Front of the medal_
 
-![Restaurant afterwards](../assets/img/posts/2008-04-08-Paris%20Marathon/Meal_Out.webp)
+![Restaurant afterwards](../assets/img/posts/2008/2008-04-08-Paris%20Marathon/Meal_Out.webp)
 _Restaurant after the Marathon_
 
 ## References

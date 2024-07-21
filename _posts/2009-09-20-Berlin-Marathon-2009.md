@@ -4,7 +4,7 @@ date: 2009-09-20
 categories: [Running, Marathons]
 tags: [running, marathons, berlin marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2005-09-25-Berlin-Marathon/Marathon_Flags.webp
+   path: ../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Marathon_Flags.webp
 ---
 
 Two weeks ago I ran the Berlin Marathon and I’ve got to say, it’s still one of my favourites. I just seems to be so well organised, a total no brainer to be honest. Well, apart from me getting us lost on the way to the marathon expo on Friday all went really well. I’m thinking it’s just as well to get the “getting lost” thing over and done with on the first day there.
@@ -28,16 +28,16 @@ I actually managed a personal best so I’m well chuffed, my good friend Chris m
 
 {% include embed/youtube.html id='L0DuJ9UbH3k' %}
 
-![At the Start](../assets/img/posts/2009-09-20-Berlin-Marathon/At_The_Start.webp)
+![At the Start](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/At_The_Start.webp)
 
-![Chris and me at the finish](../assets/img/posts/2009-09-20-Berlin-Marathon/Chris_and_Me_Finish1.webp)
+![Chris and me at the finish](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Chris_and_Me_Finish1.webp)
 
-![Chris and me at the finish](../assets/img/posts/2009-09-20-Berlin-Marathon/Chris_and_Me_Finish2.webp)
+![Chris and me at the finish](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Chris_and_Me_Finish2.webp)
 
-![Me at the finish](../assets/img/posts/2009-09-20-Berlin-Marathon/Me_at_the_finish.webp)
+![Me at the finish](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Me_at_the_finish.webp)
 
-![Running through the Brandenburg Gate](../assets/img/posts/2009-09-20-Berlin-Marathon/Me_Brandenburg_Gate.webp)
+![Running through the Brandenburg Gate](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Me_Brandenburg_Gate.webp)
 
-![Me at the finish](../assets/img/posts/2009-09-20-Berlin-Marathon/Me_Finish_1.webp)
+![Me at the finish](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Me_Finish_1.webp)
 
-![Me at the finish](../assets/img/posts/2009-09-20-Berlin-Marathon/Me_Finish_2.webp)
+![Me at the finish](../assets/img/posts/2009/2009-09-20-Berlin-Marathon/Me_Finish_2.webp)
