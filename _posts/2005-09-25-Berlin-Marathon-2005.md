@@ -53,7 +53,7 @@ At that point, we were both committed, so we both went online, entered the marat
 
 #### Prost
 
-![Finished 1](../assets/img/posts/2005/2005/2005-09-25-Berlin-Marathon/Celebration_1.webp)
+![Finished 1](../assets/img/posts/2005/2005-09-25-Berlin-Marathon/Celebration_1.webp)
 
 #### Cheers
 
