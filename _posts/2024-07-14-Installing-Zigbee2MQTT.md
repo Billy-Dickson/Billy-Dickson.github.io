@@ -20,7 +20,12 @@ Prior to installing Zigbee2MQTT on Home Assistant, you will need to install a Mo
 1. Goto Settings, Add-ons, ADD ON-STORE  
 2. Click on the 3 vertical dots at the top of the page  
 3. Select Repositories  
-4. Add the Zigbee2MQTT github repository [https://github.com/zigbee2mqtt/hassio-zigbee2mqtt](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt)  
+4. Add the Zigbee2MQTT github repository
+
+```yaml
+https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
+```
+
 5. Click on Add
 6. Select __Home Assistant Add-on: Zigbee2MQTT__  
 ![Install Icon](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/Zugbee2MQTT.webp)
