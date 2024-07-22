@@ -21,22 +21,19 @@ Prior to installing Zigbee2MQTT on Home Assistant, you will need to install a Mo
 2. Click on the 3 vertical dots at the top of the page  
 3. Select Repositories  
 4. Add the Zigbee2MQTT github repository
+5. Click on Add
 
 ```yaml
 https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
 ```
 
-5. Click on Add
-6. Select __Home Assistant Add-on: Zigbee2MQTT__  
+1. Select __Home Assistant Add-on: Zigbee2MQTT__  
 ![Install Icon](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/Zugbee2MQTT.webp)
-
-7. Click on the __Install__ Icon  
+2. Click on the __Install__ Icon  
 ![Install Zigbee2MQTT](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/Zigbee2MQTT_Install.webp)
-
-8. Enable Start on boot, Watchdog and Show in sidebar
+3. Enable Start on boot, Watchdog and Show in sidebar
 ![Start on boot](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/Zigbee2MQTT_Startup_Settings.webp)
-
-9. These are the settings for my SLZB-06 controller, your IP address, user and password may be different. Unless you've followed my instructions for Installing a Mosquitto Broker
+4. These are the settings for my SLZB-06 controller, your IP address, user and password may be different. Unless you've followed my instructions for Installing a Mosquitto Broker
 ![Startup Config](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/Zigbee2MQTT_Startup_Config.webp)
 
 Below is the straight yaml text feel free to use it for your needs, you will have to change it to suit your circumstances.
