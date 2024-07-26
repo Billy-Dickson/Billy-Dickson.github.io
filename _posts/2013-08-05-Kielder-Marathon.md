@@ -4,7 +4,7 @@ date: 2013-09-05
 categories: [Running, Marathons]
 tags: [running, marathons, kielder marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2013-08-05-Kielder-Marathon/header.webp
+   path: ../assets/img/posts/2013/2013-08-05-Kielder-Marathon/header.webp
 ---
 
 After our usual discussion about the run in the pub one night, myself and Chris decided to run it together. But as it happened, Chris was a bit injured and didn’t manage to get enough training done, and being the sensible lad that he is, he decided not to run. Being a good mate, he did however run me down in his car, as we had already arranged digs down there. He also cheered me off at the start and cheered when I crossed the finish line.
@@ -15,17 +15,29 @@ At the finish line, my calves were in tatters, I managed to stretch a bit standi
 
 ## Race Number
 
-![Race Number](../assets/img/posts/2013-08-05-Kielder-Marathon/Race_Number.webp)
+![Race Number](../assets/img/posts/2013/2013-08-05-Kielder-Marathon/Race_Number.webp)
 
 ## Finishing Stats
 
-![Finishing Time](../assets/img/posts/2013-08-05-Kielder-Marathon/Results1.webp)
-_Finishing Time_
+| Position        |             |
+| :-------------- | :---------- |
+| Overall         | 118 of 826  |
+| Male            | 100 of 601  |
+| Veteran 40 male | 39 of 233   |
 
-![Split Times ](../assets/img/posts/2013-08-05-Kielder-Marathon/Results2.webp)
+| Details         |                  |
+| :-------------- | :--------------- |
+| Distance        | 42200 meters     |
+| Chip Time       | 3:44:10          |
+| Finish Time     | 3:45:11          |
+| Start Time      | 10:19:00         |
+| End Time        | 14:03:10         |
+| Date            | 05 October 2013  |
+
+![Split Times ](../assets/img/posts/2013/2013-08-05-Kielder-Marathon/Results2.webp)
 _Split Times_
 
-![Race Stats](../assets/img/posts/2013-08-05-Kielder-Marathon/Results3.webp)
+![Race Stats](../assets/img/posts/2013/2013-08-05-Kielder-Marathon/Results3.webp)
 _Race Stats_
 
 ## References

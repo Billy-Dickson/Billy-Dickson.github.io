@@ -4,7 +4,7 @@ date: 2012-11-04
 categories: [Running,  Marathons]
 tags: [running, marathons, new york marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2012-11-04-New-York-Marathon-2012/header.webp
+   path: ../assets/img/posts/2012/2012-11-04-New-York-Marathon-2012/header.webp
 ---
 
 This [Gardian Article](https://www.theguardian.com/world/2012/nov/03/new-york-marathon-cancellation-decision) kinds of echos my feelings at the time. Although I know it as the right decision, I just wish they had made if earlier. As it is, I've unfinished business with the New York City Marathon and hopefully one of these days, I'll get the chance to run it.
@@ -19,12 +19,12 @@ This [Gardian Article](https://www.theguardian.com/world/2012/nov/03/new-york-ma
 
 ## New York Marathon Expo
 
-![Picking up my number](../assets/img/posts/2012-11-04-New-York-Marathon-2012/2012-11-02-16.34.16.webp)_Picking up my running T and number_
+![Picking up my number](../assets/img/posts/2012/2012-11-04-New-York-Marathon-2012/2012-11-02-16.34.16.webp)_Picking up my running T and number_
 
-![Running Expo](../assets/img/posts/2012-11-04-New-York-Marathon-2012/2012-11-02-16.33.29.webp)
+![Running Expo](../assets/img/posts/2012/2012-11-04-New-York-Marathon-2012/2012-11-02-16.33.29.webp)
 _Running Expo_
 
-![Running Expo](../assets/img/posts/2012-11-04-New-York-Marathon-2012/2012-11-02-16.33.40.webp)
+![Running Expo](../assets/img/posts/2012/2012-11-04-New-York-Marathon-2012/2012-11-02-16.33.40.webp)
 _Running Expo_
 
 ## References
