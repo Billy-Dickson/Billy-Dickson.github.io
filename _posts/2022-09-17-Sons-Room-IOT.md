@@ -90,5 +90,4 @@ Here's the programming for the my son's button on his bedside table, it's fairly
 
 * [Smart Home Shop UK](https://smarthomeshopuk.com/)  
 * UK based Youtube channel for IOT [Home Sight Tech](https://www.youtube.com/c/HomeSight/featured)  
-* Home Sight Tech [Webpage](http://homesight.tech/).  
 * Brian from Automate Your Home [Home Automations 101 - The Ultimate Guide to Build Better Automations](https://www.youtube.com/watch?v=c5MF3MnMmJw)
