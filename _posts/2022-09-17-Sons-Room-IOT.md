@@ -1,8 +1,8 @@
 ---
 title:  "Installing a Shelly 1L & Switch (Sons Room)"
 date: 2022-09-17
-categories: [IOT, Hubitat, Home Assistant]
-tags: [IOT, hubitat, home assistant]     # TAG names should always be lowercase
+categories: [IOT, Hubitat]
+tags: [IOT, hubitat]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/headers/Hubitat_INC_Official_Logo_Logo.jpg
 ---
