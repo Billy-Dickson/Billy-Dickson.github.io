@@ -47,7 +47,7 @@ socat:
   options: "-d -d"
   log: false
 mqtt:
-  server: mqtt://172.16.69.30:1883
+  server: mqtt://core-mosquitto:1883
   user: mqtt-user
   password: 44G$2Yto^^$Zs
 serial:
