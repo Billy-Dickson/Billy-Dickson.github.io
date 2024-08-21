@@ -26,9 +26,9 @@ I started running in 2004 after I stopped smoking, my first full marathon was Se
 
 This photo was taken in September 2009 when I ran the Berlin Marathon for a second time. I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
-![Berlin Marathon](../assets/img/about/Berlin_Marathon.webp)
+![Berlin Marathon](../assets/img/about/Berlin_Marathon.webp)_At the Finish_
 
-I was fortunate enough to get into the London Marathon in 2010, after I got my place, I decided to run for charity and picked [Marie Curie](https://www.mariecurie.org.uk/), as they were there during a difficult time for my family. 
+I was fortunate enough to get into the London Marathon in 2010, after I got my place, I decided to run for charity and picked [Marie Curie](https://www.mariecurie.org.uk/), as they were there during a difficult time for my family.
 
 Below is a photo of my finishing certificate, something that you don't often see these days.
 
