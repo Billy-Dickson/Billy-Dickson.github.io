@@ -2,7 +2,7 @@
 # https://www.w3schools.com/icons/fontawesome_icons_video.asp
 layout: page
 icon: fas fa-graduation-cap
-order: 5
+order: 4
 ---
 
 # Personal Statement
