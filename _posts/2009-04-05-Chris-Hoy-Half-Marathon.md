@@ -2,7 +2,7 @@
 title: Chris Hoy Half Marathon 2009
 date: 2009-04-05
 categories: [Running, Half Marathons]
-tags: [running, half marathons, chris hoy half marathon]     # TAG names should always be lowercase
+tags: [running, half marathons]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2009/2009-04-05-Chris-Hoy-Half-Marathon/header.webp
 ---

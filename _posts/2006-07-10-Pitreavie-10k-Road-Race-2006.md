@@ -9,7 +9,7 @@ image:
 
 This was my first time running this race, with Mark and Chris, and is soon became a firm favorite with for us all for a while.
 
-It's an out and back course over the Forth Road Bridge, the spread (food and drink) provided at the end is brilliant! One of the runs that I run with my sister, or failing that, some of my JogScotland runner.
+It's an out and back course over the Forth Road Bridge, the spread (food and drink) provided at the end is brilliant! One of the runs that I run with my sister.
 
 ## Event Photos
 

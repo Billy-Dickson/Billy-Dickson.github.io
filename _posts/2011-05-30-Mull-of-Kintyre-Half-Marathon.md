@@ -2,7 +2,7 @@
 title: Mull of Kintrye Half Marathon 2011
 date: 2011-05-20
 categories: [Running, Half Marathons]
-tags: [running, half marathons, mull of kintrye half marathon]     # TAG names should always be lowercase
+tags: [running, half marathons]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2011/2011-05-30-Mull-of-Kintyre-Helf-Marathon/mokrun-header.webp
 ---
