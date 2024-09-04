@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-# Occupation
+### Occupation
 
 I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it.
 
@@ -14,7 +14,7 @@ Lips service is paid to "Work Life Balance" and "Mental Health" and after talkin
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
-## Likes
+### Likes
 
 Spending time with friend and socialising, playing pool, travelling and holidays! keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, Chinese, Thai, India and Italian food.
 
