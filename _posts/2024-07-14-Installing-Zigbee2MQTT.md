@@ -51,7 +51,7 @@ mqtt:
   user: mqtt-user
   password: 44G$2Yto^^$Zs
 serial:
-  port: tcp://172.16.69.12:6638
+  port: tcp://slzb-06.local:6638
   baudrate: 115200
   adapter: zstack
   disable_led: false
