@@ -9,7 +9,7 @@ image:
 
 It's been 7 sand a half years since my last Marathon, so as you can imagine, I was a tad nervous. Still, the atomosphere and crowd participation was just amazing, certianly one to think about if you're contemplating the 26 mile monster.
 
-Finishing times and some photo's of the event are below, onwards and upwards, I'm hoping to run the [Edinburgh Marathon](https://www.edinburghmarathon.com/) again next year with my Niece, who will be running for [Maggie's Centres](https://www.maggies.org/), watch this space.
+Finishing times and some photo's of the event are below, onwards and upwards, I'm hoping to run the [Edinburgh Marathon](https://www.edinburghmarathon.com/) again next year with my niece, who will be running for [Maggie's Centres](https://www.maggies.org/), watch this space.
 
 ## Finishing Times
 
