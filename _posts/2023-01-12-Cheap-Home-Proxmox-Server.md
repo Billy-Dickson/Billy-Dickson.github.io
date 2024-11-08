@@ -94,7 +94,7 @@ reboot
 
 ![My Proxmox screen with a certificate](../assets/img/posts/2023/2023-01-12-Cheap-Home-Proxmox-Server/certificate.webp "My Proxmox screen with a valid certificate")
 
-Run through the video in the reference, works great and will gives you a working certificate. Saying that, it only saves you a click. :smiley:
+Run through the video in the reference, works great and will gives you a working certificate. Saying that, it only saves you a click. 😊
 
 ## Useful bits and bobs
 
