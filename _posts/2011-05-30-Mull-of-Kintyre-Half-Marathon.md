@@ -30,7 +30,3 @@ See the route description from their website, link in references.
 ![Running Number](../assets/img/posts/2011/2011-05-30-Mull-of-Kintyre-Helf-Marathon/Running_Number.webp)_Running Number_
 
 ![Ceramic Medal](../assets/img/posts/2011/2011-05-30-Mull-of-Kintyre-Helf-Marathon/Medal.webp)_Ceramic Medal_
-
-## References
-
-MOKRUN Website - www.mokrun.com

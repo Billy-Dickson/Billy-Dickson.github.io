@@ -2,7 +2,7 @@
 title: Pitreavie Forth Road Bridge 10K
 date: 2007-08-12
 categories: [Running, 10k Road Races]
-tags: [running, 10k road races]     # TAG names should always be lowercase
+tags: [running, 10k road races, pitreavie 10k]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2007/2007-08-12-Pitreavie-10k-Road-Race-2007/Race_Number.webp
 ---
@@ -37,4 +37,4 @@ We did quite well considering there were 307 runners on the day, quite a few of 
 
 * RunABC [Website](https://runabc.co.uk/forth-bridge-10k-august)
 * Pitreavie AAC [Website](https://www.pitreavie-aac.co.uk/)
-* Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) page
+* Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) pag

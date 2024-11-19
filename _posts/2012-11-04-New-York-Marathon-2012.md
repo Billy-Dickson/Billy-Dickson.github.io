@@ -2,7 +2,7 @@
 title: New York City Marathon 2012 (Cancelled)
 date: 2012-11-04
 categories: [Running,  Marathons]
-tags: [running, marathons, new york marathon]     # TAG names should always be lowercase
+tags: [running, marathons]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2012/2012-11-04-New-York-Marathon-2012/header.webp
 ---
