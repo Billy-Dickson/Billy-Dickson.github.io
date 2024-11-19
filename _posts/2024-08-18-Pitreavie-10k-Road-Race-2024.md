@@ -2,7 +2,7 @@
 title: Pitreavie Forth Road Bridge 10K
 date: 2024-08-18
 categories: [Running, 10k Road Races]
-tags: [running, 10k road races]     # TAG names should always be lowercase
+tags: [running, 10k road races, pitreavie 10k]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2024/2024-08-18-Pitreavie-10k-Road-Race-2024/header.webp
 ---

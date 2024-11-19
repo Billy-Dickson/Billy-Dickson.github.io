@@ -13,6 +13,10 @@ Saying that, I’m thankful that I got to run that route and I did really enjoy 
 
 ![Original Route](../assets/img/posts/2006/2006-06-11-Edinburgh-Marathon-Festival/Old_Edinburgh_Marathon_Route.webp)
 
+The weather on the day was about 22c not ideal for running, but that didn’t matter so much when it’s a gloriously sunny day and your getting encouragement by the locals along the way.
+
+I ran first 10 miles or so with my mate Chris, who’s ran a few marathons before and is a bit more knowledgeable than me about important thing like starting pace (thankfully!). I’m going to have to get one of those fancy watches that tell you your average speed, if I’m going to run another marathon I recon (Ok I like gadgets!)
+
 ## Photographs
 
 ### The Start
