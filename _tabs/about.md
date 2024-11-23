@@ -50,7 +50,7 @@ I also have an interest in Smart Lighting and Smart Heating using a mobile appli
 
 I’ve got a pretty eclectic taste: 80’s Alternative, Goth, Metal to The Smiths, NIN, The Ramones, Bauhaus, Portishead, [Attrition UK](https://attritionuk.bandcamp.com/) to name but a few. I've played bass guitar in various bands when I was younger and still enjoy playing now and again, either on my own, or jamming with friends.
 
-This year, I've decided to spend more time seeing live bands with some of my mates, as I was really enjoy it, my good friend Danny has recently started a blog about his gigging exploits [here](https://www.gig-antics.live). He also asked me to write a wee paragraph about some of my gig antics from back in the day, you can read all about it [here](https://www.gig-antics.live/post/introducing-peni-goth-bill), it includes a photo of a much younger me, playing bass guitar  and having a cigarette (thankfully I don’t smoke now).
+This year, I've decided to spend more time seeing live bands with some of my mates, as I was really enjoy it, my good friend Danny has recently started a blog about his gigging exploits [here](https://www.gig-antics.live). He also asked me to write a wee paragraph about some of my gig antics from back in the day, you can read all about it [here](https://www.gig-antics.live/post/introducing-peni-goth-bill) includes is a photo of a much younger me, playing bass guitar  and having a cigarette (thankfully I don’t smoke now).
 
 My current favourites band at the moment are [Amyl and the Sniffers](https://www.amylandthesniffers.com/), feel free to check them out on Youtube if you have the time.
 
