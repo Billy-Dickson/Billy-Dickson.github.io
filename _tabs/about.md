@@ -6,7 +6,11 @@ order: 5
 
 # Occupation
 
-I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it. Would I recommend working in the IT in Academia as of 2022 or after probably not. These days, it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond"? Lips service is paid to "Work-Life Balance" and "Mental Health" and after talking to some of my old work collegues over a couple of beers, it doesn't seem to have improved any in the intervening 2 years. I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
+I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it.
+
+Would I recommend working in the IT in Academia as of 2022 or after probably not. These days, it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond"? Lips service is paid to "Work-Life Balance" and "Mental Health" and after talking to some of my old work collegues over a couple of beers, it doesn't seem to have improved any in the intervening 2 years.
+
+I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
 ## Likes
 
