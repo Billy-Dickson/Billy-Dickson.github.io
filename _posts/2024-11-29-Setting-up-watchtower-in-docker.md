@@ -68,3 +68,4 @@ Below is an example of the email that's sent when an image is updated.
 
 * Installing watchtower on a [Digital Ocean Instance](https://www.digitalocean.com/community/tutorials/how-to-automatically-update-docker-container-images-with-watchtower-on-ubuntu-22-04)
 * The [watchtower](https://github.com/containrrr/watchtower) github page
+* Watchtower [Documentation](https://containrrr.dev/watchtower/)
