@@ -13,7 +13,9 @@ Prior to installing Zigbee2MQTT on Home Assistant, you will need to install a Mo
 
 * A working Mosiquitto Broker installation, see [link](https://thebloody.cloud/posts/Installing-Mosquitto-Broker/) for installation instructions if needed.
 * Website to purchase the [SLBZ-06 POE powered Zigbee Coordinator](https://smlight.tech/product/slzb-06/)
-![SLBZ-06 Zigbee Coordinator](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/SLBZ-06_Zigbee_Network_Dongle.jpg)
+![SLBZ-06 Zigbee Coordinator](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/SLBZ-06_Zigbee_Network_Dongle.webp)_In the box_
+
+![Cupboard under the stairs](../assets/img/posts/2024/2024-07-14-Installing-Zigbee2MQTT/slzb-06_dongle.webp)_Fitted under the stairs_
 
 ## Instructions
 

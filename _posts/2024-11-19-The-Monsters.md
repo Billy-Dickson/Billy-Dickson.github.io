@@ -11,6 +11,8 @@ Finished work at five and popped down to [City Cafe](https://www.thecitycafe.co.
 
 Who doesn't love noisy fuzzy guitar with a good backbeat, both bands reminded me of older proto-punk/rockabilly bands I’ve seen back in the day, anyway, I hope to see them when they happen to be near my neck of the woods in the future.
 
+Do take the time to read Danny's excellent post on The Monsters [here](https://www.gig-antics.live/post/the-monsters-cabaret-voltaire-edinburgh-19-11-24), it's a lot more entertaining that my ramblings. 😃
+
 Bucky Rage Bandcamp Bio.
 
 > Formed in 2005, The Bucky Rage have been playing their wrestling rock n roll all over the UK ever since.
