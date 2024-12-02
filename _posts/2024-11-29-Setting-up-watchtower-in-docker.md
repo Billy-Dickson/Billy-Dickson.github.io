@@ -18,13 +18,13 @@ Watchtower will pull down your new image, gracefully shut down your existing con
 
 Watchtower is intended to be used in homelabs, media centers, local dev environments, and similar. Don’t use Watchtower in a commercial or production environment. If that is you, you should be looking into using Kubernetes. If that feels like too big a step for you, please look into solutions like MicroK8s and k3s that take away a lot of the toil of running a Kubernetes cluster.
 
-![App Password](../assets/img/posts/2024/2024-11-29-Setting-up-watchtower-in-docker/app_password.webp)
-
 ## Installation
 
 See my yaml code below, all of my docker containers reside on a self contained network called **black hole** and are checked for updates at 1:00  every night, when they are updated an email is sent through an old gmail account to my email proper.
 
 The only thing I had to do, was to create an app password for the watchtower email client, you can do this by following the instructions in the this [link](https://support.google.com/accounts/answer/185833?hl=en)
+
+![App Password](../assets/img/posts/2024/2024-11-29-Setting-up-watchtower-in-docker/app_password.webp)
 
 ```yaml
 services:
