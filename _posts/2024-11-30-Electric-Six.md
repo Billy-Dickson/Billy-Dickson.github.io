@@ -11,9 +11,9 @@ What can I say about this gig, well apart from it was unexpectedly awsome, never
 
 Venue - [The Queens Hall](https://thequeenshall.net)
 
-As [Danny (Gig-Antics)](https://www.gig-antics.live/) and me mentioned on the night, everybody loves Dick 😉 (Valentine) on vocals, doing a grand job, as you can see below.
+As [Danny (Gig-Antics)](https://www.gig-antics.live/) and me mentioned on the night, everybody loves Dick  (Valentine) on vocals, doing a grand job, as you can see below.
 
-{% include embed/youtube.html id='R-FxmoVM7X4' %}
+{% include embed/youtube.html id='IslF_EyhMzg' %}
 
 ## Wikipedia
 
