@@ -7,11 +7,11 @@ order: 4
 
 # Personal Statement
 
-I’m a self-motivated, adaptable, responsible IT professional, with a broad range of IT skills garnered by over 26 years experience in the field. During this time, I’ve worked as the sole IT professional responsible for a department’s IT needs, as well as being a senior member of a large IT team.
+I’m a self-motivated, adaptable, responsible IT professional, with a broad range of IT skills garnered from over 26 years experience in the field. During this time, I’ve worked as the sole IT professional responsible for a department’s IT needs, as well as being a senior member of a large IT team.
 
 I enjoy learning new IT disciplines and skills and sharing what I've learned with my peers and work colleagues.
 
-I'm not looking for work at the moment, but a full work history with references are availble if that changes.
+I'm not looking for work at the moment, but a full work history with references are available if that changes.
 
 ## Technical Skills
 
