@@ -8,17 +8,17 @@ order: 5
 
 I've worked in the Information Technology field for many years, 25 years of which at [Edinburgh Napier University](https://www.napier.ac.uk). If you buy me a coffee, and I'll happily tell you all about it.
 
-Would I recommend working in the IT in Academia as of 2022 or after probably not. These days, it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond"? Lips service is paid to "Work-Life Balance" and "Mental Health" and after talking to some of my old work collegues over a couple of beers, it doesn't seem to have improved any in the intervening 2 years.
+Would I recommend working in the IT in Academia as of 2024 or after probably not. These days, it seems to be about "Sweating your assets", "Working Smarter", "Above and Beyond"? Lips service is paid to "Work-Life Balance" and "Mental Health" and after talking to some of my old work collegues over a couple of beers, it doesn't seem to have improved any in the intervening 2 years.
 
 I started my new job this year on 7th March 2022, It was definitely time for me to move on, and I'm glad I did.
 
 ## Likes
 
-Spending time with friends and socializing, playing pool, traveling and holidays, Keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, Chinese, Thai, Indian and Italian food.
+Spending time with friends and socializing, playing pool, travelling and holidays, Keeping fit and going to the gym, tinkering about with new technology. I also enjoy reading, Chinese, Thai, Indian and Italian food.
 
 ### Running and Fitness
 
-I started running in 2004 after I stopped smoking. My first full marathon was September 2005. I have since run 13 Marathons (one was canceled), numerous Half Marathons and 10K races. I've been a qualified Scottish Athletics [Jogscotland Leader](https://sauser.sportserve.net/pages/home.aspx) since 8th September 2018, and I've really enjoyed helping novice runners reach their full potential, whatever distance they decide to run, feel free to follow me on Strava, button below.
+I started running in 2004 after I stopped smoking. My first full marathon was September 2005. I have since run 13 Marathons (one was cancelled), numerous Half Marathons and 10K races. I've been a qualified Scottish Athletics [JogScotland Leader](https://sauser.sportserve.net/pages/home.aspx) since 8th September 2018, and I've really enjoyed helping novice runners reach their full potential, whatever distance they decide to run, feel free to follow me on Strava, button below.
 
 <a style="display:inline-block;background-color:#FC5200;color:#fff;padding:5px 10px 5px 30px;font-size:11px;font-family:Helvetica, Arial, sans-serif;white-space:nowrap;text-decoration:none;background-repeat:no-repeat;background-position:10px center;border-radius:3px;background-image:url('https://badges.strava.com/logo-strava-echelon.png')" href='https://strava.com/athletes/9589963' target="clean">Follow me</a>
 
