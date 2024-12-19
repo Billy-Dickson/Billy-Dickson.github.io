@@ -38,6 +38,8 @@ I have a good working knowledge of the following technologies
 
 ## Educations Details
 
+* 2024&emsp;Linkedin Learning               Microsoft Teams Essential Training
+* 2024&emsp;Linkedin Learning               How to Use Linkedin Learning
 * 2018&emsp;Audinate                        Dante Certification Level 2  
 * 2018&emsp;Kramer Electronics              Kramer Control System Design  
 * 2016&emsp;Apple Certified Associate       Mac Integration 10.11  
