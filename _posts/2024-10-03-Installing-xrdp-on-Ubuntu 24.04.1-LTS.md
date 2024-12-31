@@ -62,6 +62,10 @@ nano .xsessionrc
 
 #### Add the following text
 
+```bash
+echo gnome-session > ~/.xsession
+```
+
 ```plaintext
 export GNOME_SHELL_SESSION_MODE=ubuntu
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
@@ -281,3 +285,4 @@ crypt_level=medium
 - Proxmox [qemu guest agent](https://pve.proxmox.com/wiki/Qemu-guest-agent)
 - Low network performance while accessing [xrdp server](https://www.suse.com/support/kb/doc/?id=000021159)
 - XRDP is quite slow [Ask Ubuntu](https://askubuntu.com/questions/1323601/xrdp-is-quite-slow)
+- CrownCrowd Wiki - How to install and configure [XRDP on Gnome](https://wiki.crowncloud.net/?How_to_Install_and_Configure_XRDP_with_GNOME_or_LXDE_on_Ubuntu_24_04)
