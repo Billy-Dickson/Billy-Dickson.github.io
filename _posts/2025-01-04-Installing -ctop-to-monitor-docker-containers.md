@@ -8,6 +8,10 @@ image: ../assets/img/posts/2025/2025-01-04-Installing-CTOP-Docker-Container/scre
 
 ctop is a free open source, simple and cross-platform top-like command-line tool for monitoring container metrics in real-time. It allows you to get an overview of metrics concerning CPU, memory, network, I/O for multiple containers and also supports inspection of a specific container.
 
+The only concern that I have, is that the software hasn't been updated in a while, but saying that, it works well and does what it says on the the tin. If you have concerns about installing a binary, then do feel free to look over the source code prior to compiling and installing it yourself.
+
+Instructions for doing so are [here](https://github.com/bcicen/ctop/). 😃
+
 ## Download and Install
 
 Download the ctop binary for Linux from the GitHub release page
@@ -30,7 +34,7 @@ ctop -v
 
 ![ctop version](../assets/img/posts/2025/2025-01-04-Installing-CTOP-Docker-Container/ctop_version.webp)
 
-You can also check manually, goto the directory
+You can also check manually, going to the install directory
 
 ```bash
 cd /usr/local/bin/
@@ -55,7 +59,7 @@ sudo rm /usr/local/bin/ctop
 
 ## Using ctop
 
-ctop is a command-line tool that runs in your terminal. When you start ctop, you'll see a live view of your Docker containers with their resource utilization metrics. You can sort the containers by various criteria, such as CPU usage, memory usage, network traffic, and more. The only concern that I have, is that the software hasn't been updated in a while, but saying that, it works well and does what it says on the the tin.
+ctop is a command-line tool that runs in your terminal. When you start ctop, you'll see a live view of your Docker containers with their resource utilization metrics. You can sort the containers by various criteria, such as CPU usage, memory usage, network traffic, and more.
 
 Here's an example of running ctop with the default setting
 
