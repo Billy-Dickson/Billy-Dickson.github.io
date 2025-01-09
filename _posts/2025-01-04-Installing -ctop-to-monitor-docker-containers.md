@@ -12,6 +12,16 @@ The only concern that I have, is that the software hasn't been updated in a whil
 
 Instructions for doing so are [here](https://github.com/bcicen/ctop/). 😃
 
+If you just want to see the stats and don't intend to use the rest of the functionality, you can of course use the folllowing command.
+
+```bash
+docker stats
+```
+
+![docker stats](../assets/img/posts/2025/2025-01-04-Installing-CTOP-Docker-Container/docker_stats.webp)
+
+Use the ctrl + c to exit
+
 ## Download and Install
 
 Download the ctop binary for Linux from the GitHub release page
