@@ -234,7 +234,7 @@ sudo nano /etc/xrdp/xrdp.ini
 Locate the line that reads "tcp_send_buffer_bytes", remove the comment character ("#") and increase the size
 
 ```plaintext
-tcp_send_buffer_bytes=4194304
+tcp_send_buffer_bytes=8388608
 ```
 
 Restart the service
@@ -247,12 +247,12 @@ sudo systemctl restart xrdp
 
 Change the current network buffer size to a larger value with the following command
 
-sysctl -w net.core.wmem_max=8388608
+sysctl -w net.core.wmem_max=16777216
 
 Create a new file /etc/sysctl.d/xrdp.conf with the following content
 
 ```bash
-net.core.wmem_max = 8388608
+net.core.wmem_max = 16777216
 ```
 
 This will ensure that the value is properly set between reboots.
