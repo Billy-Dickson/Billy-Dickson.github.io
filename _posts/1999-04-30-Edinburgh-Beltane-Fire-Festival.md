@@ -15,7 +15,7 @@ Anyway, here are some photos of the night.
 
 ![Bonfire](../assets/img/posts/1999/1999-04-30-Edinburgh-Beltane-Fire-Festival/photo01_jpg.webp)_Bonfire_
 
-![Mark and Friend](../assets/img/posts/1999/1999-04-30-Edinburgh-Beltane-Fire-Festival/photo03_jpg.webp)_Mark and Friend_
+![Mark and Paul](../assets/img/posts/1999/1999-04-30-Edinburgh-Beltane-Fire-Festival/photo03_jpg.webp)_Mark and Paul_
 
 ![Gathering for the start](../assets/img/posts/1999/1999-04-30-Edinburgh-Beltane-Fire-Festival/photo04_jpg.webp)_Gathering for the start_
 
