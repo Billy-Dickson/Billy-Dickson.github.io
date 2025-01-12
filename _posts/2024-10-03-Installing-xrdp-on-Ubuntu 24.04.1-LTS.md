@@ -56,15 +56,13 @@ sudo usermod -a -G ssl-cert xrdp
 
 #### Setup Ubuntu Gnome Looks and Feel
 
+At the prompt type
+
 ```plaintext
 nano .xsessionrc
 ```
 
-#### Add the following text
-
-```bash
-echo gnome-session > ~/.xsession
-```
+Copy and past the following.
 
 ```plaintext
 export GNOME_SHELL_SESSION_MODE=ubuntu
