@@ -11,7 +11,7 @@ We have a small garage at home with an old tilt garage door installed, all the r
 
 A few months ago my better looking half mentioned that when it's dark and she need to get into the garage, it's a bit of a nightmare finding the light switch to turn the garage light on when it's dark. So I had a think about it, and decided that if I could find a piece of of hardware that could communicate with my [HomeAssistant Yellow](https://www.home-assistant.io/yellow/) and turn the garage lights on automatically.
 
-After trawling the [Home Assistant forums](https://community.home-assistant.io/) for a while, I cam across the company [3rd Reality](https://3reality.com/product/smart-garage-door-tilt-sensor/) who manufacture a zigbee tilt sensor.
+After trawling the [Home Assistant forums](https://community.home-assistant.io/) for a while, I came across the company [3rd Reality](https://3reality.com/product/smart-garage-door-tilt-sensor/) who manufacture a zigbee tilt sensor.
 
 ## The Tilt Sensor
 
