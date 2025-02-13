@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.11">
+  <diagram name="Page-1" id="f3k4mddRlcjQ1DhOrY2H">
+    <mxGraphModel dx="1142" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D_5OKcWeqiKeQflcuAI--1" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="520" y="80" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D_5OKcWeqiKeQflcuAI--2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
+          <mxGeometry x="150" y="90" width="158.54" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D_5OKcWeqiKeQflcuAI--5" value="Host&lt;br&gt;192.168.20.10/24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="168.9" y="250" width="120.73" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D_5OKcWeqiKeQflcuAI--6" value="&lt;p&gt;TrueNAS Scale&lt;br&gt;192.168.20.25/24&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacing=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="545" y="240" width="125" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D_5OKcWeqiKeQflcuAI--7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=-0.012;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" target="D_5OKcWeqiKeQflcuAI--1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="150" as="sourcePoint" />
+            <mxPoint x="510" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_5OKcWeqiKeQflcuAI--8" value="NFS Share" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="330" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
