@@ -6,7 +6,7 @@ tags: [homelab, docker]     # TAG names should always be lowercase
 image: ../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/header.webp
 ---
 
-Calibre Ebook Manager is a versatile, free tool for managing, converting and reading e-books. With Calibre you can organize your e-book collection, convert books into different formats, edit metadata and transfer e-books to different reading devices. In addition to the Calibre desktop program, there is also a web interface, Calibre Web, which can be used to access the Calibre database.
+Calibre Ebook Manager is a versatile free tool for managing, converting and reading e-books. With Calibre you can organize your e-book collection, convert books into different formats, edit metadata and transfer e-books to different reading devices. In addition to the Calibre desktop program, there is also a web interface, Calibre Web, which can be used to access the Calibre database.
 
 ## Hardware Setup
 
@@ -82,7 +82,7 @@ docker exec -it calibre-web /bin/bash -c "cd /app/calibre/bin/ && mkdir /books/.
 
 ![Fix Error Message](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/Fixed_Error_Message.webp)
 
-I intend to download the what ebooks I own to calibre manually, as I might have to convert them first. But to do that, you need to enable downloading globally, followed by downloading per user.
+I intend to download the ebooks I own to calibre manually, as I might have to convert them first. But to do that, you need to enable downloading globally, followed by downloading per user.
 
 To do that, login in as admin, and select admin, scroll down until you see *Edit Basic Configuration*
 
@@ -97,9 +97,9 @@ Select *Feature Configuration* then tick *Enable Download*, scroll down to the b
 1. Change the admin login, name and email address, then change the password to something with at least 12 characters.
 2. Don't expose Calibre Web to the internet, unless it's behind something like a cloudflare tunnel with at the minimum, email 2FA enabled and tested.
 
-Tom Lawrence does a really good youtube video on it [here](https://www.youtube.com/watch?v=eojWaJQvqiw)
+Tom Lawrence does a really good youtube video on setting up Cloudflare Tunnels for your homelab blow.
 
-{% include embed/youtube.html id='WaJQvqiw' %}
+{% include embed/youtube.html id='eojWaJQvqiw' %}
 
 ## Reference
 
