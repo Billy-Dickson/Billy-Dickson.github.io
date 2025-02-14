@@ -97,7 +97,7 @@ Select *Feature Configuration* then tick *Enable Download*, scroll down to the b
 1. Change the admin login, name and email address, then change the password to something with at least 12 characters.
 2. Don't expose Calibre Web to the internet, unless it's behind something like a cloudflare tunnel with at the minimum, email 2FA enabled and tested.
 
-Tom Lawrence does a really good youtube video on setting up Cloudflare Tunnels for your homelab blow.
+Tom Lawrence does a really good youtube video on setting up Cloudflare Tunnels for your homelab below.
 
 {% include embed/youtube.html id='eojWaJQvqiw' %}
 
