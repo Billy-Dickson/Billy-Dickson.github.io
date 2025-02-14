@@ -57,6 +57,10 @@ networks:
       external: true
 ```
 
+TrueNAS Scale NFS Share setup below
+
+![NFS Share](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/NFS_Share.webp)
+
 ## Configure Calibre
 
 To access the Calibre web interface, we enter the IP address of the server / host followed by the port defined in the Docker-Compose file: 8083
@@ -97,7 +101,7 @@ Select *Feature Configuration* then tick *Enable Download*, scroll down to the b
 1. Change the admin login, name and email address, then change the password to something with at least 12 characters.
 2. Don't expose Calibre Web to the internet, unless it's behind something like a cloudflare tunnel with at the minimum, email 2FA enabled and tested.
 
-Tom Lawrencehas a really good youtube video on how to setup a Cloudflare Tunnels for your homelab, see below.
+Tom Lawrence has a really good youtube video on how to setup a Cloudflare Tunnels for your homelab, see below.
 
 {% include embed/youtube.html id='eojWaJQvqiw' %}
 
