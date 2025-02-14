@@ -62,7 +62,7 @@ networks:
 To access the Calibre web interface, we enter the IP address of the server / host followed by the port defined in the Docker-Compose file: 8083
 
 ```text
-http://ip-adress:8083
+http://ip-address:8083
 ````
 
 Then the login page of Calibre-Web appears where we can log in using the following standard login data:
@@ -82,7 +82,7 @@ docker exec -it calibre-web /bin/bash -c "cd /app/calibre/bin/ && mkdir /books/.
 
 ![Fix Error Message](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/Fixed_Error_Message.webp)
 
-I intend to download the ebooks I own to calibre manually, as I might have to convert them first. But to do that, you need to enable downloading globally, followed by downloading per user.
+I intend to download the ebooks I own to calibre, as I might have to convert them first. But to do that, you need to enable downloading globally, followed by downloading per user.
 
 To do that, login in as admin, and select admin, scroll down until you see *Edit Basic Configuration*
 
