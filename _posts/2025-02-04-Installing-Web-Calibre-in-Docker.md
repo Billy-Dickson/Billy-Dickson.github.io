@@ -17,7 +17,7 @@ I'm running Docker on a Debian Linux Virtual Machine
 ## Prerequisite
 
 1. A running [docker host](https://thebloody.cloud/posts/Debian-Host-On-Proxmox/) on either bare metal or in a [Virtual Environment](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/).
-2. I'm saving my ebooks and database on a [TrueNAS Core Home Server](https://thebloody.cloud/posts/Current-Home-Server/) for ease of offsite backup, but there's nothing to stop you saving them on a docker volume instead of a NFS volume. You will have to change the volume mounting options accordingly.
+2. I'm saving my ebooks and database on a [TrueNAS Scale Home Server](https://thebloody.cloud/posts/Current-Home-Server/) for ease of offsite backup, but there's nothing to stop you saving them on a docker volume instead of a NFS volume. You will have to change the volume mounting options accordingly.
 
 ## Docker Setup
 
@@ -62,7 +62,7 @@ networks:
 To access the Calibre web interface, we enter the IP address of the server / host followed by the port defined in the Docker-Compose file: 8083
 
 ```text
-http://Ip-adress:8083
+http://ip-adress:8083
 ````
 
 Then the login page of Calibre-Web appears where we can log in using the following standard login data:
@@ -97,7 +97,7 @@ Select *Feature Configuration* then tick *Enable Download*, scroll down to the b
 1. Change the admin login, name and email address, then change the password to something with at least 12 characters.
 2. Don't expose Calibre Web to the internet, unless it's behind something like a cloudflare tunnel with at the minimum, email 2FA enabled and tested.
 
-Tom Lawrence does a really good youtube video on setting up Cloudflare Tunnels for your homelab below.
+Tom Lawrencehas a really good youtube video on how to setup a Cloudflare Tunnels for your homelab, see below.
 
 {% include embed/youtube.html id='eojWaJQvqiw' %}
 
