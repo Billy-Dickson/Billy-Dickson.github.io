@@ -96,6 +96,22 @@ Select *Feature Configuration* then tick *Enable Download*, scroll down to the b
 
 ![Enabling Downloads Globally](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/Enable_Downloads.webp)
 
+## Nginx Proxy Manager Settings
+
+I run [Nginx Proxy Manager](https://nginxproxymanager.com/) internally on my home network and it works great, doing so means that I don't have to deal with self signed certificates when I browse internal. Below are the setting that I use for calibre-web.
+
+Advanced settings
+
+![Nginx Proxy Manager](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/nginx-proxy-manager.webp)
+
+```text
+proxy_buffer_size 128k;
+proxy_buffers 4 256k;
+proxy_busy_buffers_size 256k;
+```
+
+![Nginx Proxy Manager Advanced](../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/nginx-proxy-manager-advanced.webp)
+
 ## Security Considerations
 
 1. Change the admin login, name and email address, then change the password to something with at least 12 characters.
@@ -110,3 +126,4 @@ Tom Lawrence has a really good youtube video on how to setup a Cloudflare Tunnel
 * [Proxmox](https://www.proxmox.com/en/) - Open Source Virtual Environment
 * [Debian Linux](https://www.debian.org/) - Open Source Operating System
 * [Cybertalk.io](https://cybertalk.io/en/calibre-web-a-practical-front-end-for-ebook-management/) - Calibre web, a practical front-end for eBook management
+* Nginx Reverse Proxy setting for [Calibre Web](https://github.com/janeczku/calibre-web/wiki/Setup-Reverse-Proxy)
