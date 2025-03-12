@@ -7,7 +7,11 @@ image:
    path: ../assets/img/posts/2025/2025-03-08-The-Rezillos/Header_The_Rezillos.webp
 ---
 
-We all decided to meet up at Bannermans (Mark, Gavin, Vince and David) for a pre gig drink, after myself and Russel did usual the Domino's pizza thing at his gaff. After a wee chat we decided to see the support band, which sometimes we don't always do they were an edinburgh band called The Filthy Tongues, not my usual thing, but I did quite enjoy them.
+As is our want, we decided to meet Mark, Gavin, Vince and David at [Bannermans](https://www.bannermanslive.co.uk/) for a pre gig drink, after myself and Rus did usual Domino's pizza thing at his gaff.
+
+After a wee chat we decided to see the support band, which sometimes we don't always do.
+
+ They were an edinburgh band called The Filthy Tongues, not my usual thing, but I did quite enjoy them.
 
 The Filthy Tongues Bio
 
