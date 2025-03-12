@@ -31,7 +31,6 @@ Venue - [La Belle Angel](https://la-belleangele.com/)
 
 ## References
 
-* The [Filthy Tongues](http://www.filthytongues.com/) Website
 * The [Filthy Tongues](https://en.wikipedia.org/wiki/The_Filthy_Tongues) Wikipedia
 * Mark - [Peni Goth Mark](https://www.gig-antics.live/post/introducing-penigoth-mark)
 * The [Rezillos](https://rezillos.rocks/) Website
