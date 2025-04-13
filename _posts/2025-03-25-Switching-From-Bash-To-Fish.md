@@ -137,6 +137,12 @@ Add a path to the gems folder
 fish_add_path -m ~/gems/bin
 ```
 
+Removing the quote from a directory listing with spaces.
+
+```bash
+set -Ux QUOTING_STYLE "literal"
+```
+
 If you want to see all your universal variables, you can check the ~/.config/fish/fish_variables file.
 
 ## References
