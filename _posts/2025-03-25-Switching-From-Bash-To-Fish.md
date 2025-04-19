@@ -119,9 +119,11 @@ If this is the one your going with then you would save the configuration.
 fish_config prompt save
 ```
 
-## Adding Paths and a Variables for Jekyll
+## Adding paths and variables
 
 This is a reminder to myself that might be helpful to others who develop websites using [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/).
+
+Adding GEMS_HOME variable to so that [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/) know where the Gem files are stored, see link above for more details.
 
 Open a terminal
 
