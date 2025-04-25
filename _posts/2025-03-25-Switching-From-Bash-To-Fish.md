@@ -139,6 +139,12 @@ Add a path to the gems folder
 fish_add_path -m ~/gems/bin
 ```
 
+Adding a path to the sbin folder, which I've noticed appears to be missing under fish.
+
+```bash
+fish_add_path -m /usr/sbin
+```
+
 Removing the quote from a directory listing with spaces.
 
 ```bash
