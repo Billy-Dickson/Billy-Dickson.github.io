@@ -12,8 +12,7 @@ Mark and myself volunteered to help out the day before our event, our obstacles 
 There was of course a money off voucher at the end off  the day, which was nice.
 
 Venue:
-Dalkeith Country Estate  
-Dalkeith Country Estate  
+Dalkeith Country Estate
 Edinburgh, United Kingdom - [View Map](https://maps.app.goo.gl/PMxbQ6LeJ1va18aR7)
 
 ## Before the event
