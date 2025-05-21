@@ -21,7 +21,7 @@ Edinburgh, United Kingdom - [View Map](https://maps.app.goo.gl/PMxbQ6LeJ1va18aR7
 
 ![Billy Dickson](../assets/img/posts/2014/2014-06-15-Tough-Mudder/Volunteer_Billy.webp)_Volunteer Billy_
 
-## Official video
+## Official Video
 
 {% include embed/youtube.html id='dauQwlqDo_E' %}
 
