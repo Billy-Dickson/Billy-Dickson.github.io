@@ -23,4 +23,7 @@ As this run is pre Garmin Gonnect and Strava, I've no stats to show, instead I'v
 
 ## Reference
 
-Pitreavie [AAC Website](https://pitreavie-aac.co.uk/)
+* RunABC [Website](https://runabc.co.uk/forth-bridge-10k-august)
+* Pitreavie AAC [Website](https://www.pitreavie-aac.co.uk/)
+* Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) page
+* Perfecttiming [Website](https://perfecttimingscotland.co.uk)

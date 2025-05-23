@@ -37,4 +37,5 @@ We did quite well considering there were 307 runners on the day, quite a few of 
 
 * RunABC [Website](https://runabc.co.uk/forth-bridge-10k-august)
 * Pitreavie AAC [Website](https://www.pitreavie-aac.co.uk/)
-* Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) pag
+* Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) page
+* Perfecttiming [Website](https://perfecttimingscotland.co.uk)
