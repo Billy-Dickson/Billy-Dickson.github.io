@@ -5,7 +5,7 @@ icon: fas fa-graduation-cap
 order: 4
 ---
 
-# Personal Statement
+## Personal Statement
 
 I’m a self-motivated, adaptable, responsible IT professional, with a broad range of IT skills garnered from over 26 years experience in the field. During this time, I’ve worked as the sole IT professional responsible for a department’s IT needs, as well as being a senior member of a large IT team.
 
