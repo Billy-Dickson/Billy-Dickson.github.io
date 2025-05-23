@@ -1,7 +1,7 @@
 ---
 title: Using ffmpeg to convert video formats
 date: 2025-04-08
-categories: [Home, Linux, Debian]
+categories: [Homelab, Linux, Debian]
 tags: [homelab, linux, debian]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2025/2025-04-09-Converting-HEVC-to-MP4/header.webp

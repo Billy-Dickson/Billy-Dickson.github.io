@@ -1,7 +1,7 @@
 ---
 title: Moving from bash shell to fish shell
 date: 2025-03-16
-categories: [Home, Linux, Debian]
+categories: [Homelab, Linux, Debian]
 tags: [homelab, linux, debian]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2025/2025-03-25-Switching-From-Bash-To-Fish/header.webp
