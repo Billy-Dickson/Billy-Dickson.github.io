@@ -4,29 +4,44 @@
   icon: "fab fa-github"
   url: "https://github.com/Billy-Dickson"
 
-# - type: twitter
-#   icon: "fa-brands fa-x-twitter"
-#   url:  "https://twitter.com/BillyDickson4"
-#
-# - type: email
-#   icon: "fas fa-envelope"
-#   noblank: true # open link in current tab
-#   url: # "billy@example.com"
+- type: bluesky
+  icon: 'fa-brands fa-bluesky'
+  url: 'https://weesht.bsky.social'                   # Fill with your Bluesky profile link
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/billydickson'   # Fill with your Linkedin homepage
-  
+  url:  'https://www.linkedin.com/in/billydickson'                  # Fill with your Linkedin homepage
+
+# - type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  'https://mastodon.scot/@bill_dickson'   # Fill with your Mastodon account page, rel="me" will be applied for verification
+
 - type: rss
-  icon: 'fas fa-rss'
+  icon: "fas fa-rss"
   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
-#  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#  url:  'https://mastodon.scot/@bill_dickson'   # Fill with your Mastodon account page, rel="me" will be applied for verification
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#
+# - type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+#
+# - type: bluesky
+#   icon: 'fa-brands fa-bluesky'
+#   url: ''                   # Fill with your Bluesky profile link
+#
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''                   # Fill with your Reddit profile link
+#
+# - type: threads
+#   icon: 'fa-brands fa-threads'
+#   url: ''                   # Fill with your Threads profile link
