@@ -15,6 +15,8 @@ This was my 5th Edinburgh Marathon and I really did enjoy it, the only fly in th
 
 ## The Start
 
+Thanks for the video Chris!
+
 {% include embed/youtube.html id='T0iceUI3zVY' %}
 
 ## Event Photos
