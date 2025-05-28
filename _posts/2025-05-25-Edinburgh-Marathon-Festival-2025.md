@@ -7,7 +7,9 @@ image:
    path: ../assets/img/posts/2025/2025-05-25-Edinburgh-Marathon-Festival-2025/Header.webp
 ---
 
-The original plan was to support number on niece on her first marathon, she was running her first marathon to raise money for [Maggie’s Centres](https://www.maggies.org/our-centres/). No real plan or finishing time planned, just a wee trot round at a fairly easy pace while supporting her and her friends (as it was, she smashed it as me and sis expected). I ended up running with one her friends who was struggling a bit at mile 16 with cramp, so I slowed down and ran with her for a 5-6 miles. She perked up at mile 21 and assured me that all was good, so I hoofed it to the finish line in the hope of catching up with number one niece.
+The original plan was to support number on niece on her first marathon, she was running her first marathon to raise money for [Maggie’s Centres](https://www.maggies.org/our-centres/). No real plan or finishing time planned, just a wee trot round at a fairly easy pace while supporting her and her friends (as it was, she smashed it as me and sis expected).
+
+I ended up running with one her friends who was struggling a bit at mile 16 with cramp, so I slowed down and ran with her for a 5-6 miles. She perked up at mile 21 and assured me that all was good, so I hoofed it to the finish line in the hope of catching up with number one niece.
 
 As they say in Scotland “The best-laid schemes o' mice an' men Gang aft agley” – [Robert Burns - To a Mouse](https://en.wikipedia.org/wiki/To_a_Mouse) -  1785
 
