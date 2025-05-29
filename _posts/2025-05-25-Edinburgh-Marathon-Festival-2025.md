@@ -11,7 +11,7 @@ The original plan was to support number one niece on her first marathon, she was
 
 I ended up running with one her friends who was struggling a wee bit at mile 16 with cramp, so I slowed down and ran with her for a 5-6 miles. She perked up at mile 21 and assured me that all was good, so I hoofed it to the finish line in the hope of catching up with number one niece, no such luck, but I caught up later to swap stories and have a well deserved family lunch with Sister.
 
-As they say in Scotland “The best-laid schemes o' mice an' men Gang aft agley” – [Robert Burns - To a Mouse](https://en.wikipedia.org/wiki/To_a_Mouse) -  1785
+As they say in Scotland “The best-laid schemes o' mice an' men Gang aft agley” – [Robert Burns - To a Mouse](https://en.wikipedia.org/wiki/To_a_Mouse)
 
 This was my 5th Edinburgh Marathon and I really did enjoy it, the only fly in the ointment was the mental weather, we had sunshine, rain, hailstones and horrendous wind and different point in the race.
 
