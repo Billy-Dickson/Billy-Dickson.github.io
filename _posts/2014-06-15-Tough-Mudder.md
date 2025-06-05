@@ -1,8 +1,8 @@
 ---
 title: Tough Mudder 2014
 date: 2014-06-15
-categories: [Running, Half Marathon]
-tags: [running, half marathon, tough mudder]     # TAG names should always be lowercase
+categories: [Running, Half Marathons]
+tags: [running, half marathons, tough mudder]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2014/2014-06-15-Tough-Mudder/header.webp
 ---
