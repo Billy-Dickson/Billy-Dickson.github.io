@@ -37,12 +37,12 @@ networks:
    blackhole:
     name: blackhole
     external: true
-    ```
+```
 
 #### Network Configuration
 
 - **Network Name**: `blackhole`
-- **External**: `true`  
+- **External**: `true`
   This indicates that the network is not created by this Docker Compose file but is an existing external network.
 
 #### Ports Configuration
