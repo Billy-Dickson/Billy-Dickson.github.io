@@ -19,9 +19,8 @@ This Docker Compose configuration defines a service named `it-tools` that uses t
 #### Docker Compose File
 
 ```bash
-#
 # Filename docker-compose.yml
-#
+
 services:
   it-tools:
     image: corentinth/it-tools
