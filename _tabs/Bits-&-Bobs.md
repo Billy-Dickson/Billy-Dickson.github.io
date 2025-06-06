@@ -37,7 +37,7 @@ networks:
    blackhole:
     name: blackhole
     external: true
-```
+    ```
 
 #### Network Configuration
 
