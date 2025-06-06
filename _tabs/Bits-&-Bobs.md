@@ -20,7 +20,8 @@ This Docker Compose configuration defines a service named `it-tools` that uses t
 
 #### Docker Compose File
 
-```yaml
+```text
+#
 # Filename docker-compose.yml
 #
 services:
