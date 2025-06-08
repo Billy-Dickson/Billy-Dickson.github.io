@@ -22,7 +22,7 @@ Watchtower is intended to be used in homelabs, media centers, local dev environm
 
 See my yaml code below, all of my docker containers reside on a self contained network called **black hole** and are checked for updates at 1:00  every night, when they are updated an email is sent through an old gmail account to my email proper.
 
-The only thing I had to do, was to create an app password for the watchtower email client, you can do this by following the instructions in the this [link](https://support.google.com/accounts/answer/185833?hl=en)
+The only thing I had to do, was to create an app password for the watchtower email client, you can do this by following the instructions in the this [link here](https://support.google.com/accounts/answer/185833?hl=en)
 
 ![App Password](../assets/img/posts/2024/2024-11-29-Setting-up-watchtower-in-docker/app_password.webp)
 

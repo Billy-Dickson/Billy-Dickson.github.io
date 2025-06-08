@@ -7,7 +7,7 @@ image:
    path: ../assets/img/posts/2025/2025-03-25-Switching-From-Bash-To-Fish/header.webp
 ---
 
-I've been using bash since I started using Linux at home, and occasionally at work for over 20 years and it's been great, until I moved to fish and found out what I've been missing. There's a great explainer [here](https://www.freecodecamp.org/news/linux-shells-explained/) at freecode camp.
+I've been using bash since I started using Linux at home, and occasionally at work for over 20 years and it's been great, until I moved to fish and found out what I've been missing. There's a great explainer [link here](https://www.freecodecamp.org/news/linux-shells-explained/) at freecode camp.
 
 ## What is bash shell
 
