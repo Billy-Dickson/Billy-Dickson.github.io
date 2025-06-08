@@ -15,15 +15,15 @@ On a separate note, it was really nice to bump into my old mate Lara and her par
 
 Venue - [The Bongo Club](https://www.thebongoclub.co.uk/)
 
-### Death Valley Girls
+## Death Valley Girls
 
 > For the better part of a decade, LA’s scrappy rock n’ roll mystics Death Valley Girls have used their music as a means of tapping into a communal cosmic energy. On albums like Glow In The Dark (2016), Darkness Rains (2018), and Under the Spell of Joy (2020) the band challenged the soul-crushing banality of modern society and celebrated “true magical infinite potential” through a collage of scorching proto-punk riffs, earworm melodies, far-out lyrics, and lysergic auxiliary instrumentation.
 
-### Bella and the Bizarre
+## Bella and the Bizarre
 
 > Berlin-based Bella and the Bizarre are a wild fusion of garage punk, sixties rock n roll and a touch of RnB soul, with its own gentle smokiness. Known for their vibrant stage presence and infectious energy, Bella and the Bizarre deliver performances that are as captivating as they are unpredictable. And yes, Bella is King Khan’s daughter. That’s should be all you need to know.
 
-### Gig Photos
+## Gig Photos
 
 ![Death Valley Girls](../assets/img/posts/2025/2025-05-09-Death-Valley-Girls/Death-Valley-Girls-1.webp)
 

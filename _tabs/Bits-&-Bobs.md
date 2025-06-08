@@ -19,35 +19,55 @@ This Docker Compose configuration defines a service named `it-tools` that uses t
 #### Docker Compose File
 
 ```bash
-# Filename docker-compose.yml
 
+# Filename docker-compose.yml
 services:
   it-tools:
-    image: corentinth/it-tools
+    image: sharevb/it-tools
+    pull_policy: always
     networks:
        - blackhole
     container_name: it-tools
     ports: 
-    - 8081:80
+    - 8081:8080
     restart: unless-stopped
 
 networks:
    blackhole:
     name: blackhole
     external: true
+
 ```
 
-#### Network Configuration
+## Image Pull Policy: `pull_policy: always`
+
+In the context of container orchestration and deployment, particularly with tools like Kubernetes or Docker, the `pull_policy: always` setting refers to the image pull policy for a container. This policy dictates how the container runtime should handle image pulls when starting a container.
+
+### Definition
+
+When you set `pull_policy: always`, it means that the container runtime will always attempt to pull the latest version of the image from the specified image repository every time the container is started. This ensures that you are using the most up-to-date version of the image, which can be particularly useful in development environments or when images are frequently updated.
+
+### Common Image Pull Policies
+
+1. **Always**: Always pull the image from the repository.
+2. **IfNotPresent**: Pull the image only if it is not already present on the node.
+3. **Never**: Never pull the image; it must be present on the node.
+
+### Considerations
+
+Using `pull_policy: always` can help avoid issues with outdated images but may increase startup time due to the need to fetch the image from the repository each time.
+
+## Network Configuration
 
 - **Network Name**: `blackhole`
 - **External**: `true`
   This indicates that the network is not created by this Docker Compose file but is an existing external network.
 
-#### Ports Configuration
+### Ports Configuration
 
 In the Docker Compose configuration, the `ports` section is used to define how the container's internal ports are mapped to the host machine's ports. This allows external access to the services running inside the container.
 
-#### Configuration Breakdown
+### Configuration Breakdown
 
 - **Container Port**: `80`
   - This is the port on which the application inside the container is listening. In this case, it is the default HTTP port, which is commonly used for web applications.
@@ -55,7 +75,7 @@ In the Docker Compose configuration, the `ports` section is used to define how t
 - **Host Port**: `8081`
   - This is the port on the host machine that will be mapped to the container's port. When you access `http://localhost:8081` in your web browser, the request will be forwarded to the container's port `80`.
 
-#### Start the container
+## Start the container
 
 docker-compose up -d starts the containers in the background and leaves them running. (this means that if you want to see the logs of the containers you will have to use docker-compose logs -f)
 

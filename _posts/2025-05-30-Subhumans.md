@@ -17,7 +17,7 @@ After having a few drinks, it was time to go and see the main band the Subhumans
 
 Venue - [Bannermans](https://www.bannermanslive.co.uk/)
 
-### Gig Photos
+## Gig Photos
 
 ![Subhumans](../assets/img/posts/2025/2025-05-30-Subhumans/subhumans1.webp)_Bruce Treasure, (Drummer) Trotsky, Dick Lucas and Phil Bryant_
 

@@ -10,7 +10,7 @@ ctop is a free open source, simple and cross-platform top-like command-line tool
 
 The only concern that I have, is that the software hasn't been updated in a while, but saying that, it works well and does what it says on the the tin. If you have concerns about installing a binary, then do feel free to look over the source code prior to compiling and installing it yourself.
 
-Instructions for doing so are [here](https://github.com/bcicen/ctop/). 😃
+Instructions for doing so are on thisi [link here](https://github.com/bcicen/ctop/). 😃
 
 If you just want to see the stats and don't intend to use the rest of the functionality, you can of course use the folllowing command.
 
