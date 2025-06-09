@@ -14,12 +14,11 @@ Marathon [World Listing](https://www.goandrace.com/en/marathons-2025-calendar-wo
 
 ### IT Tools Docker Config
 
-This Docker Compose configuration defines a service named `it-tools` that uses the image `corentinth/it-tools`. Below is a breakdown of the configuration:
+This Docker Compose configuration defines a service named `it-tools` that uses the image `sharevb/it-tools`. Below is a breakdown of the configuration:
 
-#### Docker Compose File
+### Docker Compose File
 
-```bash
-
+```yaml
 # Filename docker-compose.yml
 services:
   it-tools:
@@ -36,10 +35,10 @@ networks:
    blackhole:
     name: blackhole
     external: true
-
+    
 ```
 
-## Image Pull Policy: `pull_policy: always`
+### Image Pull Policy: `pull_policy: always`
 
 In the context of container orchestration and deployment, particularly with tools like Kubernetes or Docker, the `pull_policy: always` setting refers to the image pull policy for a container. This policy dictates how the container runtime should handle image pulls when starting a container.
 
@@ -57,7 +56,7 @@ When you set `pull_policy: always`, it means that the container runtime will alw
 
 Using `pull_policy: always` can help avoid issues with outdated images but may increase startup time due to the need to fetch the image from the repository each time.
 
-## Network Configuration
+### Network Configuration
 
 - **Network Name**: `blackhole`
 - **External**: `true`
@@ -69,7 +68,7 @@ In the Docker Compose configuration, the `ports` section is used to define how t
 
 ### Configuration Breakdown
 
-- **Container Port**: `80`
+- **Container Port**: `8080`
   - This is the port on which the application inside the container is listening. In this case, it is the default HTTP port, which is commonly used for web applications.
 
 - **Host Port**: `8081`
