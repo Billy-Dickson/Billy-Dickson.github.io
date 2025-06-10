@@ -12,7 +12,7 @@ Marathon [World Listing](https://www.goandrace.com/en/marathons-2025-calendar-wo
 
 ## Home Network
 
-### Prerequitites
+### Prerequisites
 
 A running hypervisor such as [Proxmox](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/) with a running docker container, or a bare metal install of docker on a [machine running linux](https://thebloody.cloud/posts/Debian-Host-On-Proxmox/).
 
