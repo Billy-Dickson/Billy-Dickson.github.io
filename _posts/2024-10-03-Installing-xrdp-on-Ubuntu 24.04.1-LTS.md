@@ -18,7 +18,7 @@ This is what I do and it does work quite well for light development, browsing an
 ## Prerequistes
 
 1. A working knowledge of Linux and how to install it on real hardware or in a Virtual Environment.
-2. A copy of Ubuntu Desktop 22.04.01 is available for download from [here](https://www.releases.ubuntu.com/22.04/)
+2. A copy of Ubuntu Desktop 22.04.01 is available for download from [this link here](https://www.releases.ubuntu.com/22.04/)
 3. A running [Ubuntu Gnome Desktop](https://ubuntu.com/download/desktop) installed on hardware or a virtual machine, (mine is running on a [Proxmox Virtual Machine](https://www.proxmox.com/en/downloads)).
 
 ## Setting up Gnome with xrdp
@@ -31,7 +31,7 @@ The next parts of the installation will need to be done on the Ubuntu Desktop, i
 id
 ```
 
-Instructructions on adding yourself to the group are [here](https://askubuntu.com/questions/124166/how-do-i-add-myself-into-the-sudoers-group#124200)
+Instructructions on adding yourself to the group are [on this page](https://askubuntu.com/questions/124166/how-do-i-add-myself-into-the-sudoers-group#124200)
 
 ### Running on Proxmox (Optional)
 
