@@ -3,7 +3,8 @@ title: Installing web calibre in a docker container
 date: 2025-02-04
 categories: [Homelab, Docker]
 tags: [homelab, docker]     # TAG names should always be lowercase
-image: ../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/header.webp
+image: 
+   path: ../assets/img/posts/2025/2025-02-04-Installing-Web-Calibre-in-Docker/header.webp
 ---
 
 Calibre Ebook Manager is a versatile free tool for managing, converting and reading e-books. With Calibre you can organize your e-book collection, convert books into different formats, edit metadata and transfer e-books to different reading devices. In addition to the Calibre desktop program, there is also a web interface, Calibre Web, which can be used to access the Calibre database.

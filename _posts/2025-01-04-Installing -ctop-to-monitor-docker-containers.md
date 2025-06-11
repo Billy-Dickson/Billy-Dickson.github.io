@@ -3,7 +3,8 @@ title: Installing ctop to monitor docker containers
 date: 2025-01-04
 categories: [Homelab, Docker]
 tags: [homelab, docker]     # TAG names should always be lowercase
-image: ../assets/img/posts/2025/2025-01-04-Installing-CTOP-Docker-Container/screencap.webp
+image: 
+   path: ../assets/img/posts/2025/2025-01-04-Installing-CTOP-Docker-Container/screencap.webp
 ---
 
 ctop is a free open source, simple and cross-platform top-like command-line tool for monitoring container metrics in real-time. It allows you to get an overview of metrics concerning CPU, memory, network, I/O for multiple containers and also supports inspection of a specific container.
