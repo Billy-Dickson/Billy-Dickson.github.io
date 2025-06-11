@@ -86,6 +86,25 @@ docker-compose up -d starts the containers in the background and leaves them run
 docker-compose up -d
 ```
 
+## Accessing the container
+
+Open a browser and enter the ip address and port of your docker container.
+
+![IT Tools](../assets/img/posts/2025/2025-06-11-Docker-Container-IT-Tools/Docker-Container.webp)
+
+## NGINX Reverse Proxy Settings (Optional)
+
+If your already running [Nginx Remote Proxy Manager](https://nginxproxymanager.com/setup/) in your home network, here are the setting that I use, hopefully it will save you a bit of time. Where is says **Forward Hostname/IP** you might have substitute  what I have with the IP of your container.
+
+![Nginx Proxy Manager](../assets/img/posts/2025/2025-06-11-Docker-Container-IT-Tools/Nginx-Proxy-Manager.webp)
+
+## Accessing via a Cloudflare Tunnel
+
+Tom Lawrence does a great video on setting up a secure Cloudflare Tunnel to access your home network assets, do feel free to watch it and subscribe. I use the instructions provided, to securely connect to my IT Tools docker container when I'm away from home.
+
+{% include embed/youtube.html id='eojWaJQvqiw' %}
+
 ## References
 
 - Stack Overflow - [docker-compose](https://stackoverflow.com/questions/52111190/whats-the-difference-between-docker-compose-up-d-and-docker-compose-up-build) command
+- Nginx - [The Benefits of Microcaching](https://blog.nginx.org/blog/benefits-of-microcaching-nginx)
