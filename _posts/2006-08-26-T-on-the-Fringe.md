@@ -7,7 +7,7 @@ image:
    path: ../assets/img/posts/2006/2006-08-26-T-on-the-Fringe/DSC00050.webp
 ---
 
-Myself and a few mates went to see [My Chemical Romance](http://www.mychemicalromance.com/) and [Muse](http://www.muse.mu/) play T on the Fringe yesterday, got to say they were excellent and I really enjoyed it. Got a new toy yesterday (The new [Sony Ericsson K800i](https://en.wikipedia.org/wiki/Sony_Ericsson_K800i)) so I took some photo’s of Muse and My Chemical Romance on my phone. Pretty good quality considering its a phone and not a camera.
+Myself and a few mates went to see [My Chemical Romance](https://www.mychemicalromance.com/) and [Muse](https://www.muse.mu/) play T on the Fringe yesterday, got to say they were excellent and I really enjoyed it. Got a new toy yesterday (The new [Sony Ericsson K800i](https://en.wikipedia.org/wiki/Sony_Ericsson_K800i)) so I took some photo’s of Muse and My Chemical Romance on my phone. Pretty good quality considering its a phone and not a camera.
 
 {% include embed/youtube.html id='TVsbPXekdeg' %}
 
