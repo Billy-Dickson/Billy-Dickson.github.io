@@ -9,8 +9,6 @@ image:
 
 Myself and a few mates went to see [My Chemical Romance](https://www.mychemicalromance.com/) and [Muse](https://www.muse.mu/) play T on the Fringe yesterday, got to say they were excellent and I really enjoyed it. Got a new toy yesterday (The new [Sony Ericsson K800i](https://en.wikipedia.org/wiki/Sony_Ericsson_K800i)) so I took some photo’s of Muse and My Chemical Romance on my phone. Pretty good quality considering its a phone and not a camera.
 
-{% include embed/youtube.html id='TVsbPXekdeg' %}
-
 I’m really going to have to spend more time going to see bands, that must be the first one I’ve seen this year. Note to self “Must try harder!” 😉
 
 ## Gig Photos
