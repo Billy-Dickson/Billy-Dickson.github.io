@@ -89,7 +89,7 @@ Open a browser and enter the ip address and port of your docker container.
 
 ## NGINX Reverse Proxy Settings (Optional)
 
-If your already running [Nginx Remote Proxy Manager](https://nginxproxymanager.com/setup/) in your home network, here are the setting that I use, hopefully it will save you a bit of time. Where is says **Forward Hostname/IP** you might have substitute  what I have with the IP of your container.
+If your already running [Nginx Proxy Manager](https://nginxproxymanager.com/setup/) in your home network, here are the setting that I use, hopefully it will save you a bit of time. Where is says **Forward Hostname/IP** you might have substitute  what I have with the IP of your container.
 
 ![Nginx Proxy Manager](../assets/img/posts/2025/2025-06-11-Docker-Container-IT-Tools/Nginx-Proxy-Manager.webp)
 
