@@ -7,7 +7,7 @@ image:
    path: ../assets/img/posts/2006/2006-06-11-Edinburgh-Marathon-Festival/Edinburgh_Marathon_2006.webp
 ---
 
-I’m currently in training for the [Edinburgh Marathon](https://www.edinburghmarathon.com/marathon) I’m on week 5 and counting down. Quite looking forward to it now, although the long runs are better now since the Scottish weather is improving. This is my second marathon having done the Berlin Marathon last year, of which I really enjoyed (nice and flat). As far as training goes, I’m following a book called “[The Competitive Runners Handbook](http://www.amazon.com/gp/product/0140469907/102-5065963-1922532?v=glance&n=283155)” by “Bob Glover and Shelly-Lynn Florence Glover.
+I’m currently in training for the [Edinburgh Marathon](https://www.edinburghmarathon.com/marathon) I’m on week 5 and counting down. Quite looking forward to it now, although the long runs are better now since the Scottish weather is improving. This is my second marathon having done the Berlin Marathon last year, of which I really enjoyed (nice and flat). As far as training goes, I’m following a book called “[The Competitive Runners Handbook](https://www.amazon.com/gp/product/0140469907/102-5065963-1922532?v=glance&n=283155)” by “Bob Glover and Shelly-Lynn Florence Glover.
 
 I would class myself as a basic competitor so I’m following the training regime on page 249 of the book and what I’ve found while doing the long runs in Edinburgh, is that it’s really quite difficult to work out the mileage using a map and something that's really not needed these days.
 
