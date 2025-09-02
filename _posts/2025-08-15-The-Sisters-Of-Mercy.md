@@ -38,6 +38,12 @@ _Elizabeth Electra_
 
 ![The Sisters of Mercy 5](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_6.webp)
 
+![The Sisters of Mercy 6](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_7.webp)
+
+![The Sisters of Mercy 7](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_8.webp)
+
+![The Sisters of Mercy 8](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_9.webp)
+
 <!--
 In his own words Andrew Eldritch said near the end of the gig "We do not forgive and certainly haven't forgotten" but I'm glad I did after my last Sisters experience, for what was my best gig of the year so far (number 55 of 2025). 
 
