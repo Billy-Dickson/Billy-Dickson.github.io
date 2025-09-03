@@ -7,7 +7,7 @@ image:
    path: ../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/Header.webp
 ---
 
-I took a half day of on flex and was thinking of just poping down the the nearest pub until 7:30, when I was meeding Danny Gigantics. I looked out of my work window at the Pub below and decided that it wasn't a good idea (it's the middle of the Edinburgh Festival) so there was no chance of me having a nice quiet time, the pub was rammed with tourists. Don't get me wrong, I love Edinburgh for it's diversity, tourists and general buzz, but sometimes, I'm just looking for a nice quiet corner to unwind and relax. So I headed homewards to relax and have lunch.
+I took a half day of on flexi and was thinking of just poping down the the nearest pub until 7:30, when I was meeting Danny Gigantics. I looked out of my work window at the Pub below, and decided that it wasn't a good idea (it's the middle of the Edinburgh Festival) so there was no chance of me having a nice quiet time the pub was rammed with tourists. Don't get me wrong, I love Edinburgh for it's diversity, tourists and general buzz, but sometimes, I'm just looking for a nice quiet corner to unwind and relax. So I headed homewards to relax and have lunch.
 
 As it happens, my good friend Danny Gigantics was also going, so we arranged to meetup at platform 10 at Waverly Station. As with all the best laid plans, I just made it with minutes to spare...Pheww!
 
@@ -43,6 +43,8 @@ _Elizabeth Electra_
 ![The Sisters of Mercy 7](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_8.webp)
 
 ![The Sisters of Mercy 8](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_9.webp)
+
+![The Sisters of Mercy 9](../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/The_Sisters_Of_Mercy_10.webp)
 
 <!--
 In his own words Andrew Eldritch said near the end of the gig "We do not forgive and certainly haven't forgotten" but I'm glad I did after my last Sisters experience, for what was my best gig of the year so far (number 55 of 2025). 
