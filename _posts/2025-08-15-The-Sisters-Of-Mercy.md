@@ -7,13 +7,13 @@ image:
    path: ../assets/img/posts/2025/2025-08-15-The-Sisters-Of-Mercy/Header.webp
 ---
 
-I took a half day of on flexi and was thinking of just poping down the the nearest pub until 7:30, when I was meeting Danny Gigantics. I looked out of my work window at the Pub below, and decided that it wasn't a good idea (it's the middle of the Edinburgh Festival) so there was no chance of me having a nice quiet time the pub was rammed with tourists. Don't get me wrong, I love Edinburgh for it's diversity, tourists and general buzz, but sometimes, I'm just looking for a nice quiet corner to unwind and relax. So I headed homewards to relax and have lunch.
+I took a half day off on flexi and was thinking of just popping down the the nearest pub until 7:30, when I was meeting Danny Gigantics. I looked out of my work window at the Pub below, and decided that it wasn't a good idea (it's the middle of the Edinburgh Festival) so there was no chance of me having a nice quiet time in the pub as it was rammed with tourists. Don't get me wrong, I love Edinburgh for it's diversity, tourists and general buzz, but sometimes, I'm just looking for a nice quiet corner to unwind and relax. So I headed homewards to relax and have lunch.
 
 As it happens, my good friend Danny Gigantics was also going, so we arranged to meetup at platform 10 at Waverly Station. As with all the best laid plans, I just made it with minutes to spare...Pheww!
 
 ## The Venue
 
-I we where really lucky with the weather, but the [Kelvin Grove Bandstand](https://maps.app.goo.gl/iL3sE1dgmfvg17Jr6) was an awesome place to see the band, I'm hoping I get the opportunity to see other bands there.
+We where really lucky with the weather, but the [Kelvin Grove Bandstand](https://maps.app.goo.gl/iL3sE1dgmfvg17Jr6) was an awesome place to see the band, I'm hoping I get the opportunity to see other bands there.
 
 ## The Gig
 
