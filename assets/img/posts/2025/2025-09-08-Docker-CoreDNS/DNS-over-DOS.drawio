@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.3">
+  <diagram name="Page-1" id="XyaXjhWjS6MRgrtOAFAU">
+    <mxGraphModel dx="1269" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tJ5jd2fZpiQ1tgXJpDPM-1" value="&lt;div&gt;192.168.20.1/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local DNS via Cloud Gateway Ultra&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;External DNS via CoreDNS Docker&lt;br&gt;DNS via DNS&amp;nbsp; over SSL&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="tJ5jd2fZpiQ1tgXJpDPM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tJ5jd2fZpiQ1tgXJpDPM-4" target="tJ5jd2fZpiQ1tgXJpDPM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tJ5jd2fZpiQ1tgXJpDPM-4" value="Bills VLAN" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.user_male;network2IconW=0.8918;network2IconH=1.0003;" vertex="1" parent="1">
+          <mxGeometry x="150" y="269.99" width="44.59" height="50.015" as="geometry" />
+        </mxCell>
+        <mxCell id="tJ5jd2fZpiQ1tgXJpDPM-6" value="VPN Gateway to Bratislava" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tJ5jd2fZpiQ1tgXJpDPM-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="269.99" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

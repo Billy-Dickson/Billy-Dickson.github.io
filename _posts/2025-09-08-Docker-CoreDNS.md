@@ -165,3 +165,4 @@ command: -conf /Corefile
 - CoreDNS - [Docker Hub](https://hub.docker.com/r/coredns/coredns/)
 - CoreDND -  [Website](https://coredns.io/)
 - ICANN - [Non Routable Domain Names](https://www.icann.org/en/board-activities-and-meetings/materials/approved-resolutions-special-meeting-of-the-icann-board-29-07-2024-en#section2.a)
+- SomeGuyandhistmac - [Coredns Docker and Multihosts](https://someguyandhismac.com/posts/corends-docker-multihosts/)
