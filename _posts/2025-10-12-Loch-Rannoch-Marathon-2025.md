@@ -14,7 +14,7 @@ On a positive note, I managed to dig in and get it done and I did enjoy it (Type
 
 ## Photos
 
-![Selfie](../assets/img/posts/2025/2025-10-12-Loch-Rannoch-Marathon/Map.webp)_Slefie_
+![Selfie](../assets/img/posts/2025/2025-10-12-Loch-Rannoch-Marathon/Map.webp)_Selfie_
 
 ![Running Stats](../assets/img/posts/2025/2025-10-12-Loch-Rannoch-Marathon/Marathon_Stats-1.webp)_Running Stats_
 
