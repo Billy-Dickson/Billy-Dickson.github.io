@@ -1,6 +1,7 @@
 ---
 title: New Model Army
 date: 2025-10-19
+draft: true
 categories: [Gigs and Socials]
 tags: [gigs and socials]     #TAG names should always be lowercase
 image:
