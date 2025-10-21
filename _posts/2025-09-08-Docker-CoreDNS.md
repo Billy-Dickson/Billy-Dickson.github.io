@@ -4,7 +4,7 @@ date: 2025-09-08
 categories: [Homelab, Docker]
 tags: [homelab, docker]     # TAG names should always be lowercase
 image: 
-   path: ../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Header.webp
+   path: ../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/header.webp
 ---
 
 I've just bought  a [Ubiquiti Cloud Gateway Ultra](https://www.amazon.com/Ubiquiti-Cloud-Gateway-Ultra-UCG-Ultra/dp/B0CWLKD9RP) to replace my 10 year old [pfsense](https://www.pfsense.org/) appliance which has been great, but understandably the hardware was starting to show it’s age, and as I already have Unifi Access points in my house, so it made sense to go the whole hog and settle on the one platform.
