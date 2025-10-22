@@ -7,7 +7,11 @@ image:
    path: ../assets/img/posts/2025/2025-10-04_69-Eyes-and-South-of-Salem/the_69_eyes.webp
 ---
 
-Finished my working day at my usual time of 4:30 then nipped into the toilet and surreptitiously changed my work shirt to my favourite alternative t-shit of the day. Then headed down to grab some food at the city cafe, which looks to have changed into my regular pub (eatery) of choice when I’m gigging.
+Finished my working day at my usual time of 4:30 then nipped into the toilet and surreptitiously changed my work shirt to my favourite alternative t-shitt of the day. Then headed down to grab some food at the city cafe, which looks to have changed into my regular pub (eatery) of choice when I’m gigging.
+
+Below is a wee photo of my ladies drink (as Danny Gig-Antics would call it, or something along those lines 😉).
+
+![Ladies Drink](../assets/img/posts/2025/2025-10-04_69-Eyes-and-South-of-Salem/Ladies_Drink.webp)_Ladies Drink_
 
 Dropped the guys a message to invite them down, if they're free.  I remember the day when you had to phone people to make plans (we now live in a world of convenience), which I’m ok with. The legend that is [Slash Vaseline](https://www.gig-antics.live/post/introducing-slash-vaseline), replied with the “I’m on the 62, I’ll be there at 17:45” or word to that effect 😃 So we had a few beers and a blether and headed down to the venue to meet up with [Danny (Gig-Antics)](https://www.gig-antics.live/).
 
