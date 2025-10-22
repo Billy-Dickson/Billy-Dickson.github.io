@@ -9,7 +9,7 @@ image:
 
 Finished my working day at my usual time of 4:30 then nipped into the toilet and surreptitiously changed my work shirt to my favourite alternative t-shitt of the day. Then headed down to grab some food at the city cafe, which looks to have changed into my regular pub (eatery) of choice when I’m gigging.
 
-Below is a wee photo of my ladies drink (as Danny Gig-Antics would call it, or something along those lines 😉).
+Below is a wee photo of my ladies drink (as [Danny Gig-Antics](https://gig-antics.live) would call it, or something along those lines 😉).
 
 ![Ladies Drink](../assets/img/posts/2025/2025-10-04_69-Eyes-and-South-of-Salem/Ladies_Drink.webp)_Ladies Drink_
 
