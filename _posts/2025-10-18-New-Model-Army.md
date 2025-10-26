@@ -88,5 +88,4 @@ The [Corn Exchange](https://www.edinburghcornexchange.co.uk/) Edinburgh
 - [Ryries](https://www.google.com/maps/place/Ryrie%E2%80%99s+Bar/@55.9458343,-3.2199899,17z/data=!3m2!4b1!5s0x4887c7a5b3e603bf:0xd9466eccd62ac562!4m6!3m5!1s0x4887c7a5bedc3381:0x74752e16c83af065!8m2!3d55.9458313!4d-3.2174096!16s%2Fg%2F1tfrgbf4?entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D) Bar Edinburgh
 - [Bannermans Bar](https://www.bannermanslive.co.uk/) Edinburgh
 - New Model Army - [Website](https://www.newmodelarmy.org/tour/1501-18-october-edinburgh-corn-exchange-uk)
-
 - New Model Army - [Setlist](https://www.setlist.fm/setlist/new-model-army/2025/corn-exchange-edinburgh-scotland-b4e9136.html)
