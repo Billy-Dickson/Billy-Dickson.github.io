@@ -156,3 +156,6 @@ doas apk add coredns
 - Techmint.com - [Installing and configuring an NTP server](https://www.tecmint.com/Install-chrony-in-centos-ubuntu-linux/)
 - Setup CoreDNS on Alpine Linux - [philippeloncaux.com](https://philippeloctaux.com/blog/coredns-alpine/)
 - Install and configure CoreDNS - [de-marco.net](https://di-marco.net/blog/it/2024-05-09-Intall_and_configure_coredns/)
+- Blog.bythewood.me - [minimal automated update for alpine](https://blog.bythewood.me/posts/minimal-automated-updates-for-alpine-linux/)
+- Krython.com - [automatic repository updates]()
+- Just Serendipity - [apk autoupdate on Alpine](https://perrotta.dev/2024/08/apk-autoupdate-on-alpine-linux/)
