@@ -14,7 +14,7 @@ On a side note, over Â£6 a beer in posh pubs in Edinburgh these days, I think Iâ
 
 I was also lucky enough to meet up with and have a chat with some of these lovely people.
 
-![Train Photo](../assets/img/posts/2025/2025-10-18-New-Model-Army/Train_Photo.webp)_Train Photo_
+![Train Photo](../assets/img/posts/2025/2025-10-18-New-Model-Army/Train_Photo.webp){: .shadow }_Train Photo_
 
 ## The Gig
 
