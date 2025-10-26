@@ -51,7 +51,7 @@ The gig itself was cancelled last year for medical reasons, and re-scheduled for
 
 ## After gig drink
 
-From left to right: [Danny Gig-Antics]((https://gig-antics.live), [Mark]((https://www.gig-antics.live/post/introducing-penigoth-mark), [Cest Moi](https://www.gig-antics.live/post/introducing-peni-goth-bill), [Tommy](https://www.gig-antics.live/post/introducing-one-half-of-the-swedish-cockneys-tommy) and Chris
+From left to right: [Danny Gig-Antics](https://gig-antics.live), [Mark](https://www.gig-antics.live/post/introducing-penigoth-mark), [Cest Moi](https://www.gig-antics.live/post/introducing-peni-goth-bill), [Tommy](https://www.gig-antics.live/post/introducing-one-half-of-the-swedish-cockneys-tommy) and Chris
 
 ![Bannermans](../assets/img/posts/2025/2025-10-18-New-Model-Army/Bannermans.webp)_Prost!_
 
