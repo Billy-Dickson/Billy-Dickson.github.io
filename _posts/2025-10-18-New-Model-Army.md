@@ -8,9 +8,9 @@ image:
    path: ../assets/img/posts/2025/2025-10-18-New-Model-Army/Header.webp
 ---
 
-I headed straight out after work to meet the guys at [Ryries Bar](https://www.google.com/maps/place/Ryrie%E2%80%99s+Bar/@55.9458343,-3.2199899,17z/data=!3m2!4b1!5s0x4887c7a5b3e603bf:0xd9466eccd62ac562!4m6!3m5!1s0x4887c7a5bedc3381:0x74752e16c83af065!8m2!3d55.9458313!4d-3.2174096!16s%2Fg%2F1tfrgbf4?entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D). The plan being, to have a few beers then head down to the train station for 7:30. As always, the guys where already at the bar ([Slash Vaseline](https://www.gig-antics.live/post/introducing-slash-vaseline) and [Danny Gig-Antics](https://gig-antics.live)) so we had a wee chat and a catchup (always a pleasure).
+I met the guys at [Ryries Bar](https://www.google.com/maps/place/Ryrie%E2%80%99s+Bar/@55.9458343,-3.2199899,17z/data=!3m2!4b1!5s0x4887c7a5b3e603bf:0xd9466eccd62ac562!4m6!3m5!1s0x4887c7a5bedc3381:0x74752e16c83af065!8m2!3d55.9458313!4d-3.2174096!16s%2Fg%2F1tfrgbf4?entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D). The plan being, to have a few beers then head down to the train station for 7:30. As always, the guys where already at the bar ([Slash Vaseline](https://www.gig-antics.live/post/introducing-slash-vaseline) and [Danny Gig-Antics](https://gig-antics.live)) so we had a wee chat and a catchup (always a pleasure).
 
-On a side note, over £6 a beer in posh pubs in Edinburgh these days, I think I’ll need a second job to afford it!
+On a side note, over £6 a beer in posh pubs in Edinburgh these days, I think I’ll need a second job to afford it! th
 
 I was also lucky enough to meet up with and have a chat with some of these lovely people.
 
