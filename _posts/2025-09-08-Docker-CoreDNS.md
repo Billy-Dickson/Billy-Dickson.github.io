@@ -35,59 +35,59 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 ## Corefile
 
 ```bash
-# Forward and reverse local lookups are handled by the router
-# which has all the local hosts already entered
-#
-# https://coredns.io/plugins/forward/
-
-# Forward lookups to Ubiquiti USG Ultra (handles internal DNS)
-internal:53 {
-    errors
-    cache
+# Authoritative zone for home.lan
+# https://www.ibm.com/think/topics/dns-records
+home.lan:53 {
     forward . 192.168.20.1
-    reload
-#   log
-}
-
-# Reverse lookups to Ubiquiti USG Ultra (handles internal DNS)
-20.168.192.in-addr.arpa:53 {
-    errors
-    cache
-    forward . 192.168.20.1
-    reload
     log
+    errors
 }
 
-# Forward all lookups on port 53 to Quad 9 DOT
-# followed by Cloudflare DOT if there is an with
-# Quad 9
+# Reverse zone for home.lan
+20.168.192.in-addr.arpa:53 {
+    forward . 192.168.20.1
+    log
+    errors
+}
+
+# Reverse zone for home.lan
+69.16.172.in-addr.arpa:53 {
+    forward . 192.168.20.1
+    log
+    errors
+}
+
+# https://coredns.io/plugins/forward/
 .:53 {
     forward . 127.0.0.1:5301 127.0.0.1:5302
-    cache
     log
+    errors
 }
 
 # Quad 9 DOT 
 .:5301 {
     forward . tls://9.9.9.9 tls://149.112.112.112 {
     tls_servername dns.quad9.net }
+    log
+    errors
 }
 
 # Cloudflare DOT
-.:5302  {
+.:5302 {
     forward . tls://1.1.1.1 tls://1.0.0.1 {
     tls_servername cloudflare-dns.com }
+    log
+    errors
 }
 
-policy sequential
-log
-errors 
-cache
-health localhost:8091 {
-    lameduck 1s
-}
-reload
-prometheus :9153
+    policy sequential
+    cache 3600
+    health localhost:8091 {
+        lameduck 1s
+    }
+    dnssec
+    reload
+    prometheus :9153
 ```
 
 ## Docker Compose
