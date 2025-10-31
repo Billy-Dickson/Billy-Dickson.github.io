@@ -34,23 +34,23 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 
 ## Corefile
 
-```bash
+```yaml
 # Authoritative zone for home.lan
 # https://www.ibm.com/think/topics/dns-records
-home.lan:53 {
+example.com:53 {
     forward . 192.168.20.1
     log
     errors
 }
 
-# Reverse zone for home.lan
+# Reverse zone for example.com
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     log
     errors
 }
 
-# Reverse zone for home.lan
+# Reverse zone for example.com
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
     log
