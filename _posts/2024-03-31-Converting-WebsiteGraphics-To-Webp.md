@@ -62,7 +62,7 @@ cwebp image.webp -o image.png
 You can use a Bash for loop to bulk convert hundreds or thousands of WebP photos at once.
 
 ```bash
-for f in *.webp; do dwebp $f -o $f.png; done
+for f in *.webp; do cwebp $f -o $f.png; done
 ```
 
 ## References
