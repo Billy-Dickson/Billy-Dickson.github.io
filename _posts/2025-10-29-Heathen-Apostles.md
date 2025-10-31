@@ -9,7 +9,9 @@ image:
 
 Finished work, got changed and popped down to the [Guildford Arms](https://guildfordarms.com/) as it's the closest to the Venue ([The Voodoo Rooms](https://www.thevoodoorooms.com/)) ordered some food and settled in upstairs for a while, young master [Slash Vaseline](https://www.gig-antics.live/post/introducing-slash-vaseline) was heading toward the Guildford, so I ordered a wee libation and did a bit of people watching, my favourite sport when I'm just chilling and waiting for folks.
 
-Originally, I bought the ticket on the advice of [Danny Gig-Antics](https://gig-antics.live) who has seen them on a number of occasions and thought I would like them, he did say they were a bit [Marmite](https://anamericansguidetobritishlife.substack.com/p/marmite-you-either-love-it-or-hate). But as it happens, he was spot on the money as usual and I did enjoy them. After a bit of reflection, if I was going to put them in a category and try to describe them, then the Facebook description below is spot on. I did chuckle when the singer described the double bass player and the violin player as "American, when they want to be".
+Later in the evening, we were joined by [Markus](https://www.gig-antics.live/post/introducing-penigoth-mark) and Titch, always good to catch up and I do love a wee chat and a beer, (or Cider in my case).
+
+Originally, I bought the ticket on the advice of [Danny Gig-Antics](https://gig-antics.live) who has seen them on a number of occasions and thought I would like them, he did say they were a bit [Marmite](https://anamericansguidetobritishlife.substack.com/p/marmite-you-either-love-it-or-hate). But as it happens, he was spot on the money as usual and I did enjoy them. After a bit of reflection, if I was going to put them in a category and try to describe them, then the Facebook description below is spot on. I did chuckle when the singer described the double bass player and the violin player as "American, when they want to be" 😃
 
 ## Facebook Page
 
