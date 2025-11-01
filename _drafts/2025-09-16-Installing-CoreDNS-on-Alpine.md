@@ -166,50 +166,53 @@ This is my Corefile below, I'm forwarding my internal requests (forward and reve
 My CoreDNS install only handles external queries, forwarding them to Quad 9 and Cloudflare using [DOT (DNS over TLS)](https://www.cloudflare.com/en-gb/learning/dns/dns-over-tls/).
 
 ```yaml
-# Authoritative zone for home.lan
+# Authoritative zone for linuxhome.co.uk
 # https://www.ibm.com/think/topics/dns-records
 
-example.com:53 {
-    forward . 192.168.20.1
+# define a snippet
+(snip) {
+    whoami
     log
     errors
     }
 
-# Reverse zone for example.com
+linuxhome.co.uk:53 {
+    forward . 192.168.20.1
+    import snip
+    }
+
+# Reverse zone for linuxhome.co.uk
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
-    log
-    errors
+    import snip
     }
 
-# Reverse zone for example.com
+# Reverse zone for linuxhome.co.uk
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
-    log
-    errors
+    import snip
     }
 
 # https://coredns.io/plugins/forward/
 .:53 {
     forward . 127.0.0.1:5301 127.0.0.1:5302
-    log
-    errors
+    import snip
     }
 
 # Quad 9 DOT 
 .:5301 {
+    bind lo
     forward . tls://9.9.9.9 tls://149.112.112.112 {
     tls_servername dns.quad9.net }
-    log
-    errors
+    import snip
     }
 
 # Cloudflare DOT
 .:5302 {
+    bind lo
     forward . tls://1.1.1.1 tls://1.0.0.1 {
     tls_servername cloudflare-dns.com }
-    log
-    errors
+    import snip
     }
 
     policy sequential
@@ -219,7 +222,10 @@ example.com:53 {
     }
     dnssec
     reload
-    prometheus :9153
+
+#    If your running Promethus to collect stats, do feel free to uncomment
+#    the command below.
+#    prometheus :9153
 ```
 
 ### Using CoreDNS on the system

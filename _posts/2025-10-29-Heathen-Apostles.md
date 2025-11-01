@@ -27,7 +27,7 @@ Originally, I bought the ticket on the advice of [Danny Gig-Antics](https://gig-
 
 ![Heathen Apostles](../assets/img/posts/2025/2025-10-29-Heathen-Apostles/Heathen_Apostles_01.webp)_Heathen Apostles_
 
-![Heathen Apostles](../assets/img/posts/2025/2025-10-29-Heathen-Apostles/Heathen_Apostles_02.webp)_Heathen_Apostles_
+![Heathen Apostles](../assets/img/posts/2025/2025-10-29-Heathen-Apostles/Heathen_Apostles_02.webp)_Heathen Apostles_
 
 ![Heathen Apostles](../assets/img/posts/2025/2025-10-29-Heathen-Apostles/Heathen_Apostles_03.webp)_Heathen Apostles_
 

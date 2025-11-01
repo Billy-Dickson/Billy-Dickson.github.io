@@ -35,59 +35,66 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 ## Corefile
 
 ```yaml
-# Authoritative zone for home.lan
+# Authoritative zone for linuxhome.co.uk
 # https://www.ibm.com/think/topics/dns-records
-example.com:53 {
-    forward . 192.168.20.1
+
+# define a snippet
+(snip) {
+    whoami
     log
-    errors
+    errors }
+
+linuxhome.co.uk:53 {
+    forward . 192.168.20.1
+    import snip 
 }
 
-# Reverse zone for example.com
+# Reverse zone for linuxhome.co.uk
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
-    log
-    errors
+    import snip
 }
 
-# Reverse zone for example.com
+# Reverse zone for linuxhome.co.uk
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
-    log
-    errors
+    import snip 
 }
 
 # https://coredns.io/plugins/forward/
 .:53 {
     forward . 127.0.0.1:5301 127.0.0.1:5302
-    log
-    errors
+    import snip 
 }
 
 # Quad 9 DOT 
 .:5301 {
+    bind lo
     forward . tls://9.9.9.9 tls://149.112.112.112 {
     tls_servername dns.quad9.net }
-    log
-    errors
+    import snip
 }
 
 # Cloudflare DOT
 .:5302 {
+    bind lo
     forward . tls://1.1.1.1 tls://1.0.0.1 {
     tls_servername cloudflare-dns.com }
-    log
-    errors
+    import snip 
 }
 
     policy sequential
     cache 3600
     health localhost:8091 {
-        lameduck 1s
-    }
+        lameduck 1s 
+}
     dnssec
     reload
-    prometheus :9153
+
+#    If your running Promethus to collect stats, do feel free to uncomment
+#    the command below.
+#    prometheus :9153
+
 ```
 
 ## Docker Compose
