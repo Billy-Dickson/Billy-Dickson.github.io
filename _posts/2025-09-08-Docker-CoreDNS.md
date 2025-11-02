@@ -34,28 +34,40 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 
 ## Corefile
 
-```yaml
-# Authoritative zone for linuxhome.co.uk
+```bash
+# Authoritative zone for examlpe.com
 # https://www.ibm.com/think/topics/dns-records
 
 # define a snippet
 (snip) {
+    acl {
+        allow net 127.0.0.0/8 192.168.0.0/16 172.16.0.0/20 10.0.0.0/8
+        block
+    }
     whoami
     log
     errors }
 
-linuxhome.co.uk:53 {
+# If I was going to resolve internal DNS using CoreDNS
+# the syntax would be something like this
+# example:53 {
+#    file /home/billy/docker/coredns/zones/db.example.com.zone
+#    import snip
+# }
+
+# Home router Unifi USG handles internal DNS
+ example.com:53 {
     forward . 192.168.20.1
     import snip 
 }
 
-# Reverse zone for linuxhome.co.uk
+# Home router Unifi USG handles reverse DNS
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip
 }
 
-# Reverse zone for linuxhome.co.uk
+# Home router Unifi USG handles reverse DNS
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip 
@@ -91,10 +103,9 @@ linuxhome.co.uk:53 {
     dnssec
     reload
 
-#    If your running Promethus to collect stats, do feel free to uncomment
-#    the command below.
+# If your running Promethus to collect stats 
+# do feel free to uncomment below.
 #    prometheus :9153
-
 ```
 
 ## Docker Compose
@@ -121,6 +132,43 @@ networks:
       name: blackhole
       external: true
  ```
+
+## Example Zone
+
+```text
+$TTL 3600
+$ORIGIN example.com.
+
+@   IN SOA ns1.example.com. admin.example.com. (
+            2025072701  ; Serial
+            3600        ; Refresh
+            1800        ; Retry
+            1209600     ; Expire
+            3600        ; Minimum TTL
+)
+@       IN NS   ns1.example.com.
+
+        IN MX 10    mail1.example.com.
+        IN MX 20    mail1.example.com. 
+
+ns1         IN A        192.168.20.10
+docker      IN A        192.168.20.10
+blog        IN CNAME    docker
+overseerr   IN CNAME    docker
+portainer   IN CNAME    docker
+nginx       IN CNAME    docker
+freshrss    IN CNAME    docker
+prowlarr    IN CNAME    docker
+uptime      IN CNAME    docker
+guacamole   IN CNAME    docker
+ebooks      IN CNAME    docker
+dozzle      IN CNAME    docker
+truenas     IN A        92.168.20.25
+jetkvm      IN A        192.168.20.4
+plex        IN A        172.16.69.3
+proxmox     IN A        192.168.1.25
+pve         IN CNAME    proxmox
+```
 
 ### Detailed Breakdown
 
