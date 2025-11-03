@@ -29,7 +29,7 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
     ├── 172.16.69.zone
     ├── 192.168.20.zone
     ├── 192.168.30.zone
-    └── internal.zone
+    └── example.com.zone
 ```
 
 ## Corefile
@@ -50,7 +50,7 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 
 # If I was going to resolve internal DNS using CoreDNS
 # the syntax would be something like this
-# example:53 {
+# example.com:53 {
 #    file /home/billy/docker/coredns/zones/db.example.com.zone
 #    import snip
 # }
@@ -149,7 +149,7 @@ $ORIGIN example.com.
 @       IN NS   ns1.example.com.
 
         IN MX 10    mail1.example.com.
-        IN MX 20    mail1.example.com. 
+        IN MX 20    mail2.example.com. 
 
 ns1         IN A        192.168.20.10
 docker      IN A        192.168.20.10
