@@ -35,39 +35,34 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 ## Corefile
 
 ```bash
-# Authoritative zone for examlpe.com
+# Authoritative zone for linuxhome.co.uk
 # https://www.ibm.com/think/topics/dns-records
 
 # define a snippet
 (snip) {
     acl {
-        allow net 127.0.0.0/8 192.168.0.0/16 172.16.0.0/20 10.0.0.0/8
+        allow net 127.0.0.0/8 
+        allow net 192.168.0.0/16 
+        allow net 172.16.0.0/20 
+        allow net 10.0.0.0/8
         block
     }
     whoami
     log
     errors }
 
-# If I was going to resolve internal DNS using CoreDNS
-# the syntax would be something like this
-# example.com:53 {
-#    file /home/billy/docker/coredns/zones/db.example.com.zone
-#    import snip
-# }
-
-# Home router Unifi USG handles internal DNS
- example.com:53 {
+linuxhome.co.uk:53 {
     forward . 192.168.20.1
     import snip 
 }
 
-# Home router Unifi USG handles reverse DNS
+# Reverse zone for linuxhome.co.uk
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip
 }
 
-# Home router Unifi USG handles reverse DNS
+# Reverse zone for linuxhome.co.uk
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip 
@@ -75,7 +70,12 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
 
 # https://coredns.io/plugins/forward/
 .:53 {
-    forward . 127.0.0.1:5301 127.0.0.1:5302
+    # Quad 9 DOT
+    forward . 127.0.0.1:5301 
+    # Cloudflare DOT
+    forward . 127.0.0.1:5302
+#   Google DOT 
+#   forward . 127.0.0.1:5303
     import snip 
 }
 
@@ -95,6 +95,14 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
     import snip 
 }
 
+# Google DOT
+# .:5303 {
+#    bind lo
+#    forward . tls://8.8.8.8 {
+#    tls_servername dns.google.com }
+#    import snip
+# }
+
     policy sequential
     cache 3600
     health localhost:8091 {
@@ -103,8 +111,8 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
     dnssec
     reload
 
-# If your running Promethus to collect stats 
-# do feel free to uncomment below.
+#    If your running Promethus to collect stats, do feel free to uncomment
+#    the command below.
 #    prometheus :9153
 ```
 
@@ -215,9 +223,10 @@ command: -conf /Corefile
 - XDA - [Stop using your ISP's DNS](https://www.xda-developers.com/please-stop-using-your-isps-dns/)
 - Unifi Cloud Gateway Ultra - [Review](https://lazyadmin.nl/network/unifi-cloud-gateway-ultra/)
 - Some Guy and [his Mac](https://www.someguyandhismac.com/posts/corends-docker-multihosts/)
-- Ben Soer - [Setup a prive homelald DNS Server](https://medium.com/@bensoer/setup-a-private-homelab-dns-server-using-coredns-and-docker-edcfdded841a)
+- Ben Soer - [Setup a simple homelab DNS Server](https://medium.com/@bensoer/setup-a-private-homelab-dns-server-using-coredns-and-docker-edcfdded841a)
 - CoreDNS - [Manual](https://coredns.io/manual/toc/)
 - CoreDNS - [Docker Hub](https://hub.docker.com/r/coredns/coredns/)
 - CoreDND -  [Website](https://coredns.io/)
 - ICANN - [Non Routable Domain Names](https://www.icann.org/en/board-activities-and-meetings/materials/approved-resolutions-special-meeting-of-the-icann-board-29-07-2024-en#section2.a)
 - SomeGuyandhistmac - [Coredns Docker and Multihosts](https://someguyandhismac.com/posts/corends-docker-multihosts/)
+- European alternatives to US DNS resolvers - [Website](https://european-alternatives.eu/alternative-to/opendns)
