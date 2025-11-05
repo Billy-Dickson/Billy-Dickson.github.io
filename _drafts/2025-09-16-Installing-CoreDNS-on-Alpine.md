@@ -113,6 +113,8 @@ To allow the members of the wheel group to use root privileges with doas command
 nano /etc/doas.d/20-wheel.conf
 ```
 
+Add the following:
+
 ```bash
 permit persist  :wheel
 ```
@@ -121,13 +123,13 @@ permit persist  :wheel
 
 Installing the QEMU tools to manage the Alpine Guest OS, if you're running it on a [Proxmox](https://www.proxmox.com) hypervisor.
 
-Edit the repositories and enable community
+Edit the repositor and enable community
 
 ```bash
 doas nano /etc/apk/repositories
 ```
 
-Install the qemu guest agen
+Install the qemu guest agent
 
 ```bash
 doas apk add qemu-guest-agent
@@ -139,7 +141,13 @@ Make it presistant, enable it on reboot
 doas rc-update add qemu-guest-agent
 ```
 
-### Installing CoreDNS
+## Securing Alpine Linux
+
+Based on the execellent alpine linux [wiki](https://wiki.alpinelinux.org/wiki/Securing_Alpine_Linux) article, the following is an aid to my memory, I would be inclined to follow the Alpine Linux wiki article above.
+
+### Install necessary security tools
+
+## Installing CoreDNS
 
 Why bother? In the UK we have what's know affectionately as the [snoopers charter](https://www.libertyhumanrights.org.uk/fundamental/mass-surveillance-snoopers-charter/)
 
@@ -171,33 +179,44 @@ My CoreDNS install only handles external queries, forwarding them to Quad 9 and 
 
 # define a snippet
 (snip) {
+    acl {
+        allow net 127.0.0.0/8 
+        allow net 192.168.0.0/16 
+        allow net 172.16.0.0/20 
+        allow net 10.0.0.0/8
+        block
+    }
     whoami
     log
-    errors
-    }
+    errors }
 
 linuxhome.co.uk:53 {
     forward . 192.168.20.1
-    import snip
-    }
+    import snip 
+}
 
 # Reverse zone for linuxhome.co.uk
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip
-    }
+}
 
 # Reverse zone for linuxhome.co.uk
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
-    import snip
-    }
+    import snip 
+}
 
 # https://coredns.io/plugins/forward/
 .:53 {
-    forward . 127.0.0.1:5301 127.0.0.1:5302
-    import snip
-    }
+    # Quad 9 DOT
+    forward . 127.0.0.1:5301 
+    # Cloudflare DOT
+    forward . 127.0.0.1:5302
+#   Google DOT 
+#   forward . 127.0.0.1:5303
+    import snip 
+}
 
 # Quad 9 DOT 
 .:5301 {
@@ -205,21 +224,29 @@ linuxhome.co.uk:53 {
     forward . tls://9.9.9.9 tls://149.112.112.112 {
     tls_servername dns.quad9.net }
     import snip
-    }
+}
 
 # Cloudflare DOT
 .:5302 {
     bind lo
     forward . tls://1.1.1.1 tls://1.0.0.1 {
     tls_servername cloudflare-dns.com }
-    import snip
-    }
+    import snip 
+}
+
+# Google DOT
+# .:5303 {
+#    bind lo
+#    forward . tls://8.8.8.8 {
+#    tls_servername dns.google.com }
+#    import snip
+# }
 
     policy sequential
     cache 3600
     health localhost:8091 {
-        lameduck 1s
-    }
+        lameduck 1s 
+}
     dnssec
     reload
 
@@ -308,3 +335,7 @@ doas rc-service coredns start
 - Blog.bythewood.me - [minimal automated update for alpine](https://blog.bythewood.me/posts/minimal-automated-updates-for-alpine-linux/)
 - Just Serendipity - [apk autoupdate on Alpine](https://perrotta.dev/2024/08/apk-autoupdate-on-alpine-linux/)
 - Philip Peloctaux - [Coredns-Alpine](https://philippeloctaux.com/blog/coredns-alpine/)
+- Securing Alpine Linux - [Wiki](https://wiki.alpinelinux.org/wiki/Securing_Alpine_Linux)
+- ICANN - [Non Routable Domain Names](https://www.icann.org/en/board-activities-and-meetings/materials/approved-resolutions-special-meeting-of-the-icann-board-29-07-2024-en#section2.a)
+- SomeGuyandhistmac - [Coredns Docker and Multihosts](https://someguyandhismac.com/posts/corends-docker-multihosts/)
+- European alternatives to US DNS resolvers - [Website](https://european-alternatives.eu/alternative-to/opendns)
