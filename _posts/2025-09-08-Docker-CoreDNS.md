@@ -51,7 +51,7 @@ Although I don't use the forward or reverse DNS lookup on his setup, I did use i
     log
     errors }
 
-linuxhome.co.uk:53 {
+example.com:53 {
     forward . 192.168.20.1
     import snip 
 }
