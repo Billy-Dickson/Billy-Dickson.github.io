@@ -1,6 +1,6 @@
 ---
 title: Installing CoreDNS on Alpine Linux
-date: 2025-09-16
+date: 2025-11-09
 draft: true
 categories: [Homelab, Proxmox, Alpine Linux]
 tags: [homelab, proxmox, alpine linux]     # TAG names should always be lowercase
@@ -8,7 +8,9 @@ image:
    path: ../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/header.webp
 ---
 
-Having recently installed CoreDNS in a [docker container](https://thebloody.cloud/posts/Docker-CoreDNS/), I though that I would also try to install it on [Alpine Linux](https://www.alpinelinux.org/) in a Proxmox Virtual Machine, I might move it to proper hardware at some point, we will see. Saying that, it's working incredibly well with a really small footprint.
+Having recently installed CoreDNS in a [docker container](https://thebloody.cloud/posts/Docker-CoreDNS/), I though that I would also try to install it on [Alpine Linux](https://www.alpinelinux.org/) in a Proxmox Virtual Machine, I might move it to proper hardware at some point, we will see. Saying that, it's working incredibly well and has a really small memory footprint, even with CoreDNS installed and setup.
+
+![Memory Footprint](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Memory-Usage.webp)
 
 Below are the setting's I'm using for my container, do feel free to use them as a template. I'm using the **Virtual X86_64** version downloadable from [this page](https://alpinelinux.org/downloads/)
 
@@ -143,9 +145,102 @@ doas rc-update add qemu-guest-agent
 
 ## Securing Alpine Linux
 
-Based on the execellent alpine linux [wiki](https://wiki.alpinelinux.org/wiki/Securing_Alpine_Linux) article, the following is an aid to my memory, I would be inclined to follow the Alpine Linux wiki article above.
+### Enabling automatic updates
 
-### Install necessary security tools
+Based on an excellent article by [Isaac Bythewood](https://blog.bythewood.me/posts/minimal-automated-updates-for-alpine-linux/) we're going to create a bash script that will be run by a cron job every night at 2:00 in the morning, that checks for updates and applies them.
+
+Change directory to **/etc/periodic/daily/**
+
+```bash
+cd /etc/periodic/daily
+```
+
+Create a file called apk-autoupgrade
+
+```bash
+doas nano apk-autoupgrade
+```
+
+Add the following
+
+```bash
+apk upgrade --update | sed "s/^/[`date`] /" >> /var/log/apk-autoupgrade.log"
+```
+
+Tighten up the permissions to allow the script to run
+
+```bash
+doas chmod 700 /etc/periodic/daily/apk-autoupgrade
+```
+
+### Installing and setting up UFW Firewall
+
+UFW stands for Uncomplicated Firewall, and is a program for managing a netfilter firewall. It provides a command line interface and aims to be uncomplicated and easy to use. I'm using the instructions provided by the [alpinelinux wiki](https://wiki.alpinelinux.org/wiki/Uncomplicated_Firewall) to install and configure to my needs.
+
+Check to make sure that the community repository is uncommented.
+
+```bash
+doas nano /etc/apk/repositories
+```
+
+```bash
+#/media/cdrom/apks
+http://dl-cdn.alpinelinux.org/alpine/v3.22/main
+http://dl-cdn.alpinelinux.org/alpine/v3.22/community
+```
+
+If it's the same as above, all is well, you can now install the package.
+
+```bash
+doas apk add ip6tables ufw
+```
+
+Some basic setup before enabling the firewall, you don't want to lock yourself out.
+
+```bash
+doas ufw default deny incoming
+doas ufw default allow outgoing
+```
+
+Open SSH port and protect against brute-force login attacks
+
+```bash
+doas ufw limit SSH
+```
+
+Allow inbound NTP
+
+```bash
+doas ufw allow in ntp
+```
+
+Allow inbound DNS
+
+```bash
+doas ufw allow in dns
+```
+
+Allow inbound DNS over TLS
+
+```bash
+doeas ufw allow in 853/tcp
+```
+
+Enable the firewall
+
+```bash
+doas ufw enable
+```
+
+Enable the UFW startup init script
+
+```bash
+doas rc-update add ufw
+```
+
+A list firewall rules.
+
+![Firewall List](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/ufw-status-numbered.webp)
 
 ## Installing CoreDNS
 
@@ -309,7 +404,7 @@ Show services at startup
 doas rc-status
 ```
 
-For Info (remove service at startup)
+For info only (howto remove service at startup)
 
 ```bash
 doas rc-update del coredns
