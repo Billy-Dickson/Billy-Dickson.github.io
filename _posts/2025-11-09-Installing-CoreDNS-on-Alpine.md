@@ -93,6 +93,14 @@ apk update && apk upgrade
 apk add nano
 ```
 
+### Install fastfetch (optional)
+
+```bash
+apk add fastfetch
+```
+
+![Fastfetch](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/fastfetch.webp)
+
 ### Adding an admin user
 
 ```bash
@@ -434,3 +442,4 @@ doas rc-service coredns start
 - ICANN - [Non Routable Domain Names](https://www.icann.org/en/board-activities-and-meetings/materials/approved-resolutions-special-meeting-of-the-icann-board-29-07-2024-en#section2.a)
 - SomeGuyandhistmac - [Coredns Docker and Multihosts](https://someguyandhismac.com/posts/corends-docker-multihosts/)
 - European alternatives to US DNS resolvers - [Website](https://european-alternatives.eu/alternative-to/opendns)
+- Setting up an [Alpine Linux workstation](https://whynothugo.nl/journal/2023/11/19/setting-up-an-alpine-linux-workstation/)
