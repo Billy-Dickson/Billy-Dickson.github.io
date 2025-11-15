@@ -1,7 +1,6 @@
 ---
 title: Installing CoreDNS on Alpine Linux
 date: 2025-11-09
-draft: true
 categories: [Homelab, Proxmox, Alpine Linux]
 tags: [homelab, proxmox, alpine linux]     # TAG names should always be lowercase
 image: 
@@ -9,6 +8,8 @@ image:
 ---
 
 Having recently installed CoreDNS in a [docker container](https://thebloody.cloud/posts/Docker-CoreDNS/), I though that I would also try to install it on [Alpine Linux](https://www.alpinelinux.org/) in a Proxmox Virtual Machine, I might move it to proper hardware at some point, we will see. Saying that, it's working incredibly well and has a really small memory footprint, even with CoreDNS installed and setup.
+
+The virtual image I'm using works great in my homelab, but if I was going to be using it outside or in a externally hosted scenario, I would definately install and configure auditing.
 
 ![Memory Footprint](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Memory-Usage.webp)
 
@@ -38,7 +39,7 @@ Below are the setting's I'm using for my container, do feel free to use them as 
 
 ### Network
 
-This will probably be different for you, this docker container is resident on VLAN 20 on my network class C network 192.168.20.0/24
+This will probably be different for you, this docker container is resident on VLAN 20 on my class C private network 192.168.20.0/24
 
 ![Netowrk](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Network.webp)_Network_
 
@@ -293,7 +294,7 @@ My CoreDNS install only handles external queries, forwarding them to Quad 9 and 
     log
     errors }
 
-linuxhome.co.uk:53 {
+example.com:53 {
     forward . 192.168.20.1
     import snip 
 }
@@ -430,9 +431,6 @@ doas rc-service coredns start
 - How to prepare [Alpine Linux with Cloud init for Proxmox](https://5wire.co.uk/how-to-prepare-alpine-linux-image-with-cloud-init-ready-for-proxmox/)
 - Self Hosting [CoreDNS on Alpine Linux](https://www.ipv6.rs/tutorial/Alpine_Linux_Latest/CoreDNS/)
 - Installing [QEMU guest in Alpine](https://wiki.alpinelinux.org/wiki/Install_Alpine_in_QEMU#Create_the_Virtual_Machine)
-- Krython.com - [Setting up Alpine Linux DNS Configuration](https://krython.com/post/setting-up-alpine-linux-dns-configuration)
-- Krypton.com - [Installing and configuring an NTP server](https://krython.com/post/configuring-ntp-server)
-- Techmint.com - [Installing and configuring an NTP server](https://www.tecmint.com/Install-chrony-in-centos-ubuntu-linux/)
 - Setup CoreDNS on Alpine Linux - [philippeloncaux.com](https://philippeloctaux.com/blog/coredns-alpine/)
 - Install and configure CoreDNS - [de-marco.net](https://di-marco.net/blog/it/2024-05-09-Intall_and_configure_coredns/)
 - Blog.bythewood.me - [minimal automated update for alpine](https://blog.bythewood.me/posts/minimal-automated-updates-for-alpine-linux/)
