@@ -4,7 +4,7 @@ date: 2025-11-09
 categories: [Homelab, Proxmox, Alpine Linux]
 tags: [homelab, proxmox, alpine linux]     # TAG names should always be lowercase
 image: 
-   path: ../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/header.webp
+   path: ../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/header.webp
 ---
 
 Having recently installed CoreDNS in a [docker container](https://thebloody.cloud/posts/Docker-CoreDNS/), I though that I would also try to install it on [Alpine Linux](https://www.alpinelinux.org/) in a Proxmox Virtual Machine, I might move it to proper hardware at some point, we will see. Saying that, it's working incredibly well and has a really small memory footprint, even with CoreDNS installed and setup.
@@ -19,35 +19,35 @@ Below are the setting's I'm using for my container, do feel free to use them as 
 
 ### General Settings
 
-![General Settings](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/General.webp)_General Settings_
+![General Settings](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/General.webp)_General Settings_
 
 ### OS Settings
 
-![OS](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/OS.webp)_OS Settings_
+![OS](../assets/img/posts/2025-11-09-Installing-CoreDNS-on-Alpine/OS.webp)_OS Settings_
 
 ### Disk
 
-![Disk](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Disk.webp)_Disk_
+![Disk](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Disk.webp)_Disk_
 
 ### CPU
 
-![CPU](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/CPU.webp)_CPU_
+![CPU](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/CPU.webp)_CPU_
 
 ### Memory
 
-![Memory](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Memory.webp)_Memory_
+![Memory](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Memory.webp)_Memory_
 
 ### Network
 
 This will probably be different for you, this docker container is resident on VLAN 20 on my class C private network 192.168.20.0/24
 
-![Netowrk](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Network.webp)_Network_
+![Network](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Network.webp)_Network_
 
 ### Hardware
 
 A screenshot of my hardware, your hardware will be quite similar, but no doubt you'll change it to suite your own circumstances.
 
-![Hardware](../assets/img/posts/2025/2025-09-08-Docker-CoreDNS/Hardware.webp)_Hardware_
+![Hardware](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/Hardware.webp)_Hardware_
 
 ## Initial Setup
 
@@ -201,7 +201,13 @@ http://dl-cdn.alpinelinux.org/alpine/v3.22/community
 If it's the same as above, all is well, you can now install the package.
 
 ```bash
-doas apk add ip6tables ufw
+doas apk add ip6tables iptables ufw
+```
+
+Reboot the VM, then continue with the rest of the instructions.
+
+```bash
+doas reboot
 ```
 
 Some basic setup before enabling the firewall, you don't want to lock yourself out.
