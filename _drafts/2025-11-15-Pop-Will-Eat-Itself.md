@@ -1,6 +1,7 @@
 ---
 title: Pop Will Eat Itself
 date: 2025-11-15
+draft: true
 categories: [Gigs and Socials]
 tags: [gigs and socials]     # TAG names should always be lowercase
 image:
