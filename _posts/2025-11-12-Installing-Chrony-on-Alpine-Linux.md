@@ -318,7 +318,7 @@ Start the chrony service now
 doas rc-service chronyd start
 ```
 
-![](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/starting_chrony.webc)
+![Starting Chrony](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/starting_chrony.webc)
 
 ### Testing Chrony
 
@@ -340,14 +340,13 @@ chronyc sources
 
 ![Chrony Sources](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chronyc_sources.webc)
 
-
 Show detailed source information
 
 ```bash
 chronyc sourcestats
 ```
 
-![](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chronyc_sourcestats.webp)
+![Chrony Soucestats](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chronyc_sourcestats.webp)
 
 chronyc clients
 
