@@ -2,7 +2,7 @@
 title: Installing CoreDNS on Alpine Linux
 date: 2025-11-09
 categories: [Homelab, Proxmox, Alpine Linux]
-tags: [homelab, proxmox, alpine linux]     # TAG names should always be lowercase
+tags: [homelab, proxmox, alpine linux, coredns]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/header.webp
 ---
@@ -23,7 +23,7 @@ Below are the setting's I'm using for my container, do feel free to use them as 
 
 ### OS Settings
 
-![OS](../assets/img/posts/2025-11-09-Installing-CoreDNS-on-Alpine/OS.webp)_OS Settings_
+![OS](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/OS.webp)_OS Settings_
 
 ### Disk
 

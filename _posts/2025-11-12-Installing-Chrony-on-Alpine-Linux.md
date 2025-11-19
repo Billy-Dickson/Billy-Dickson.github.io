@@ -1,9 +1,8 @@
 ---
 title: Installing Chrony on Alpine Linux
 date: 2025-11-12
-draft: true
 categories: [Homelab, Proxmox, Alpine Linux]
-tags: [homelab, proxmox, alpine linux]     # TAG names should always be lowercase
+tags: [homelab, proxmox, alpine linux, chrony]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/header.webp
 ---
@@ -236,9 +235,131 @@ doas rc-update add ufw
 
 A list firewall rules.
 
-![Firewall List](../assets/img/posts/2025/2025-11-09-Installing-CoreDNS-on-Alpine/ufw-status-numbered.webp)
+![Firewall List](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/ufw-status-numbered.webp)
+
+## Installing chrony (NTP Server)
+
+### Installation
+
+Installing chrony and time tools
+
+```bash
+doas apk add chrony tzdata
+```
+
+### Setup Chrony
+
+Backup the original configuration file.
+
+```bash
+doas cp /etc/chrony/chrony.conf /etc/chrony/chrony.conf.backup
+```
+
+Edit the chrony config file
+
+```bash
+doas nano /etc/chrony/chrony.conf
+```
+
+Replace with the following.
+
+```bash
+# Use public NTP servers
+server 0.pool.ntp.org iburst
+server 1.pool.ntp.org iburst
+server 2.pool.ntp.org iburst
+server 3.pool.ntp.org iburst
+
+# Allow clients from local network
+# Feel free to tighten up the following allowed networks
+allow 127.0.0.0/8
+allow 192.168.0.0/16
+allow 172.16.0.0/20
+allow 10.0.0.0/8
+
+# Serve time even if not synchronized
+local stratum 10
+
+# Enable NTP server functionality
+port 123
+
+# Drift file to remember clock speed
+driftfile /var/lib/chrony/drift
+
+# Log directory
+logdir /var/log/chrony
+
+# Make steps larger than 1 second
+makestep 1.0 3
+
+# Enable kernel synchronization
+rtcsync
+````
+
+Code explanation:
+
+- server: External time sources to sync with
+- allow: Networks that can get time from this server
+- local stratum 10: Act as time source even when offline
+- port 123: Standard NTP port
+- makestep: Allow big time corrections
+
+Enable and start Chrony
+
+Add chrony to the startup service
+
+```bash
+doas rc-update add chronyd default
+```
+
+Start the chrony service now
+
+```bash
+doas rc-service chronyd start
+```
+
+![](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/starting_chrony.webc)
+
+### Testing Chrony
+
+Bare in mind, your output will be slighty different to mine.
+
+Checking chronyd status
+
+```bash
+chronyc tracking
+```
+
+![Chrony Tracking](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chrony_tracking.webp)
+
+List time sources
+
+```bash
+chronyc sources
+```
+
+![Chrony Sources](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chronyc_sources.webc)
+
+
+Show detailed source information
+
+```bash
+chronyc sourcestats
+```
+
+![](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chronyc_sourcestats.webp)
+
+chronyc clients
+
+```bash
+doas chronyc clients
+```
+
+![Chrony Clients](../assets/img/posts/2025/2025-11-12-Installing-Chrony-on-Alpine-Linux/chrony_clients.webp)
 
 ## References
 
+- Crony - [Introduction](https://chrony-project.org/index.html)
 - Krypton.com - [Installing and configuring an NTP server](https://krython.com/post/configuring-ntp-server)
 - Techmint.com - [Installing and configuring an NTP server](https://www.tecmint.com/Install-chrony-in-centos-ubuntu-linux/)
+- How to change [time date settings on Ubuntu](https://phoenixnap.com/kb/how-to-set-or-change-timezone-date-time-ubuntu)
