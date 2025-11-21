@@ -38,7 +38,7 @@ A little snippet from their Wikipedia page, do feel free to read it in its [enti
 
 > Pop Will Eat Itself are an English [alternative](https://en.wikipedia.org/wiki/Alternative_rock) rock band formed in 1986 in [Stourbridge](https://en.wikipedia.org/wiki/Stourbridge) in the [West Midlands](https://en.wikipedia.org/wiki/West_Midlands_(region)) of England with members from [Birmingham](https://en.wikipedia.org/wiki/Birmingham), [Coventry](https://en.wikipedia.org/wiki/Coventry) and the [Black Country](https://en.wikipedia.org/wiki/Black_Country). Initially known as a [grebo](https://en.wikipedia.org/wiki/Grebo_(music)) act, they changed style to incorporate [sample-driven](https://en.wikipedia.org/wiki/Sampling_(music)) [indie](https://en.wikipedia.org/wiki/Indie_rock) and [industrial rock](https://en.wikipedia.org/wiki/Industrial_rock). Graham Crabb describes their sound as "electronic, punk, alternative hip-hop, hybrid music for fucking, fighting & smoking cigars". Their highest-charting single was the 1993 top-ten hit "Get the Girl! Kill the Baddies!".[3] After initially disbanding in 1996, and having a brief reformation in 2005, they issued their first release in more than five years in 2010.
 
-Set List curtisy of [setlist.fm](https://www.setlist.fm/setlist/pop-will-eat-itself/2025/la-belle-angele-edinburgh-scotland-b41e93e.html), so take it with a pinch of salt.
+Set list from [setlist.fm](https://www.setlist.fm/setlist/pop-will-eat-itself/2025/la-belle-angele-edinburgh-scotland-b41e93e.html), so take it with a pinch of salt.
 
 1. The Slammer
 2. Wise Up! Sucker
