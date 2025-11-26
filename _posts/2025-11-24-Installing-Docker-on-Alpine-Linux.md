@@ -182,7 +182,7 @@ docker run hello-world
 
 Expected results
 
-![Hello World](../assets/img/posts/2025/2025-11-24-Installing-Docker-on-Alpine-Linux/hello-world.webc)_Hello World_
+![Hello World](../assets/img/posts/2025/2025-11-24-Installing-Docker-on-Alpine-Linux/hello-world.webp)_Hello World_
 
 ## References
 
