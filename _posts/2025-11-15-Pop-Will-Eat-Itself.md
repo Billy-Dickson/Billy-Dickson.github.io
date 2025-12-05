@@ -11,6 +11,8 @@ Being a Saturday and having done everything on my families tick list, I had arra
 
 I wasn't impressed with the food options, so we headed along the road to the [Paradise Palms](https://maps.app.goo.gl/sJvRwUuFjxGRbE8Y6), FYI their chicken nuggets are fab 🐔 👍. After I was pleasently full, we headed along to La Belle Angele and managed to see the last 2 songs from the GANS and I've got to say, myself [Danny Gig-Antics](https://www.gig-antics.live) and [Slash Vaseline](https://www.gig-antics.live/post/introducing-slash-vaseline) thought they were belters! I'm really going to have to see a whole set next time they are in Edinburgh.
 
+Having never seen Pop  Will Eat Itself play live back in the day, I really didn't know what to expect. What can I say, I really really did enjoy them, I will totally be going to see them if they play up here again. They played a cracker, with a fair number of their more recognisable older songs (the only ones I would remember, since I'm of that generation).
+
 ## The Gig
 
 The Venue - [La Belle Angele](https://la-belleangele.com/)
