@@ -9,6 +9,14 @@ image:
 
 With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry.
 
+## Updated 16th December 2025
+
+I was getting the following error message when starting Watchtower.
+
+**Client version 1.32 is too old. Minimum supported API version is 1.44, please upgrade your client to a newer version** .
+
+After some investigating, it looks like the current version of watchtower [here](https://github.com/containrrr/watchtower) is no longer getting updated to support newer versions of docker, so I'be moved over to a fork that I know works, I've updated the docker-compose script below to the new fork.
+
 ## Pre-requisites
 
 1. Working knowledge of Linux
@@ -29,7 +37,7 @@ The only thing I had to do, was to create an app password for the watchtower ema
 ```yaml
 services:
   watchtower:
-    image: containrrr/watchtower
+    image: nickfedor/watchtower
     networks:
        - blackhole
     container_name: watchtower
@@ -69,3 +77,4 @@ Below is an example of the email that's sent when an image is updated.
 * Installing watchtower on a [Digital Ocean Instance](https://www.digitalocean.com/community/tutorials/how-to-automatically-update-docker-container-images-with-watchtower-on-ubuntu-22-04)
 * The [watchtower](https://github.com/containrrr/watchtower) github page
 * Watchtower [Documentation](https://containrrr.dev/watchtower/)
+* Nicolas Fedor - [Fork of Watchtower](https://github.com/nicholas-fedor/watchtower?tab=readme-ov-file)
