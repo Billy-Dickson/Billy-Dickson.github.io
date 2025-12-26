@@ -203,7 +203,7 @@ example.com, *.example.com {
 ## References
 
 - Docker Basics - [How to build and use a dockerfile](https://thenewstack.io/docker-basics-how-to-use-dockerfiles/)
-- Nine reverse proxies you should check out for your [home network](https:/www.xda-developers.com/reverse-proxies-you-should-check-out-for-your-home-network/)
+- Nine reverse proxies you should check out for your [home network](https://www.xda-developers.com/reverse-proxies-you-should-check-out-for-your-home-network/)
 - Virtualization Howto - [Caddy Reverse Proxy](https://www.virtualizationhowto.com/2025/09/caddy-reverse-proxy-in-2025-the-simplest-docker-setup-for-your-home-lab/) simple docker setup for your home lab
 - Build your own [caddy with cloudflare plugin](https://webenclave.com/2024/11/07/setting-up-a-secure-local-network-with-caddy-cloudflare-dns-and-lets-encrypt/)
 - Best reverse proxy for [homelab](https://homelabs.guru/en/best-reverse-proxies-for-homelabs-secure-and-simplify-access/)
