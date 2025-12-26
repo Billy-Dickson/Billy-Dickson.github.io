@@ -31,17 +31,15 @@ cd caddy
 2. Click "Create Token"
 ![Custom API Token](../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/Custom_Toke.webp)
 
-4. Set permissions
+3. Set permissions
 
     Zone:Zone:Read
 
     Zone:DNS:Edit
 
-5. Set Zone Resources to include your domain (s)
+4. Set Zone Resources to include your domain (s)
 
 ![Use API Token](../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/Use_API_Token.webp)
-
-
 
 ![Valid API token for Caddy](../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/Valid_API_Token.webp)
 
