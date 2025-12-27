@@ -28,7 +28,7 @@ cd caddy
 ### Getting a Cloudflare API token for your Domain
 
 1. Go to [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
-2. Click "Create Token"
+2. Click "Create Custom Token"
 ![Custom API Token](../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/Custom_Toke.webp)
 
 3. Set permissions
@@ -43,7 +43,7 @@ cd caddy
 
 ![Valid API token for Caddy](../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/Valid_API_Token.webp)
 
-Take a note of the Cloudflare API Token and plug it into the .env file below, the cloudflare email address, is the address that you would use to log into your Cloudflare account.
+Take a note of the Cloudflare API Token and plug it into the .env file below, the cloudflare email address is the address that you would use to log into your Cloudflare account.
 
 ### Create an .env file container your Cloudflare details
 
@@ -131,11 +131,11 @@ nano /etc/caddy/Caddyfile
 
 ```bash
 {
-   # Global Options
-   # ACME DNS configuration using Cloudflare
+    # Global Options
+    # ACME DNS configuration using Cloudflare
 
-   # acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
-   email {env.CLOUDFLARE_EMAIL}
+    # acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+    email {env.CLOUDFLARE_EMAIL}
 }
 
 # Snippet for internal-only access
@@ -158,7 +158,7 @@ nano /etc/caddy/Caddyfile
 
 # Site block for root and all subdomains
 example.com, *.example.com {
-    import common   
+    import common
 
     # Required for Wildcard certs via Cloudflare DNS
     tls {
@@ -168,12 +168,11 @@ example.com, *.example.com {
     # Logging - helps with debugging
     log {
         output file /var/log/caddy/access.log
-    }    
+    }
 
     # FreshRSS
     @freshrss host freshrss.example.com
     handle @freshrss {
-        import internal_only
         reverse_proxy freshrss:80
     }
 
@@ -189,6 +188,41 @@ example.com, *.example.com {
     handle @excalidraw {
         import internal_only
         reverse_proxy excalidraw:80
+    }
+
+    # IT-Tools
+    @it-tools host it-tools.example.com
+    handle @it-tools {
+        import internal_only
+        reverse_proxy it-tools:8080
+    }
+
+    # Technitium DNS Server
+    @technitium-dns-server host dns-server.example.com
+    handle @technitium-dns-server {
+        import internal_only
+        reverse_proxy dns-server:5380
+    }
+
+    # Calibre Web
+    @calibre-web host ebooks.example.com
+    handle @calibre-web {
+        import internal_only
+        reverse_proxy calibre-web:8083
+    }
+
+    # Uptime-Kuma
+    @uptime-kuma host uptime.example.com
+    handle @uptime-kuma {
+        import internal_only
+        reverse_proxy uptime-kuma:3001
+    }
+
+    # 13ft Ladder
+    @ladder host ladder.example.com
+    handle @ladder {
+        import internal_only
+        reverse_proxy ladder:8080
     }
 
     # Default fallback
