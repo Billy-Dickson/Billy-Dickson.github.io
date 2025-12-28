@@ -8,6 +8,20 @@ image:
    path: ../assets/img/posts/2025/2025-11-27-Installing-Caddy-Docker-Container/header.webp
 ---
 
+Previously, I used [Nginx Proxy Manager](https://nginxproxymanager.com/), which I loved using and was fairly intuitive and easy to use, but as my docker stack kept growing and the price of RAM kept going up, I had for find a reverse proxy that was a bit leaner and just as performant. After a bit of research, I came across a good few options, see below for what I found.
+
+Authenticated access control wasn't something that I considered when I was choosing an alternative, and if it was I would probably use Traefik.
+
+Choosing the Right Reverse Proxy for Your Needs
+Feature.
+
+| Nginx Proxy Manager | Traefik | Caddy | HAProxy | Apache |
+| :------------------ | :------ | :------- | :------ | :---- |
+| Ease of Use | High | Moderate | High | Low |
+| SSL Automation | Yes (Let’s Encrypt) | Yes (Let’s Encrypt) | Yes (Automatic) | Yes (Let’s Encrypt) |
+| GUI for Management | Yes | [Yes (Dashboard)](https://github.com/caddymanager/caddymanager) | No | No |
+
+Personally, I prefer the command prompt, but as they say "Each to their own".
 
 ## Requirements
 
