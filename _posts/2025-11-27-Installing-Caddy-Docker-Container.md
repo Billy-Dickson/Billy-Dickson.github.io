@@ -119,22 +119,22 @@ volumes:
 #   external: true
 ```
 
+### Create a Caddyfile
+
 Below is my Caddyfile, I've chosen to restrict access to my home network, see the (internal_only) stanza, feel free to comment this out if you intend make it internet facing. If your going to use it in a homelab environmnt, then I would suggest placing the VM in a [DMZ zone](https://en.wikipedia.org/wiki/DMZ_(computing)).
 
 [What is a non Routable Private address space](https://en.wikipedia.org/wiki/Private_network)
-
-Create a Caddyfile
 
 ```bash
 nano /etc/caddy/Caddyfile
 ```
 
-```bash
+```yaml
 {
     # Global Options
     # ACME DNS configuration using Cloudflare
-
     # acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+
     email {env.CLOUDFLARE_EMAIL}
 }
 
