@@ -30,7 +30,7 @@ It was originally built on October 2017 (it’s now 7 years old and still runnin
 
 ## Power Supply Needed (Rough Calculation)
 
-here’s a really good article [here](https://forums.freenas.org/index.php?threads/proper-power-supply-sizing-guidance.38811/&sa=D&source=editors&ust=1666005686712431&usg=AOvVaw3fWtXxbU1ao3xzj10ko_LA) about calculating the required power supply wattage. I initially started using 4 drives, but over time I managed to fill them up, at that point it rebuilt my server with 8 drives.
+Here’s a really good article [here](https://forums.freenas.org/index.php?threads/proper-power-supply-sizing-guidance.38811/&sa=D&source=editors&ust=1666005686712431&usg=AOvVaw3fWtXxbU1ao3xzj10ko_LA) about calculating the required power supply wattage. I initially started using 4 drives, but over time I managed to fill them up, at that point it rebuilt my server with 8 drives.
 
 | **Power supply needed**| | **Power**|
 |:-|-:|-:|
