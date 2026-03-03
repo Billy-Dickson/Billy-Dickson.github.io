@@ -162,9 +162,13 @@ nano /etc/caddy/Caddyfile
 (common) {
     encode zstd gzip
     header {
-        # Security headers
+        # Enable XSS protection
+        X-XSS-Protection "1; mode=block"
+        # Enable HSTS - https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
         Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        # Prevent MIME type sniffing
         X-Content-Type-Options nosniff
+        # Prevent clickjacking
         X-Frame-Options DENY
         Referrer-Policy no-referrer-when-downgrade
     }
@@ -187,6 +191,7 @@ example.com, *.example.com {
     # FreshRSS
     @freshrss host freshrss.example.com
     handle @freshrss {
+        import internal_only
         reverse_proxy freshrss:80
     }
 
@@ -232,13 +237,6 @@ example.com, *.example.com {
         reverse_proxy uptime-kuma:3001
     }
 
-    # 13ft Ladder
-    @ladder host ladder.example.com
-    handle @ladder {
-        import internal_only
-        reverse_proxy ladder:8080
-    }
-
     # Default fallback
     handle {
         respond "404 - Service not found" 404
@@ -257,5 +255,4 @@ example.com, *.example.com {
 - Caddy [Documentation](https://caddyserver.com/docs/automatic-https)
 - Caddy with Cloudflare build - This is the one I'm using above [Docker Hub](https://hub.docker.com/r/caddybuilds/caddy-cloudflare)
 - Caddy with Cloudflare build - [Docker Hub](https://hub.docker.com/r/iarekylew00t/caddy-cloudflare)
-- Great [article](https://www.khueapps.com/blog/article/how-to-use-caddy-to-setup-ssl-https-in-docker-compose) about setting up Caddy in Docker
 - Alex's guide to Caddy [Part 1](https://blog.alexsguardian.net/posts/2023/12/04/caddyguide-part1)
