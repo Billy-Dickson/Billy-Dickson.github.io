@@ -181,7 +181,7 @@ pve         IN CNAME    proxmox
 ### Detailed Breakdown
 
 | Configuration Aspect | Details | Explanation |
-|---------------------|---------|-------------|
+|!---------------------|---------|-------------|
 | **Image** | `coredns/coredns:latest` | Uses the official CoreDNS Docker image with the most recent version |
 | **Network** | `blackhole` (external) | Connects the container to a pre-existing Docker network |
 | **Container Name** | `coredns` | Sets a specific name for the Docker container |
