@@ -56,13 +56,13 @@ example.com:53 {
     import snip 
 }
 
-# Reverse zone for linuxhome.co.uk
+# Reverse zone for example.com
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip
 }
 
-# Reverse zone for linuxhome.co.uk
+# Reverse zone for example.com
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip 
