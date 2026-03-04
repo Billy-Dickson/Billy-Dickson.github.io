@@ -284,7 +284,7 @@ This is my Corefile below, I'm forwarding my internal requests (forward and reve
 My CoreDNS install only handles external queries, forwarding them to Quad 9 and Cloudflare using [DOT (DNS over TLS)](https://www.cloudflare.com/en-gb/learning/dns/dns-over-tls/).
 
 ```yaml
-# Authoritative zone for linuxhome.co.uk
+# Authoritative zone for example.com
 # https://www.ibm.com/think/topics/dns-records
 
 # define a snippet
@@ -305,13 +305,13 @@ example.com:53 {
     import snip 
 }
 
-# Reverse zone for linuxhome.co.uk
+# Reverse zone for example.com
 20.168.192.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip
 }
 
-# Reverse zone for linuxhome.co.uk
+# Reverse zone for example.com
 69.16.172.in-addr.arpa:53 {
     forward . 192.168.20.1
     import snip 
