@@ -45,14 +45,10 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'latest'
-
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
           JEKYLL_ENV: "production"
 
       - name: Test site
