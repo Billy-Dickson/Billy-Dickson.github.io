@@ -46,4 +46,3 @@ Afer you've set this up (see graphic below, you Lan Address should be getting an
 - World [IPv6 Day](https://www.worldipv6launch.org/)
 - Test your [IPv6 connectivity](https://test-ipv6.com/)
 - IPv6 / IPv4 [Connectivity Test](https://test-ipv6.com/)
-- Test my [IPv6](http://testmyipv6.com/)
