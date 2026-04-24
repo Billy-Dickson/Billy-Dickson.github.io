@@ -11,6 +11,7 @@ image:
 Scotland Calling 2026 is a major punk rock festival taking place on Saturday, April 25, 2026, at the Edinburgh Corn Exchange (O2 Academy Edinburgh). The all-day event features a packed lineup including The Exploited, The Rezillos, UK Subs, and Anti-Nowhere League across two stages.
 
 Headliners: The Exploited, The Rezillos
+
 Confirmed Acts:
 
     UK Subs
