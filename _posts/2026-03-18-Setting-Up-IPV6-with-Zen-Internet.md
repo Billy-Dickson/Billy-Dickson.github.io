@@ -15,13 +15,13 @@ Ahead of international IPv6 day on June 6th (Yes I know I'm very early, but I ha
 1. A router that supports IPv6, If you use the router supplied by Zen the [FRITZ!Box 7530 AX (Wi-Fi 6) router](https://www.zen.co.uk/hardware/fritzbox/), then you should be good to go. Personally, I've been using the UniFi Cloud Gateway Ultra for a number of months now, so these instructions will only apply to UniFi Gateways, running network version 10.1.89 or later.
 2. Your password and login and password for the [Zen Portal](https://my-portal.zen.co.uk/), you'll need this to request IPv6 on your line.
 
-## Zen Intenet Setup
+### Zen Intenet Setup
 
 1. Follow Zen Internet's instructions [on this page](https://www.zen.co.uk/help-support/does-zen-provide-ipv6-support/) to start the allocation process.
 2. You'll receive an email from them when the process is complete, similar to this one.
 ![Zen Internet Email](../assets/img/posts/2026/2026-03-18-Setting-Up-IPV6-with-Zen-Internet/Zen_Email.webp)
 
-## Unifi Gateway Setup
+### Unifi Gateway Setup
 
 Unifi Gateway Wan setting below.
 
@@ -31,7 +31,7 @@ After you've set this up (see graphic below), you're Wan Gateway should get an I
 
 ![Wan Interface Addresses](../assets/img/posts/2026/2026-03-18-Setting-Up-IPV6-with-Zen-Internet/Zen_Wan_Interface_Addresses.webp)
 
-## Unifi Lan Setup
+### Unifi Lan Setup
 
 Interface Settings below.
 
