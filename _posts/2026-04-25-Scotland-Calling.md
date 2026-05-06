@@ -96,7 +96,7 @@ The review below is probably as close to how I would describe them live, even if
 - [The Bar Stool Preachers - Website](https://thebarstoolpreachers.com/)
 - [The Bar Stool Preachers - Instagram](https://www.instagram.com/thebarstoolpreachers)
 - [The Bar Stool Preachers - Facebook](https://www.facebook.com/thebarstoolpreachers/)
-- [The Bar Stool Preachers - Spotify](http://open.spotify.com/user/The%20Bar%20Stool%20Preachers)
+- [The Bar Stool Preachers - Spotify](https://open.spotify.com/user/The%20Bar%20Stool%20Preachers)
 
 ### 5 - Dirt Box Disco
 
@@ -108,7 +108,7 @@ Below is a snippet of a brilliant review by Echo's and Dust that really does des
 ![Dirtbox Disco 2](../assets/img/posts/2026/2026-04-26-Scotland-Calling/Dirtbox_Disco_2.webp)_Dirtbox Disco_
 ![Dirtbox Disco 3](../assets/img/posts/2026/2026-04-26-Scotland-Calling/Dirtbox_Disco_3.webp)_Dirtbox Disco_
 
-- [Dirtbox Disco - Website](http://www.dirtboxdisco.com/)
+- [Dirtbox Disco - Website](https://www.dirtboxdisco.com/)
 - [Dirtbox Disco - Facebook](https://www.facebook.com/dirtboxdisco/)
 - [Dirtbox Disco - Instagram](https://www.instagram.com/dirt.box.disco/)
 - [Dirtbox Disco - Twitter](https://x.com/dirtboxdisco)
