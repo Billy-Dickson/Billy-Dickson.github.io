@@ -3,7 +3,7 @@ title: Scotland Calling 2026
 date: 2026-04-25
 categories: [Gigs and Socials]     # TAG names should always be lowercase]
 tags: [gigs and socials, scotland calling 2026]     # TAG names should always be lowercase   # TAG names should always be lowercase
-draft: true
+draft: false
 image:
    path: ../assets/img/posts/2026/2026-04-26-Scotland-Calling/Header.webp
 ---
