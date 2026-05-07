@@ -18,9 +18,9 @@ Spending time with friends and socializing, playing pool, travelling and holiday
 
 ## Running and Fitness
 
-I started running in 2004 after I stopped smoking. My first full marathon was September 2005. I have since run ~~13 Marathons~~ 15 Marathons (one was cancelled), numerous Half Marathons and 10K races. I've been a qualified Scottish Athletics [JogScotland Leader](https://scottishathletics.justgo.com/) since 8th September 2018, and I've really enjoyed helping novice runners reach their full potential, whatever distance they decide to run, feel free to follow me on Strava, button below.
+I started running in 2004 after I stopped smoking. My first full marathon was September 2005. I have since run ~~13 Marathons~~ 15 Marathons (one was cancelled), numerous Half Marathons and 10K races. I've been a qualified Scottish Athletics [JogScotland Leader](https://scottishathletics.justgo.com/) since 8th September 2018, and I've really enjoyed helping novice runners reach their full potential, whatever distance they decide to run, feel free to follow me on Strava.
 
-<a style="display:inline-block;background-color:#FC5200;color:#fff;padding:5px 10px 5px 30px;font-size:11px;font-family:Helvetica, Arial, sans-serif;white-space:nowrap;text-decoration:none;background-repeat:no-repeat;background-position:10px center;border-radius:3px;background-image:url('https://badges.strava.com/logo-strava-echelon.png')" href='https://strava.com/athletes/9589963' target="clean">Follow me</a>
+![Strava Graphic](../assets/img/about/Strava_Link.webp)
 
 This photo was taken in September 2009 when I ran the Berlin Marathon for a second time. I'm the guy on the left wearing my [St Andrew's Cross](https://en.wikipedia.org/wiki/Flag_of_Scotland) vest.
 
