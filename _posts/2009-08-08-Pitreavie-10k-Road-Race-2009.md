@@ -7,6 +7,8 @@ image:
    path: ../assets/img/posts/2009/2009-08-09-Pitreavie-10K-Road-Race-2009/header.webp
 ---
 
+As I happen to have the photos anyway, its probably good to share them, I'll amend the post with times if I happen to find them online. The photos are of Mark, Jan and Chris, not sure of the others but I'll amend the post as/when I find out.
+
 This was one of those times that you've trained for the run then a week before the run, you get injured. So instead of running it, I took a few photos of the proceedings instead. By the way, it was tipping it down as you can probably see.
 
 ## Photos
