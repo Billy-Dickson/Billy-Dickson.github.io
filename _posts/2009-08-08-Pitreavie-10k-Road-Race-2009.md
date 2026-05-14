@@ -22,7 +22,7 @@ This was one of those times that you've trained for the run then a week before t
 ![Pitreavie 10k 7](../assets/img/posts/2009/2009-08-09-Pitreavie-10K-Road-Race-2009/Pitreavie_10k_7.webp)_Pitreavie 10k_
 ![Pitreavie 10k 8](../assets/img/posts/2009/2009-08-09-Pitreavie-10K-Road-Race-2009/Pitreavie_10k_8.webp)_Pitreavie 10k_
 
-### References
+## References
 
 - Pitreavie [Running Club](https://paac.org.uk)
 - RunABC [Race Results](https://runabc.co.uk/)
