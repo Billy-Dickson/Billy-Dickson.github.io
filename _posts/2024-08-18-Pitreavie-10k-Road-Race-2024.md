@@ -32,6 +32,6 @@ This year I ran it with my sister and my niece, who almost pipped me to the post
 ## References
 
 * RunABC [Website](https://runabc.co.uk/forth-bridge-10k-august)
-* Pitreavie AAC [Website](https://www.pitreavie-aac.co.uk/)
+* Pitreavie AAC [Website](https://paac.org.uk/)
 * Pitreavie AAC [Facebook](https://www.facebook.com/pitreavieaac/) page
 * Perfecttiming [Website](https://perfecttimingscotland.co.uk)
