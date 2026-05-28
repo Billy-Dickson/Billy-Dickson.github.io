@@ -4,7 +4,7 @@ date: 2026-05-24
 categories: [Running, Half Marathons]
 tags: [running, half marathons, edinburgh half marathon]     # TAG names should always be lowercase
 image:
-   path: ../assets/img/posts/2026/2026-05-24-Edinburgh-Marathon-Festival-2026/header.webc
+   path: ../assets/img/posts/2026/2026-05-24-Edinburgh-Marathon-Festival-2026/header.webp
 ---
 
 My training for the race went well and I managed to get some consistent training in during the 12 weeks run up to the race, unfortunately, it didn’t map to a good finishing time, I definitely have to remind myself that I’m getting slower and give myself some more realistic goals. 😃
