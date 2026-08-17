@@ -190,3 +190,4 @@ Expected results
 - Alpine Wiki - [Installing Docker](https://wiki.alpinelinux.org/wiki/Docker)
 - The Linux Code - [Install Docker on Alpine Linux](https://wiki.alpinelinux.org/wiki/Docker)
 - Great starting point [installing and setting up Alpine linux](https://cleberg.net/blog/alpine-linux.html)
+- Docker and UFW: [The Silent Security Hole and How to Fix It](https://nimidam.com/docker-and-ufw-the-silent-security-hole-and-how-to-fix-it/)
