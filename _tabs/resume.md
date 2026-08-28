@@ -38,6 +38,7 @@ I have a good working knowledge of the following technologies
 
 ## Educations Details
 
+* 2026&emsp;Microsoft                       Mastering Microsoft 365 security administration with Microsoft Defender XDR
 * 2024&emsp;Linkedin Learning               Microsoft Teams Essential Training
 * 2024&emsp;Linkedin Learning               How to Use Linkedin Learning
 * 2018&emsp;Audinate                        Dante Certification Level 2  
