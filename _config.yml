@@ -39,10 +39,13 @@ social:
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/BillyDickson4 # change to your twitter homepage
+    #
+    # change to your twitter homepage
     - https://github.com/Billy-Dickson # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/billy.dickson
+    
+    #- https://www.facebook.com/billy.dickson
+
     - https://www.linkedin.com/in/billydickson
 
 google_site_verification: # fill in to your verification string
@@ -67,12 +70,9 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-
 # Changed to Dark on 28/08/2026, removing the dark keyword will reset it back to system.
 # Billy Dickson
-
-theme_mode: dark 
-# [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
