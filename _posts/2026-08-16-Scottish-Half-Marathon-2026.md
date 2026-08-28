@@ -1,8 +1,8 @@
 ---
 title: Scottish Half Marathon 2026
 date: 2026-08-16
-categories: [Running, Half Marathon]
-tags: [running, half marathon, scottish half marathon]     # TAG names should always be lowercase
+categories: [Running, Half Marathons]
+tags: [running, half marathon, scottish half marathons]     # TAG names should always be lowercase
 draft: false
 image:
    path: ../assets/img/posts/2026/2026-08-16-Scottish-Half-Marathon-2026/Header.webp
