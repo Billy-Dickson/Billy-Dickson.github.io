@@ -71,7 +71,8 @@ goatcounter:
 # Changed to Dark on 28/08/2026, removing the dark keyword will reset it back to system.
 # Billy Dickson
 
-theme_mode: dark # [light | dark]
+theme_mode: dark 
+# [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
