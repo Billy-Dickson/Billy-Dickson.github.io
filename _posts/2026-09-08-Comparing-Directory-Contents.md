@@ -8,8 +8,6 @@ image:
     path: ../assets/img/posts/headers/Tux_Linux.webp
 ---
 
-
-
 A good way to do this comparison is to use find with md5sum, then a diff, a big thank you to [askubuntu.com](https://askubuntu.com/) for the answer to this one. I've found it quite useful when I'm using [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) and comparing Windows NTFS directories.
 
 ## Example
