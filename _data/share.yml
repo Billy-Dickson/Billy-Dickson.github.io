@@ -24,18 +24,19 @@ platforms:
 
   - type: Mastodon
     icon: "fa-brands fa-mastodon"
+    url: "https://mastodonshare.com"
 
-    instances:
-       - label: mastodon.social
-         link: "https://mastodon.social%"
-       - label: mastodon.online
-         link: "https://mastodon.online%"
-       - label: fosstodon.org
-         link: "https://fosstodon.org%"
-       - label: photog.social
-         link: "https://photog.social%"
-       - label: "mastodon.scot"
-         link: "https://mastodon.scot%"
+#    instances:
+#       - label: mastodon.social
+#         link: "https://mastodon.social/"
+#       - label: mastodon.online
+#         link: "https://mastodon.online/"
+#       - label: fosstodon.org
+#         link: "https://fosstodon.org/"
+#       - label: photog.social
+#         link: "https://photog.social/"
+#       - label: "mastodon.scot"
+#         link: "https://mastodon.scot/"
 
   - type: Bluesky
     icon: "fa-brands fa-bluesky"
