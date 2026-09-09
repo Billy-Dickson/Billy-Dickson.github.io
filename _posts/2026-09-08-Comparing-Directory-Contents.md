@@ -10,8 +10,6 @@ image:
 
 A good way to do this comparison is to use find with md5sum, then a diff, a big thank you to [askubuntu.com](https://askubuntu.com/) for the answer to this one. I've found it quite useful when I'm using [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) and comparing Windows NTFS directories.
 
-## Example
-
 Use find to list all the files in the directory then calculate the MD5 hash for each file and pipe it sorted by filename to a file.
 
 ```bash
