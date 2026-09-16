@@ -7,9 +7,13 @@ tags: [homelab, docker, seerr]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/2026/2026-09-11-Moving-from-Overseerr-to-Seerr/preview.webp
 ---
-That's me moved over from Overseerr to Seer, the reasoning is below and I've got to say, it looks much nicer, I'm also the process of moving from Plex to Jellyfin for home viewing (Plex is getting worse, [enshitification](https://www.cloudfest.com/blog/what-is-enshittification-cory-doctorow-cloudfest-keynote) at is best).
+I'm moving from Overseer to Seer, it looks like Overseerr if being depricated so I may as well move sooner rather that later, I'm also the process of moving from Plex to Jellyfin for home viewing (Plex is getting worse, [enshitification](https://www.cloudfest.com/blog/what-is-enshittification-cory-doctorow-cloudfest-keynote) at is best).
 
-This docker container is running on my cheap [chinese proxmox server](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/) which I don't intend to upgrade any time soon because of [AI and memory prices](https://www.jpmorgan.com/insights/global-research/artificial-intelligence/dram-memory-shortage-from-ai).
+## What is Seer
+
+Seerr (often spelled "seer") on Docker is a free, open-source application used to manage media requests and discovery for self-hosted home media server.
+
+This docker container is running on my cheap [Chinese proxmox server](https://thebloody.cloud/posts/Cheap-Home-Proxmox-Server/) which I don't intend to upgrade any time soon because of [AI and memory prices](https://www.jpmorgan.com/insights/global-research/artificial-intelligence/dram-memory-shortage-from-ai).
 
 I'll keep [Plex](https://watch.plex.tv/en-GB/me) for as long as Plexamp keeps working, I do love listening to music while I commute from home to work.
 
@@ -71,7 +75,7 @@ volumes:
 #      external: true
 ```
 
-As an addition to the instructions abov, I'm also running caddy as a reverse proxy at home, the link for setting that up is [here](https://thebloody.cloud/posts/Installing-Caddy-Docker-Container/).
+As an addition to the instructions above, I'm also running caddy as a reverse proxy at home, the link for setting that up is [here](https://thebloody.cloud/posts/Installing-Caddy-Docker-Container/).
 
 ## References
 
