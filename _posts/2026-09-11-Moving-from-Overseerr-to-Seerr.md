@@ -7,7 +7,7 @@ tags: [homelab, docker, seerr]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/2026/2026-09-11-Moving-from-Overseerr-to-Seerr/preview.webp
 ---
-I'm moving from Overseer to Seer, it looks like Overseerr if being depricated, so I may as well move sooner rather that later, I'm also the process of moving from Plex to Jellyfin for home viewing (Plex is getting worse, [enshitification](https://www.cloudfest.com/blog/what-is-enshittification-cory-doctorow-cloudfest-keynote) at is best).
+I'm moving from Overseer to Seer, it looks like Overseerr if being depricated, so I may as well move sooner rather that later, I'm also the process of moving from [Plex](https://plex.tv) to [Jellyfin](https://jellyfin.org) for home viewing (Plex is getting worse, [enshitification](https://www.cloudfest.com/blog/what-is-enshittification-cory-doctorow-cloudfest-keynote) at is best).
 
 ## What is Seer
 
