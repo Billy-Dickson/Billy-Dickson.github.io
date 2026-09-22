@@ -8,9 +8,9 @@
   icon: 'fab fa-mastodon'
   url: 'https://mastodon.scot/@Bill_Dickson' # Replace with your actual Mastodon account page
 
-- type: bluesky
-  icon: 'fa-brands fa-bluesky'
-  url: 'https://bsky.app/profile/weesht.bsky.social'             # Fill with your Bluesky profile link
+# - type: bluesky
+#   icon: 'fa-brands fa-bluesky'
+#   url: 'https://bsky.app/profile/weesht.bsky.social'             # Fill with your Bluesky profile link
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
