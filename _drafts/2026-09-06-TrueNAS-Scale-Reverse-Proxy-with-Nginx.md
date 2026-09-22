@@ -18,17 +18,17 @@ Nginx Proxy Manager (NPM) provides a web interface to configure the popular web 
 
 3. To follow this guide exactly, you must host your domain's DNS at Cloudflare. Cloudflare provides free DNS hosting, among many other services (not all of which are free).
     * Your DNS provider matters because we're going to be obtaining certificates from Let's Encrypt, and that requires they validate your control over your domain. In order to do that without exposing your apps to the public, NPM will need to be able to make updates to your DNS records.
-    * NPM supports many other DNS hosts, and you should be able to adapt this guide to them, but this guide will be using Cloudflare.You've generated an API Token from Cloudflare that you'll use to allow NPM to make these changes.
+    * NPM supports many other DNS hosts, and you should be able to adapt this guide to them, but this guide will be using Cloudflare. You've generated an API Token from Cloudflare that you'll use to allow NPM to make these changes.
 
 4. You've generated an [API Token](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/) from Cloudflare that you'll use to allow NPM to make these changes.
    * This token must have permissions of _Zone:Zone:Read_ and _Zone:DNS:Edit_.
 
 5. You can control your local DNS, making custom entries to point names of your choosing toward IP addresses on your LAN.
+
    * You can use router software like OPNsense or pfSense for this, use a local DNS server like Pi-Hole, or any other means (I use a [Unifi Cloud Gateway Ultra](https://lazyadmin.nl/network/unifi-cloud-gateway-ultra/)).
    * This is required because the certificate you're going to generate will cover names, not IP addresses. Browsing by IP (even if it were possible) would give you certificate errors.
    * This is also required because NPM will use the requested hostname to determine the proxy target. Browsing to the IP address will just give you the default NPM welcome page, not the app you're looking for.
    * As a distinctly suboptimal alternative, you can put entries pointing to your LAN devices in public DNS.
-
 
    The NAS now has two IP addresses, and the web UI is only using on of them (.99), the other one (.50) is available for apps to use.
 

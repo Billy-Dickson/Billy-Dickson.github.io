@@ -75,7 +75,7 @@ volumes:
 #      external: true
 ```
 
-As an addition to the instructions above, I'm also running caddy as a reverse proxy at home, the link for setting that up is [here](https://thebloody.cloud/posts/Installing-Caddy-Docker-Container/).
+As an addition to the instructions above, I'm also running caddy as a reverse proxy at [home](https://thebloody.cloud/posts/Installing-Caddy-Docker-Container/)
 
 ## References
 
