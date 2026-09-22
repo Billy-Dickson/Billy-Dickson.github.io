@@ -2,6 +2,7 @@
 title: Dead Bob
 date: 2026-09-22
 categories: [Gigs and Socials]
+drafts: true
 tags: [gigs and socials]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2026/2026-09-22-Dead-Bob-and-Gutterblood/deadbob-opengraph.webp
