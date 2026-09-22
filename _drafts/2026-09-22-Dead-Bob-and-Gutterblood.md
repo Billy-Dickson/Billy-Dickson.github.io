@@ -1,5 +1,5 @@
 ---
-title: Dead Bob
+title: Dead Bob and Gutterblood
 date: 2026-09-22
 categories: [Gigs and Socials]
 drafts: true
@@ -7,7 +7,7 @@ tags: [gigs and socials]     # TAG names should always be lowercase
 image:
    path: ../assets/img/posts/2026/2026-09-22-Dead-Bob-and-Gutterblood/deadbob-opengraph.webp
 ---
-Totally unprepared for the gig, I usually spend a bit of time listening to the music for a week or so to get myself in the game, not this time, no! This time I'm going in with no idea what to expect and no pre-conceived ideas of what to expect. Saying that, I've heard a few albums from NoMeansNo from back in the day (early teens).
+Totally unprepared for the gig, I usually spend a bit of time listening to the music for a week or so to get myself in the game, not this time, no! This time I'm going in with no idea what to expect and no pre-conceived ideas of what to expect. Saying that, I've heard a few albums from NoMeansNo back in the day (early teens).
 
 ## The Band
 
