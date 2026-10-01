@@ -42,21 +42,25 @@ __Take a Note__ of the _Cloudflare API Token_ as you will need it later when set
 
 ### Setting up TrueNAS
 
-1. Make sure to you do the following prep on your home network.
-   - Ensure you've allocated a static IP address to your TrueNAS server.
-   - Allocate a DNS name to your TrueNAS install e.g _truenas.example.com_.
+Make sure to you do the following prep on your home network.
 
-2. Change the general network settings (System -> Network -> Network Configuration -> Settings) on TrueNAS to reflect the setup above.
+- Ensure you've allocated a static IP address to your TrueNAS server.
+- Allocate a DNS name to your TrueNAS install e.g _truenas.example.com_.
+
+Change the general network settings (System -> Network -> Network Configuration -> Settings) on TrueNAS to reflect the setup above.
 ![Global Settings](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Global_Settings.webp)
-3. In the TrueNAS Web UI, browse to Credentials -> Certificates.
+
+In the TrueNAS Web UI, browse to Credentials -> Certificates.
 ![Credentials Certificates](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Credentials-Certificates.webp)
-4. Next to ACME DNS-Authenticators, click Add.
+
+Next to ACME DNS-Authenticators, click Add.
 ![Acme DNS-Authenticators](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/ACME-DNS-Authenticator.webp)
-5. Name the authenticator as desired, and set Authenticator to match your DNS host. Then enter the required credentials, which will depend on your DNS host. For Cloudflare, enter your API Token. The token should have permissions of Zone / DNS / Edit for the domain you're requesting. The complete form will look like this.
+
+Name the authenticator as desired, and set Authenticator to match your DNS host. Then enter the required credentials, which will depend on your DNS host. For Cloudflare, enter your API Token. The token should have permissions of Zone / DNS / Edit for the domain you're requesting. The complete form will look like this.
 ![Cloudflare API Token](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Add_DNS_Authenticator.webp)
 Click on Save
 
-6. Next, create a CSR. Next to Certificate Signing Requests, click Add.
+Next, create a CSR. Next to Certificate Signing Requests, click Add.
 ![Certificate Signing Request](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Certificate_Signing_Request.webp)
 
 Under Identifier and Type, enter a name as desired, leave the Type set to Certificate Signing Request, and set Profile to one of the HTTPS options.
