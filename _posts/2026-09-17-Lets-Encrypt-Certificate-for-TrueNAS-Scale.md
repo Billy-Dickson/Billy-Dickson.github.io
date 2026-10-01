@@ -95,6 +95,12 @@ If you've configured any other services to use a certificate (FTP would be the m
 
 Similarly, if you've configured any apps to use the previous certificate, you'll need to tell them to use the new one instead. Browse to Apps, select the app, and click Edit. Change the certificate setting to match the new one.
 
+## Optional
+
+Here is an excellent video by Tom of Lawrence Systems, about securing and locking down your TrueNAS Scale NAS, well worth the time and effort to watch. It also saves me the time and effort of writing a blog about it, so all's good. 😀
+
+{% include embed/youtube.html id='fEWobaEIAHM' %}
+
 ## References
 
 - Dan's Wiki - [Let's Encrype Certificate for TrueNAS](https://wiki.familybrown.org/fester/maintain-truenas/letsencrypt-scale)
