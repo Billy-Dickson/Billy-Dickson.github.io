@@ -24,5 +24,10 @@ This is a small list of the current docker containers I'm running at home, [Cadd
 4. [Omni-Tools](https://github.com/iib0011/omni-tools) a self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!
 5. [IT-Tools](https://github.com/sharevb/it-tools/pkgs/container/it-tools) is a self-hosted collection of web-based tools for IT specific tasks, for me in my general day to day, it's been qute a handy tool.
 6. [Calibre-Web](https://github.com/janeczku/calibre-web) 📚 Web app for browsing, reading and downloading eBooks stored in a Calibre database.
+7. [Seerr](https://seerr.dev/) is a free, open-source web application used to manage requests and discover content for home media server libraries.
 
 ![Current Network Setup](../assets/img/docker/Network-Setup.excalidraw.webp)_Network Diagram_
+
+## References
+
+- Installing [Seerr](https://thebloody.cloud/posts/Moving-from-Overseerr-to-Seerr/)

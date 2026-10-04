@@ -3,7 +3,7 @@ title: Lets Encrypt on TrueNAS Scale
 date: 2026-09-17
 draft: false
 categories: [Homelab, TrueNAS Scale, Lets Encrypt]
-tags: [homelab, truenas Scale, lets encrypt]     # TAG names should always be lowercase
+tags: [homelab, truenas scale, lets encrypt]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/header.webp
 ---
