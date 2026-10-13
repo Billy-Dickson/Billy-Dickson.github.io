@@ -18,7 +18,7 @@ TrueNAS SCALE/Community Edition include the ability obtain a trusted TLS certifi
 2. The ability to add internal DNS records for your registered domain via your router, or your internal DNS setup. e.g _truenas.example.com_
 3. You must host your domain's DNS at Cloudflare. Cloudflare provides free DNS hosting, among many other services (not all of which are free).
 4. Your DNS provider matters because we're going to be obtaining certificates from Let's Encrypt, and that requires they validate your control over your domain.
-5. TrueNAS Scale needs to be on a fairly recent version such as 25.10.7 - Goldeye, you may find that it work fine on older version, as I've not tested that, so your milage may vary.
+5. TrueNAS Scale needs to be on a fairly recent version such as 25.10.7 - Goldeye, you may find that it work fine on older version, as I've not tested that, so your mileage may vary.
 
 ## Instructions
 

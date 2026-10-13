@@ -25,6 +25,7 @@ This is a small list of the current docker containers I'm running at home, [Cadd
 5. [IT-Tools](https://github.com/sharevb/it-tools/pkgs/container/it-tools) is a self-hosted collection of web-based tools for IT specific tasks, for me in my general day to day, it's been qute a handy tool.
 6. [Calibre-Web](https://github.com/janeczku/calibre-web) 📚 Web app for browsing, reading and downloading eBooks stored in a Calibre database.
 7. [Seerr](https://seerr.dev/) is a free, open-source web application used to manage requests and discover content for home media server libraries.
+8. [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox?ref=belginux.com) is a self-hostable web application that allows users to edit, validate, and get suggestions for your docker-compose.yml files
 
 ![Current Network Setup](../assets/img/docker/Network-Setup.excalidraw.webp)_Network Diagram_
 
