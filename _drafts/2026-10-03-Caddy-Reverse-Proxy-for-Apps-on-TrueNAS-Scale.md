@@ -145,7 +145,7 @@ services:
     image: caddybuilds/caddy-cloudflare:latest
     container_name: caddy
     environment:
-      - CLOUDFLARE_API_TOKEN=cfut_JSIGBMxjAJMm1R6RGZWambxScJr7aqEcdyBF3txF947763ef
+      - CLOUDFLARE_API_TOKEN=cfut_blahhdeblahh
     restart: unless-stopped
     user: "568:568"
     cap_add:
