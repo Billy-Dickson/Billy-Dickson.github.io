@@ -95,7 +95,7 @@ CLOUDFLARE_API_TOKEN=<Your Cloudflare API Token>
 nano docker-compose.yml
 ```
 
-Below is thmy docker-compose.yml file, do feel free to change it to suite your needs. The network stanza is specific to my needs, so I've commented them out.
+Below is my docker-compose.yml file, do feel free to change it to suite your needs. The network stanza is specific to my needs, so I've commented them out.
 
 ```yaml
 services:

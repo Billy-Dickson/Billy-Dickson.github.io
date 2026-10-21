@@ -71,13 +71,62 @@ Configure your `Caddyfile` to use the Cloudflare DNS challenge globally or per s
 
 ```yaml
 {
-    # Global option to use Cloudflare for ACME DNS-01 validation
-    acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+  # Global Options
+  # ACME DNS configuration using Cloudflare
+
+  # acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+  email {env.CLOUDFLARE_EMAIL}
 }
 
-example.com {
-    reverse_proxy 192.168.1.100:8080
+# Snippet for internal-only access
+(internal_only) {
+  @not_internal not remote_ip 192.168.0.0/16 10.0.0.0/8 172.16.0.0/12
+  respond @not_internal "Access Denies" 403
 }
+
+# Snippet for common settings
+(common) {
+  encode zstd gzip
+  header {
+    # Enable XSS protection
+    X-XSS-Protection "1; mode=block"
+    # Security headers enable HSTS
+    Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    # Prevent MIME type sniffing
+    X-Content-Type-Options nosniff
+    # Prevent clickjacking
+    X-Frame-Options DENY
+    Referrer-Policy no-referrer-when-downgrade
+  }
+}
+
+# Site block for root and all subdomains
+linuxhome.co.uk, *.linuxhome.co.uk {
+  import common
+
+  # Required for Wildcard certs via Cloudflare DNS
+  tls {
+    dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+  }
+
+  # Logging - helps with debugging
+  log {
+    output file /var/log/caddy/access.log
+  }
+
+  # Composetoolbox
+  @composetoolbox host compose.linuxhome.co.uk
+  handle @composetoolbox {
+    import internal_only
+    reverse_proxy composetoolbox:3000
+  }
+
+  # Default fallback
+  handle {
+    respond "404 - Service not found" 404
+  }
+}
+
 ```
 
 ## Deploy via YAML (Recommended)
@@ -95,6 +144,8 @@ services:
   caddy:
     image: caddybuilds/caddy-cloudflare:latest
     container_name: caddy
+    environment:
+      - CLOUDFLARE_API_TOKEN=cfut_JSIGBMxjAJMm1R6RGZWambxScJr7aqEcdyBF3txF947763ef
     restart: unless-stopped
     user: "568:568"
     cap_add:
@@ -111,10 +162,14 @@ services:
       - /mnt/Tank/Apps/caddy/Caddyfile:/etc/caddy/Caddyfile  
       - /mnt/Tank/Apps/caddy/data:/data
       - /mnt/Tank/Apps/caddy/config:/config
+      # Caddy log files
+      - /mnt/Tank/Apps/caddy/logs:/var/log/caddy
     networks:
-      - caddy_net
+      - caddy_proxy
+
 networks:
-  caddy_net:
+  caddy_proxy:
+    name: caddy_proxy
     driver: bridge
 ```
 
