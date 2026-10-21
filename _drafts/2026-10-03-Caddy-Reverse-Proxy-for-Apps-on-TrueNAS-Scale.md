@@ -10,15 +10,14 @@ image:
 
 We have a bit of work to do before we install Caddy as an app, see the diagram below that give you a visualisation of what we are trying to do. Do bare in mind that the IP addresses referenced below are what my network uses, yours will mostly likely be different so don't follow the instructions blindly.
 
-## Requirements
+## Prerequisites
 
-- A domain registered with Cloudflare.
-- A working knowledge of networking and Linux.
+- A working knowledge of networking and linux
 - The ability to change your home networks DHCP and DNS settings.
 
 ![TrueNAS Diagram](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/TrueNAS-Diagram.webp)
 
-## Resolve port conflicts and new IP address
+## Resolve port conflicts and create a specific IP for apps
 
 ### 1. Resolve Port 80/443 Conflicts
 
@@ -26,6 +25,7 @@ By default the TrueNAS web GUI claims ports 80 and 443 on IP address [0.0.0.0](h
 
 1. Navigate to **System Settings** > **General Settings** > **GUI**.
 2. Change it from 0.0.0.0 to the IP address of your TrueNAS GUI.
+<<<<<<< HEAD
 ![GUI IP Address](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/GUI_IP_Address.webp)
 
 ### 2. Create another IP address on your TrueNAS to be used by Apps and Caddy
@@ -185,3 +185,6 @@ Go to your Cloudflare dashboard and create an API Token with these restricted pe
 - Docker Caddy Cloudflare - [IAreKylew00t](https://github.com/IAreKyleW00t/docker-caddy-cloudflare)
 - TrueNAS Documentation - [Using Custom Apps](https://www.truenas.com/docs/scale/24.04/scaletutorials/apps/usingcustomapp/)
 - Caddy and Cloudflare - [Docker Instructions](https://caddy.community/t/how-to-guide-caddy-v2-cloudflare-dns-01-via-docker/8007)
+=======
+![](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/GUI_IP_Address.webp)
+>>>>>>> parent of 5c5f54b (Amending and updated pages)
