@@ -18,36 +18,54 @@ We have a bit of work to do before we install Caddy as an app, see the diagram b
 
 ![TrueNAS Diagram](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/TrueNAS-Diagram.webp)
 
+## Cloudflare API Token
+
+1. Go to [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
+2. Click on your domain (if you have more than one)
+3. Click "Get API Token"
+4. Click on "Create Custom Token"
+
+![Custom API Token](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Custom_Token.webp)
+5. Set permissions
+
+    Zone:DNS:Edit
+
+![Use API Token](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Use_API_Token.webp)
+
+![Valid API token for Caddy](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Valid_API_Token.webp)
+
+__Take a Note__ of the _Cloudflare API Token_ as you will need it later when setting up TrueNAS.
+
 ## Resolve port conflicts and new IP address
 
 ### 1. Resolve Port 80/443 Conflicts
 
 By default the TrueNAS web GUI claims ports 80 and 443 on IP address [0.0.0.0](https://superuser.com/questions/949428/whats-the-difference-between-127-0-0-1-and-0-0-0-0). Because Caddy must bind to these ports to enable administration and provisioning, you will have to change the IP address, to the IP address of your TrueNAS Server, then you will need to create another IP address on the same network to be used by Caddy.
 
-1. Navigate to **System Settings** > **General Settings** > **GUI**.
+1. Navigate to __System Settings__ > __General Settings__ > __GUI__.
 2. Change it from 0.0.0.0 to the IP address of your TrueNAS GUI.
 ![GUI IP Address](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/GUI_IP_Address.webp)
 
 ### 2. Create another IP address on your TrueNAS to be used by Apps and Caddy
 
-1. Navigate to **System Settings** > **Network**
+1. Navigate to __System Settings__ > __Network__
 ![Network Settings](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Network_Settings.webp)
-2. Click on the **3 vertical dots** and select **Edit**
+2. Click on the __3 vertical dots__ and select __Edit__
 ![Network Edit](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Network_Edit.webp)
-3. Add the app **IP address**, in my case it's 192.168.30.26 but your's will no doubt be different.
+3. Add the app __IP address__, in my case it's 192.168.30.26 but your's will no doubt be different.
 ![Network Edit](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Edit_Interface.webp)
 
 ## Create data sets for Caddy
 
-1. Navigate to **Datasets** in the TrueNAS SCALE UI.
+1. Navigate to __Datasets__ in the TrueNAS SCALE UI.
 2. Create a parent dataset under your storage pool (e.g., `Tank/Apps/caddy`), take the default settings for the moment.
 ![Parent Dataset](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Parent_Data_Set.webp)
 3. Strip default the ACLs and change them to apps
 ![Permissions](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Permissions.webp)
-**Strip ACL** and change the **Owner:** and Owner **Group:** to apps, tick **Apply Owner** and **Apply Group**, when prompted tick the **Remove the ACL and permissions from child datasets of current dataset
+__Strip ACL__ and change the __Owner:__ and Owner __Group:__ to apps, tick __Apply Owner__ and __Apply Group__, when prompted tick the **Remove the ACL and permissions from child datasets of current dataset
 ![App Permissions](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/App-Permissions.webp)
 
-4. Click on **System** > **Shell** and navigate to your newly created storage pool, then create 2 directories, one called data and one called config, then change the owner to owner and group to apps.
+4. Click on __System__ > __Shell__ and navigate to your newly created storage pool, then create 2 directories, one called data and one called config, then change the owner to owner and group to apps.
 
 ```bash
 sudo cd /mnt/Tank/Apps/caddy
@@ -114,13 +132,6 @@ linuxhome.co.uk, *.linuxhome.co.uk {
     output file /var/log/caddy/access.log
   }
 
-  # Composetoolbox
-  @composetoolbox host compose.linuxhome.co.uk
-  handle @composetoolbox {
-    import internal_only
-    reverse_proxy composetoolbox:3000
-  }
-
   # Default fallback
   handle {
     respond "404 - Service not found" 404
@@ -133,10 +144,10 @@ linuxhome.co.uk, *.linuxhome.co.uk {
 
 This is the fastest and most foolproof method. It bypasses the step-by-step graphical wizard by directly feeding TrueNAS a standard Docker Compose structure.
 
-1. Go to **Apps** in the TrueNAS SCALE sidebar.
-2. Click **Discover Apps** in the top right.
-3. Click the **three vertical dots (`⋮`)** next to the *Custom App* button, then select **Install via YAML**.
-4. Set the **Application Name** to `caddy`.
+1. Go to __Apps__ in the TrueNAS SCALE sidebar.
+2. Click __Discover Apps__ in the top right.
+3. Click the __three vertical dots (`⋮`)__ next to the _Custom App_ button, then select __Install via YAML__.
+4. Set the __Application Name__ to `caddy`.
 5. Paste the following configuration in the editor block (make sure to replace `/mnt/your-pool/apps/caddy/` with your exact storage paths):
 
 ```yaml
@@ -172,12 +183,6 @@ networks:
     name: caddy_proxy
     driver: bridge
 ```
-
-## Required Cloudflare Token Permissions
-
-Go to your Cloudflare dashboard and create an API Token with these restricted permissions:
-
-- Zone — DNS — Edit
 
 ## References
 

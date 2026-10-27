@@ -34,6 +34,10 @@ I was fortunate enough to get into the London Marathon in 2010. After I got my p
 
 Web Technologies Such as HTML and CSS, Networking and Computer Technologies, I'm currently in the process of resurrecting my [old blog](https://web.archive.org/web/20180516212904/http://www.dickson.me.uk/) and converting it from [WordPress](https://wordpress.org/) to [Jekyll](https://jekyllrb.com/). As of April 2024, I've resurrected my old website in a Proxmox VM, and I'm in the process of combing through it to see if there's anything that I might be worth porting over. Some of the technical blog bits are no longer relevant. But I'll probably move over some of the more interesting and relevant bits (when I have time).
 
+After a bit of thought and some research, I've become a fully paid up member of the [EFF](https://eff.org). Who thought digital rights was a thing. 😉
+
+[![Eff Member](../assets/img/about/2026_effmembershipbadge-member-1.webp)](https://eff.org)
+
 ## Internet Of Things
 
 I've moved completely to a [Home Assistant](https://www.home-assistant.io/) ([Yellow](https://www.home-assistant.io/yellow/)), everything is snappier, there is a bit of a learning curve, but I'm managing, and I'm quite enjoying learning.
