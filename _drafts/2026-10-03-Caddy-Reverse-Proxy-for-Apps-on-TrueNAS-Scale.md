@@ -28,7 +28,8 @@ We have a bit of work to do before we install Caddy as an app, see the diagram b
 ![Custom API Token](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Custom_Token.webp)
 5. Set permissions
 
-    Zone:DNS:Edit
+- Zone:Zone:Read
+- Zone:DNS:Edit
 
 ![Use API Token](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Use_API_Token.webp)
 
@@ -68,31 +69,28 @@ __Strip ACL__ and change the __Owner:__ and Owner __Group:__ to apps, tick __App
 4. Click on __System__ > __Shell__ and navigate to your newly created storage pool, then create 2 directories, one called data and one called config, then change the owner to owner and group to apps.
 
 ```bash
-sudo cd /mnt/Tank/Apps/caddy
-sudo mkdir config data
-```
-
-```bash
-sudo nano Caddyfile
-sudo chown -R apps:apps *
-```
-
-```text
-:80 {  
-respond "Hello from TrueNAS 25.10!"  
-}
+cd /mnt/Tank/Apps/caddy
+sudo mkdir config data logs
 ```
 
 ## Caddyfile Configuration
 
-Configure your `Caddyfile` to use the Cloudflare DNS challenge globally or per site:
+Create a Caddyfile and past in the text below, do remember to change the domain name to one the that you have registered with Cloudflare (replace both example.com entries). The Caddyfile below uses wild card domain setup rather than per domain (*.example.com), I've put a jellyfin example in that works, as long as you change the domain to your own Cloudflare domain.
 
-```yaml
+If you've already installed Jellyfin, then you'll have to change the default container network to _caddy_proxy_
+
+![Caddy Container Network](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Caddy_Container_Network.webp)
+
+```bash
+sudo nano Caddyfile
+```
+
+```text
 {
   # Global Options
   # ACME DNS configuration using Cloudflare
 
-  # acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
+  acme_dns cloudflare {env.CLOUDFLARE_API_TOKEN}
   email {env.CLOUDFLARE_EMAIL}
 }
 
@@ -108,18 +106,31 @@ Configure your `Caddyfile` to use the Cloudflare DNS challenge globally or per s
   header {
     # Enable XSS protection
     X-XSS-Protection "1; mode=block"
+
     # Security headers enable HSTS
     Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    
     # Prevent MIME type sniffing
     X-Content-Type-Options nosniff
+    
     # Prevent clickjacking
     X-Frame-Options DENY
     Referrer-Policy no-referrer-when-downgrade
+
+    # Control how much referrer info is sent
+    Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Strong Content Security Policy (Adjust based on your app needs)
+    # Content-Security-Policy "default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"
+
+    # Remove backend server signatures to hide stack details
+    # -Server
+    # -X-Powered-By
   }
 }
 
 # Site block for root and all subdomains
-linuxhome.co.uk, *.linuxhome.co.uk {
+example.com, *.example.com {
   import common
 
   # Required for Wildcard certs via Cloudflare DNS
@@ -132,6 +143,13 @@ linuxhome.co.uk, *.linuxhome.co.uk {
     output file /var/log/caddy/access.log
   }
 
+  # Jellyfin
+  @jellyfin host jellyfin.example.com
+  handle @jellyfin {
+      import internal_only
+      reverse_proxy jellyfin:8096
+  }
+
   # Default fallback
   handle {
     respond "404 - Service not found" 404
@@ -140,9 +158,15 @@ linuxhome.co.uk, *.linuxhome.co.uk {
 
 ```
 
+Change the owner and group of everything in that directory to apps.
+
+```bash
+sudo chown -R apps:apps *
+```
+
 ## Deploy via YAML (Recommended)
 
-This is the fastest and most foolproof method. It bypasses the step-by-step graphical wizard by directly feeding TrueNAS a standard Docker Compose structure.
+This is the fastest and most foolproof method. It bypasses the step-by-step graphical wizard by directly feeding TrueNAS a standard Docker Compose structure. Remember to change CLOUDFLARE_API_TOKEN and CLOUDFLARE_EMAIL for your own.
 
 1. Go to __Apps__ in the TrueNAS SCALE sidebar.
 2. Click __Discover Apps__ in the top right.
@@ -157,6 +181,7 @@ services:
     container_name: caddy
     environment:
       - CLOUDFLARE_API_TOKEN=cfut_blahhdeblahh
+      - CLOUDFLARE_EMAIL=billy@example.com
     restart: unless-stopped
     user: "568:568"
     cap_add:
@@ -170,10 +195,11 @@ services:
     volumes:
       # Update "/mnt/tank/..." to your actual storage path
       # Stores Let’s Encrypt / ZeroSSL certificates
+      
       - /mnt/Tank/Apps/caddy/Caddyfile:/etc/caddy/Caddyfile  
       - /mnt/Tank/Apps/caddy/data:/data
       - /mnt/Tank/Apps/caddy/config:/config
-      # Caddy log files
+      # Access log files
       - /mnt/Tank/Apps/caddy/logs:/var/log/caddy
     networks:
       - caddy_proxy

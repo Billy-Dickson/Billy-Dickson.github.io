@@ -32,7 +32,8 @@ TrueNAS SCALE/Community Edition include the ability obtain a trusted TLS certifi
 ![Custom API Token](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Custom_Token.webp)
 5. Set permissions
 
-    Zone:DNS:Edit
+- Zone:Zone:Read
+- Zone:DNS:Edit
 
 ![Use API Token](../assets/img/posts/2026/2026-09-17-Lets-Encrypt-Certificates-for-TrueNAS/Use_API_Token.webp)
 
