@@ -1,7 +1,7 @@
 ---
 title: Caddy Reverse Proxy for Apps on TrueNAS Scale
 date: 2026-10-03
-draft: true
+draft: false
 categories: [Homelab, Docker, TrueNAS, Caddy]
 tags: [homelab, docker, truenas, caddy]     # TAG names should always be lowercase
 image: 
