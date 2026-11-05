@@ -97,40 +97,40 @@ sudo nano Caddyfile
 # Snippet for internal-only access
 (internal_only) {
   @not_internal not remote_ip 192.168.0.0/16 10.0.0.0/8 172.16.0.0/12
-  respond @not_internal "Access Denies" 403
+  respond @not_internal "Access Denied" 403 {
+    close
+  }
 }
 
 # Snippet for common settings
 (common) {
   encode zstd gzip
-  header {
-    # Enable XSS protection
-    X-XSS-Protection "1; mode=block"
 
+  header {
     # Security headers enable HSTS
     Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-    
+
     # Prevent MIME type sniffing
-    X-Content-Type-Options nosniff
-    
+    X-Content-Type-Options "nosniff"
+
     # Prevent clickjacking
-    X-Frame-Options DENY
-    Referrer-Policy no-referrer-when-downgrade
+    X-Frame-Options "DENY"
+    Referrer-Policy "strict-origin-when-cross-origin"
 
     # Control how much referrer info is sent
-    Referrer-Policy "strict-origin-when-cross-origin"
-    
+    Referrer-Policy "camera=(), microphone=(), geolocation=()"
+
     # Strong Content Security Policy (Adjust based on your app needs)
     # Content-Security-Policy "default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"
 
     # Remove backend server signatures to hide stack details
-    # -Server
-    # -X-Powered-By
+    -Server
+    -X-Powered-By
   }
 }
 
 # Site block for root and all subdomains
-example.com, *.example.com {
+linuxhome.co.uk, *.example.com {
   import common
 
   # Required for Wildcard certs via Cloudflare DNS
@@ -140,14 +140,28 @@ example.com, *.example.com {
 
   # Logging - helps with debugging
   log {
-    output file /var/log/caddy/access.log
+    output file /var/log/caddy/access.log {
+      roll_size 10mb
+      roll_keep 5
+    }
   }
 
   # Jellyfin
   @jellyfin host jellyfin.example.com
   handle @jellyfin {
-      import internal_only
-      reverse_proxy jellyfin:8096
+    # I'm only using the reverse proxy internally to reduce the threat surface.
+    import internal_only
+
+    # FIXED: Added explicit header pass-throughs for WebSockets 
+    # and streaming buffers required by Jellyfin.
+    reverse_proxy jellyfin:8096 {
+      header_up X-Real-IP {remote_host}
+      header_up Upgrade {http.request.header.Upgrade}
+      header_up Connection {http.request.header.Connection}
+
+      # Prevents Caddy from buffering video streams, which causes timeouts
+      flush_interval -1
+    }
   }
 
   # Default fallback
@@ -155,7 +169,6 @@ example.com, *.example.com {
     respond "404 - Service not found" 404
   }
 }
-
 ```
 
 Change the owner and group of everything in that directory to apps.
@@ -199,6 +212,7 @@ services:
       - /mnt/Tank/Apps/caddy/Caddyfile:/etc/caddy/Caddyfile  
       - /mnt/Tank/Apps/caddy/data:/data
       - /mnt/Tank/Apps/caddy/config:/config
+      
       # Access log files
       - /mnt/Tank/Apps/caddy/logs:/var/log/caddy
     networks:
@@ -209,6 +223,25 @@ networks:
     name: caddy_proxy
     driver: bridge
 ```
+
+## Jellyfin Setup and Caddy (Optional)
+
+Requirements.
+
+1. A working Jellyfin installation on TrueNAS Core.
+2. Linux knowledge and a bit of Docker knowledge.
+
+Change the Docker network for your jellyfin installation to caddy_proxy.
+
+![Jellyfin Network](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Jellyfin_Network.webp)
+
+Log into Jellyfin as an admin, select Network and in proxy field, type caddy.
+
+![Network Proxies](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Network_Proxies.webp)
+
+Log into TrueNAS, Select Apps > jellyfin > Edit and change WebUI Port to none, no point if running a reverse proxy and still having port 8096 open.
+
+![Disable Web GUI](../assets/img/posts/2026/2026-10-03-Caddy-Reverse-Proxy-for-Apps-on-TrueNAS-Scale/Jellyfin_Disable_Web_GUI.webp)
 
 ## References
 
