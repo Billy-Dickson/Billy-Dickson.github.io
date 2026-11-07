@@ -1,7 +1,7 @@
 ---
 title: "My Stag Trip to Riga in Latvia"
 date: 2006-10-17
-draft: true
+draft: false
 categories: [Gigs and Socials]
 tags: [gigs and socials]     # TAG names should always be lowercase
 image: ../assets/img/posts/2006/2006-10-17-My-Stag-trip-to-Riga-Latvia/header.webp
