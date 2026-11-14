@@ -33,7 +33,6 @@ This was the first time that Mark and I completed the Tough Mudder, spot the ora
 
 ![Billy Dickson](../assets/img/posts/2014/2014-06-15-Tough-Mudder/Billy.webp)_Me myself and I_
 
-
 ## Course Description
 
 ### Arctic Enema
