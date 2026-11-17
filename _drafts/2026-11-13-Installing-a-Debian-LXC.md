@@ -52,3 +52,8 @@ sudo ./install.sh
 ```
 
 If you've installed zsh, then type zsh to get the the prompt.
+
+## Disable the SMTP server Exim
+
+sudo systemctl stop exim4        # or postfix / sendmail
+sudo systemctl disable exim4     # or postfix / sendmail
