@@ -68,4 +68,4 @@ gpg -o wordpress.sql -d wordpress.sql.gpg
 
 ## References
 
-- Backup and Restore [MySQL Databases](http://www.thegeekstuff.com/2008/09/backup-and-restore-mysql-database-using-mysqldump/)
+- Backup and Restore [MySQL Databases](https://www.thegeekstuff.com/2008/09/backup-and-restore-mysql-database-using-mysqldump/)
