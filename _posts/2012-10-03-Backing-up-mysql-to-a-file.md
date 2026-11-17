@@ -2,8 +2,8 @@
 title: Backing up a MYSQL database to a file
 date: 2012-10-03
 draft: false
-categories: [Homelab ]
-tags: [homelab]     # TAG names should always be lowercase
+categories: [Homelab, Linux]
+tags: [homelab, linux]     # TAG names should always be lowercase
 image: 
    path: ../assets/img/posts/headers/Tux_Linux.webp
 ---
